@@ -32,7 +32,7 @@ a {
 }
 
 a:hover {
-  color: #b5933a;
+  color: #8a702d;
 }
 
 /* ----- Content Column ----- */
@@ -44,11 +44,39 @@ a:hover {
 /* ----- Sidebar ----- */
 .side-bar {
   background-color: #1c1c2e;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+.site-header {
+  flex-shrink: 0;
+}
+
+.site-nav {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 2rem;
+  border-top: 1px solid rgba(224, 213, 197, 0.15);
+}
+
+/* Expand all nav items by default — book should show all chapters */
+.site-nav .nav-list .nav-list {
+  display: block !important;
+}
+
+.nav-list-expander {
+  display: none !important;
 }
 
 .site-title {
   color: #b5933a !important;
   font-family: 'Playfair Display', Georgia, serif;
+  padding-top: max(1.25rem, env(safe-area-inset-top, 1.25rem)) !important;
+  padding-bottom: 1rem;
 }
 
 .nav-list .nav-list-item .nav-list-link {
@@ -63,10 +91,6 @@ a:hover {
 
 .nav-list .nav-list-item .nav-list-expander {
   color: #b5933a;
-}
-
-.site-nav {
-  border-top: 1px solid rgba(224, 213, 197, 0.15);
 }
 
 /* Search in sidebar */
@@ -219,7 +243,7 @@ a:hover {
 }
 
 .chapter-toc a:hover {
-  color: #b5933a;
+  color: #8a702d;
   text-decoration: underline;
 }
 
@@ -239,7 +263,7 @@ a:hover {
 }
 
 .site-footer a:hover {
-  color: #b5933a;
+  color: #8a702d;
   text-decoration: underline;
 }
 

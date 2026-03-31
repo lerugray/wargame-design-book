@@ -6,6 +6,7 @@ baseurl: "/wargame-design-book"
 
 # Theme
 remote_theme: just-the-docs/just-the-docs@v0.10.1
+nav_fold: false
 
 # Build settings
 markdown: kramdown
