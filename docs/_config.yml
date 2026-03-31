@@ -1,0 +1,48 @@
+title: "A Contemporary Guide to Wargame Design"
+author: "Ray Weiss"
+description: "A practical, opinionated guide to designing historical board wargames — from choosing your subject to getting published."
+url: "https://lerugray.github.io"
+baseurl: "/wargame-design-book"
+
+# Theme
+remote_theme: just-the-docs/just-the-docs@v0.10.1
+
+# Collections for chapters
+collections:
+  chapters:
+    output: true
+    permalink: /:title/
+
+# Default front matter
+defaults:
+  - scope:
+      path: "_chapters"
+      type: chapters
+    values:
+      layout: chapter
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Navigation
+aux_links:
+  "Buy on Amazon (Coming Soon)":
+    - "#"
+
+# Search
+search_enabled: true
+search.heading_level: 3
+
+# Footer
+footer_content: "&copy; 2026 Ray Weiss. All rights reserved."
+
+# Exclude
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - CLAUDE.md
+  - HANDOFF.md
