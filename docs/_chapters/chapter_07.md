@@ -18,11 +18,15 @@ The test is simple. Set up your game, move every unit at full allowance for a fe
 
 ## Zones of Control
 
+![Basic hex zone of control]({{ site.baseurl }}/assets/images/hex-zoc-basic.png)
+
 Zones of control are an abstraction of movement in their own right. A ZOC represents a unit's ability to control and influence the space around its center of concentration. Patrols, observation posts, and the threat of fire all project outward from a unit's position without the unit physically occupying that ground.
 
 The most common ZOC rule stops enemy movement. A unit entering an enemy ZOC must halt. This works well for many operational games, but it can produce unrealistic results depending on the scale and era. A single battalion projecting a ZOC that halts an entire corps makes no sense at the strategic level. At the tactical level, a rigid ZOC can create impenetrable defensive lines that no historical force produced.
 
 Several of my games handle ZOC differently depending on what the simulation needs. In the DAMOS Barbarossa trilogy, ZOC projects from most German units but only from Soviet armor and mechanized forces. Soviet foot infantry cannot freeze German movement the way a panzer division freezes theirs. This asymmetry models the German advantage in operational flexibility without touching the combat system at all. In 1950 Korea, UN ZOC does not extend into non-clear terrain, reflecting the reality that UN forces could not project control into the Korean mountains the way they could across open ground.
+
+![Zone of influence scaling with unit strength]({{ site.baseurl }}/assets/images/hex-zoi-scaling.png)
 
 The DAMOS series introduces Zones of Influence that scale with unit strength. A division with 7-12 SP projects a ZOI of 2 hexes. A division with 13 or more SP projects 3 hexes. Stronger units control more space. Non-phasing units within ZOI range can attempt Reactions, rolling to move into threatened hexes or fall back. This models the OODA loop at a mechanical level. A unit with greater combat power has a longer operational reach, and defending units must decide whether to react before the threat materializes.
 

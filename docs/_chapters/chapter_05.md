@@ -31,6 +31,8 @@ This models something real. You could always shove more men into a valley. The c
 
 ## Choosing Your Hex Scale
 
+![Hex scale comparison across different game types]({{ site.baseurl }}/assets/images/hex-scale-comparison.png)
+
 No formula exists for choosing the right hex scale, and I would be suspicious of anyone who claimed otherwise. Start from a reference map that looks right. This comes with experience.
 
 I usually have a mental picture of what units on a map will look like in the simulation before I settle on a hex scale. I know how many counters I want, what level of unit I am representing, and how much of the theater needs to be on the map. The hex scale falls out of those constraints more than it drives them.
@@ -114,6 +116,8 @@ Everything I have said in this chapter about maps as functional tools rather tha
 The term he coined for his approach was physical systems design, which he defined as the graphic engineering of game elements. The concept sounds simple. Every visual element in a wargame exists to make the game easier to play and the game state easier to read. The map, the counters, the player aid charts, the rulebook layout: these are not separate aesthetic concerns. They are a single integrated system, and the graphic designer's job is to engineer that system so the components serve gameplay.
 
 Simonsen's argument about constraints is the part most relevant to working designers. He maintained that the physical components available to you, paper maps, cardboard counters, printed charts, are the single greatest limiting factor on what a game can do. Designers generate ideas faster than the physical medium can keep up. The graphic designer's job is to push those material limits, finding new ways to encode more information into the same paper and cardboard so the components do not become the bottleneck.
+
+![Hex terrain conventions]({{ site.baseurl }}/assets/images/hex-terrain-conventions.png)
 
 This plays out in specific choices that became universal standards. Rivers conforming to hexsides. Simonsen reintroduced this technique, which had been used in Avalon Hill's D-Day and then abandoned, and made it the permanent convention. Before this was standard, rivers could run through the middle of hexes, creating ambiguity about which hexes they affected. Forcing rivers onto hexsides eliminates that ambiguity. You are either crossing a river hexside or you are not. The mechanical payoff is direct: movement costs, combat modifiers, and supply tracing all work cleanly when terrain features align with the hex geometry the rules reference.
 

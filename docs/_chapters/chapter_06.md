@@ -29,6 +29,8 @@ There is a practical constraint too. More counters means more setup time, longer
 
 ## What Goes on the Counter
 
+![Anatomy of a wargame counter]({{ site.baseurl }}/assets/images/counter-anatomy.png)
+
 Counter design falls on a spectrum. At one end, games like Unconditional Surrender put almost nothing on the counters. Unit identity and combat values live on tracks and charts. The counters are markers that show position. At the other end, some tactical games print attack strength, defense strength, movement points, range, morale rating, and unit identification all on a single half-inch square.
 
 Both approaches work. You pick based on how much information the player needs at a glance versus how clean you want the counter to look.

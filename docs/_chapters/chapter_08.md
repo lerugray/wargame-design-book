@@ -20,6 +20,8 @@ Ask whether the historical subject demands facing, not whether your game is tact
 
 ## Hexside vs. Hexspine Facing
 
+![Hexside and hexspine facing orientations]({{ site.baseurl }}/assets/images/hex-facing.png)
+
 When you include facing, units will point either toward a hexside or toward a hexspine. Both give six possible orientations. The choice affects how facing interacts with the hex grid.
 
 Hexside facing means the unit points at one of the six edges of its hex. Hexspine facing means it points at one of the six vertices. Each option produces a different geometry for front, flank, and rear hexes, and each interacts with turning costs in its own way.
@@ -63,6 +65,8 @@ Some games impose combat penalties instead of or in addition to MP costs. In Mar
 Command systems can restrict formation changes, but be cautious about leaning too hard on this. The battalion commander or the unit's NCOs managed formation transitions. Higher command decided where the army went and when it attacked. Generals did not micromanage whether a battalion was in column or line. Unless your system models command dysfunction at the tactical level, formation changes should be a function of the unit's own capability and the situation on the ground, not something that requires orders from headquarters.
 
 ## Facing and ZOC
+
+![Flanking attack geometry]({{ site.baseurl }}/assets/images/hex-flanking.png)
 
 In systems with facing, ZOC projects only into a unit's front hexes. A unit does not project a zone of control into its flank or rear hexes. Flanking forces can move through those hexes without stopping.
 

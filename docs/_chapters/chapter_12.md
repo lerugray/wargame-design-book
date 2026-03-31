@@ -50,6 +50,8 @@ I distinguish between automatic victory and sudden death. Automatic victory ends
 
 ## Scaled Victory
 
+![Scaled victory condition tiers]({{ site.baseurl }}/assets/images/scaled-victory.png)
+
 Most real conflicts did not end in total victory or total defeat. The results fell on a spectrum, and scaling your victory conditions to match that spectrum adds granularity that a binary win/lose structure cannot provide.
 
 A typical scaled system uses four or five tiers: decisive victory, strategic victory, marginal victory, draw, and marginal defeat (with the inverse for the other player). Each tier corresponds to a range of VP totals or a combination of territorial and point conditions. A decisive victory represents the best plausible outcome for that side. A marginal victory represents a modest improvement over the historical result. A draw represents roughly the historical outcome. A marginal defeat is worse than history but not catastrophic.

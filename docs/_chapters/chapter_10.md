@@ -112,6 +112,8 @@ Every sequence of play is an algorithm that allows human beings to run the model
 
 ## Common SOP Patterns
 
+![Sequence of play flowchart]({{ site.baseurl }}/assets/images/sop-flowchart.png)
+
 To make this concrete, here are the structural patterns I see most often and have used in my own work.
 
 **The Classic Wargame Turn:**
