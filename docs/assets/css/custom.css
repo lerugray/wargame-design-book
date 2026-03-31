@@ -79,13 +79,19 @@ a:hover {
   padding-bottom: 1rem;
 }
 
-.nav-list .nav-list-item .nav-list-link {
-  color: #e0d5c5;
+/* Force all sidebar nav links to readable colors — override theme defaults */
+.side-bar .nav-list a,
+.side-bar .nav-list .nav-list-item a,
+.side-bar .nav-list .nav-list-item .nav-list-link,
+.side-bar .site-nav .nav-list a.nav-list-link {
+  color: #e0d5c5 !important;
 }
 
-.nav-list .nav-list-item .nav-list-link:hover,
-.nav-list .nav-list-item .nav-list-link.active {
-  color: #ffffff;
+.side-bar .nav-list a:hover,
+.side-bar .nav-list .nav-list-item a:hover,
+.side-bar .nav-list .nav-list-item .nav-list-link:hover,
+.side-bar .nav-list .nav-list-item .nav-list-link.active {
+  color: #ffffff !important;
   background-color: rgba(181, 147, 58, 0.15);
 }
 
