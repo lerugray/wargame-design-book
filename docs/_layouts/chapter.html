@@ -2,30 +2,40 @@
 layout: default
 ---
 
-<article class="chapter-content">
-  <h1>Chapter {{ page.chapter_number }}: {{ page.title }}</h1>
+{% if page.toc != false %}
+<nav class="chapter-toc">
+  <p class="toc-label">In this chapter</p>
+  {% include toc.html html=content sanitize=true %}
+</nav>
+{% endif %}
 
-  {{ content }}
+{{ content }}
 
-  <nav class="chapter-nav" aria-label="Chapter navigation">
-    {% assign sorted = site.chapters | sort: "nav_order" %}
-    {% assign current_index = nil %}
-    {% for ch in sorted %}
-      {% if ch.url == page.url %}
-        {% assign current_index = forloop.index0 %}
-      {% endif %}
-    {% endfor %}
+<nav class="chapter-nav" aria-label="Chapter navigation">
+  {% assign all_pages = site.html_pages | sort: "nav_order" %}
+  {% assign chapters_only = "" | split: "" %}
+  {% for p in all_pages %}
+    {% if p.chapter_number or p.is_appendix %}
+      {% assign chapters_only = chapters_only | push: p %}
+    {% endif %}
+  {% endfor %}
 
-    <div class="chapter-nav-links">
-      {% if current_index and current_index > 0 %}
-        {% assign prev_index = current_index | minus: 1 %}
-        <a href="{{ sorted[prev_index].url | relative_url }}" class="prev-chapter">&larr; {{ sorted[prev_index].title }}</a>
-      {% endif %}
+  {% assign current_index = nil %}
+  {% for ch in chapters_only %}
+    {% if ch.url == page.url %}
+      {% assign current_index = forloop.index0 %}
+    {% endif %}
+  {% endfor %}
 
-      {% assign next_index = current_index | plus: 1 %}
-      {% if current_index and next_index < sorted.size %}
-        <a href="{{ sorted[next_index].url | relative_url }}" class="next-chapter">{{ sorted[next_index].title }} &rarr;</a>
-      {% endif %}
-    </div>
-  </nav>
-</article>
+  <div class="chapter-nav-links">
+    {% if current_index and current_index > 0 %}
+      {% assign prev_index = current_index | minus: 1 %}
+      <a href="{{ chapters_only[prev_index].url | relative_url }}" class="prev-chapter">&larr; {{ chapters_only[prev_index].title }}</a>
+    {% endif %}
+
+    {% assign next_index = current_index | plus: 1 %}
+    {% if current_index and next_index < chapters_only.size %}
+      <a href="{{ chapters_only[next_index].url | relative_url }}" class="next-chapter">{{ chapters_only[next_index].title }} &rarr;</a>
+    {% endif %}
+  </div>
+</nav>

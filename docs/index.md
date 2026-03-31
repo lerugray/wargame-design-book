@@ -1,52 +1,46 @@
 ---
-layout: default
+layout: home
 title: Home
 nav_order: 0
----
-
-# A Contemporary Guide to Wargame Design
-
-**By Ray Weiss**
-
-A practical, opinionated guide to designing historical board wargames — from choosing your subject to getting published. Written by an independent designer who learned by doing, making mistakes, and occasionally getting things right.
-
+nav_exclude: true
+description: "A practical, opinionated guide to designing historical board wargames — from choosing your subject to getting published."
 ---
 
 ## Read the Book
 
-{% assign sorted = site.chapters | sort: "nav_order" %}
+{% assign sorted = site.html_pages | sort: "nav_order" %}
 
 ### Part I: Foundations
-{% for ch in sorted %}{% if ch.nav_order >= 1 and ch.nav_order <= 5 %}
-{{ ch.nav_order }}. [{{ ch.title }}]({{ ch.url | relative_url }})
+{% for ch in sorted %}{% if ch.chapter_number and ch.chapter_number >= 1 and ch.chapter_number <= 5 %}
+{{ ch.chapter_number }}. [{{ ch.title }}]({{ ch.url | relative_url }})
 {% endif %}{% endfor %}
 
 ### Part II: Core Systems
-{% for ch in sorted %}{% if ch.nav_order >= 6 and ch.nav_order <= 12 %}
-{{ ch.nav_order }}. [{{ ch.title }}]({{ ch.url | relative_url }})
+{% for ch in sorted %}{% if ch.chapter_number and ch.chapter_number >= 6 and ch.chapter_number <= 12 %}
+{{ ch.chapter_number }}. [{{ ch.title }}]({{ ch.url | relative_url }})
 {% endif %}{% endfor %}
 
 ### Part III: Advanced Topics
-{% for ch in sorted %}{% if ch.nav_order >= 13 and ch.nav_order <= 14 %}
-{{ ch.nav_order }}. [{{ ch.title }}]({{ ch.url | relative_url }})
+{% for ch in sorted %}{% if ch.chapter_number and ch.chapter_number >= 13 and ch.chapter_number <= 14 %}
+{{ ch.chapter_number }}. [{{ ch.title }}]({{ ch.url | relative_url }})
 {% endif %}{% endfor %}
 
 ### Part IV: From Prototype to Publication
-{% for ch in sorted %}{% if ch.nav_order >= 15 and ch.nav_order <= 20 %}
-{{ ch.nav_order }}. [{{ ch.title }}]({{ ch.url | relative_url }})
+{% for ch in sorted %}{% if ch.chapter_number and ch.chapter_number >= 15 and ch.chapter_number <= 20 %}
+{{ ch.chapter_number }}. [{{ ch.title }}]({{ ch.url | relative_url }})
 {% endif %}{% endfor %}
 
 ### Part V: The Bigger Picture
-{% for ch in sorted %}{% if ch.nav_order >= 21 and ch.nav_order <= 23 %}
-{{ ch.nav_order }}. [{{ ch.title }}]({{ ch.url | relative_url }})
+{% for ch in sorted %}{% if ch.chapter_number and ch.chapter_number >= 21 and ch.chapter_number <= 23 %}
+{{ ch.chapter_number }}. [{{ ch.title }}]({{ ch.url | relative_url }})
 {% endif %}{% endfor %}
 
 ### Appendices
-{% for ch in sorted %}{% if ch.nav_order >= 100 %}
+{% for ch in sorted %}{% if ch.is_appendix %}
 - [{{ ch.title }}]({{ ch.url | relative_url }})
 {% endif %}{% endfor %}
 
----
+<hr class="section-divider">
 
 ## About This Book
 

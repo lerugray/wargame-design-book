@@ -1,0 +1,282 @@
+/* ============================================================
+   A Contemporary Guide to Wargame Design — Custom Styles
+   ============================================================ */
+
+/* ----- Typography ----- */
+body,
+.main-content {
+  font-family: 'Lora', Georgia, 'Times New Roman', serif;
+  font-size: 17px;
+  line-height: 1.75;
+  color: #2c2c3a;
+}
+
+h1, h2, h3, h4, h5, h6,
+.site-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: #1c1c2e;
+}
+
+h1 { font-weight: 800; }
+h2 { font-weight: 700; margin-top: 2.5rem; }
+h3 { font-weight: 700; margin-top: 2rem; }
+
+/* ----- Color Palette ----- */
+body,
+.main {
+  background-color: #fdfbf7;
+}
+
+a {
+  color: #7a3b1e;
+}
+
+a:hover {
+  color: #b5933a;
+}
+
+/* ----- Content Column ----- */
+.main-content,
+.main-content-wrap {
+  max-width: 680px;
+}
+
+/* ----- Sidebar ----- */
+.side-bar {
+  background-color: #1c1c2e;
+}
+
+.site-title {
+  color: #b5933a !important;
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.nav-list .nav-list-item .nav-list-link {
+  color: #e0d5c5;
+}
+
+.nav-list .nav-list-item .nav-list-link:hover,
+.nav-list .nav-list-item .nav-list-link.active {
+  color: #ffffff;
+  background-color: rgba(181, 147, 58, 0.15);
+}
+
+.nav-list .nav-list-item .nav-list-expander {
+  color: #b5933a;
+}
+
+.site-nav {
+  border-top: 1px solid rgba(224, 213, 197, 0.15);
+}
+
+/* Search in sidebar */
+.search-input {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(224, 213, 197, 0.2);
+  color: #e0d5c5;
+}
+
+.search-input::placeholder {
+  color: rgba(224, 213, 197, 0.5);
+}
+
+/* ----- Homepage Hero ----- */
+.book-hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  border-bottom: 2px solid #e0d5c5;
+  margin-bottom: 2.5rem;
+}
+
+.book-title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.6rem;
+  font-weight: 900;
+  color: #1c1c2e;
+  line-height: 1.15;
+  margin-bottom: 0.5rem;
+}
+
+.book-author {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.15rem;
+  color: #7a3b1e;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.book-tagline {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.05rem;
+  color: #5a5a6e;
+  max-width: 540px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.65;
+}
+
+.btn-read {
+  display: inline-block;
+  background-color: #7a3b1e;
+  color: #fdfbf7 !important;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn-read:hover {
+  background-color: #b5933a;
+  color: #fdfbf7 !important;
+  text-decoration: none;
+}
+
+.section-divider {
+  border: none;
+  border-top: 1px solid #e0d5c5;
+  margin: 2rem auto;
+  max-width: 200px;
+}
+
+/* ----- Chapter Navigation ----- */
+.chapter-nav {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid #e0d5c5;
+}
+
+.chapter-nav-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.chapter-nav-links a {
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  border: 1px solid #e0d5c5;
+  border-radius: 4px;
+  color: #7a3b1e;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.chapter-nav-links a:hover {
+  background-color: #7a3b1e;
+  color: #fdfbf7;
+  border-color: #7a3b1e;
+}
+
+.prev-chapter::before {
+  content: none; /* Arrow is already in the HTML */
+}
+
+.next-chapter::after {
+  content: none;
+}
+
+/* ----- In-Page Chapter TOC ----- */
+.chapter-toc {
+  background-color: #f5f0e8;
+  border: 1px solid #e0d5c5;
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.chapter-toc .toc-label {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #1c1c2e;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.chapter-toc ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.chapter-toc ul ul {
+  padding-left: 1rem;
+}
+
+.chapter-toc li {
+  margin: 0.25rem 0;
+}
+
+.chapter-toc a {
+  color: #7a3b1e;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.chapter-toc a:hover {
+  color: #b5933a;
+  text-decoration: underline;
+}
+
+/* ----- Footer ----- */
+.site-footer {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border-top: 1px solid #e0d5c5;
+  font-size: 0.85rem;
+  color: #5a5a6e;
+  margin-top: 3rem;
+}
+
+.site-footer a {
+  color: #7a3b1e;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #b5933a;
+  text-decoration: underline;
+}
+
+.footer-links {
+  margin-top: 0.35rem;
+}
+
+.footer-links a {
+  margin: 0 0.75rem;
+}
+
+/* ----- Warm Borders on blockquotes ----- */
+blockquote {
+  border-left-color: #b5933a;
+}
+
+/* ----- Tables ----- */
+table {
+  border-color: #e0d5c5;
+}
+
+th {
+  background-color: #f5f0e8;
+  color: #1c1c2e;
+}
+
+/* ----- Responsive ----- */
+@media (max-width: 800px) {
+  .book-title {
+    font-size: 1.8rem;
+  }
+
+  .chapter-nav-links {
+    flex-direction: column;
+  }
+
+  .chapter-nav-links a {
+    text-align: center;
+  }
+}

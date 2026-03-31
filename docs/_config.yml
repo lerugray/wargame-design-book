@@ -7,20 +7,6 @@ baseurl: "/wargame-design-book"
 # Theme
 remote_theme: just-the-docs/just-the-docs@v0.10.1
 
-# Collections for chapters
-collections:
-  chapters:
-    output: true
-    permalink: /:title/
-
-# Default front matter
-defaults:
-  - scope:
-      path: "_chapters"
-      type: chapters
-    values:
-      layout: chapter
-
 # Build settings
 markdown: kramdown
 kramdown:
@@ -36,7 +22,7 @@ aux_links:
 search_enabled: true
 search.heading_level: 3
 
-# Footer
+# Footer (overridden by _includes/footer.html)
 footer_content: "&copy; 2026 Ray Weiss. All rights reserved."
 
 # Exclude
@@ -46,3 +32,4 @@ exclude:
   - Gemfile.lock
   - CLAUDE.md
   - HANDOFF.md
+  - _chapters/

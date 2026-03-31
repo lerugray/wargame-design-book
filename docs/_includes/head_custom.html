@@ -1,0 +1,29 @@
+<!-- Google Fonts: Lora (body) + Playfair Display (headings) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
+
+<!-- Reading Progress Bar -->
+<style>
+  #reading-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(90deg, #b5933a, #7a3b1e);
+    z-index: 9999;
+    transition: width 0.1s ease-out;
+  }
+</style>
+<div id="reading-progress"></div>
+<script>
+  document.addEventListener('scroll', function () {
+    var docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (window.scrollY / docHeight) * 100;
+    document.getElementById('reading-progress').style.width = scrolled + '%';
+  });
+</script>
