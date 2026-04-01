@@ -110,66 +110,28 @@ a:hover {
   background-color: #2a2a42 !important;
 }
 
-/* --- Active/selected page — kill the theme gradient, use solid bg --- */
-.nav-list-link.active,
-.nav-list-item.active > .nav-list-link,
-.side-bar .nav-list-link.active,
-.side-bar .nav-list .nav-list-item.active > .nav-list-link,
-.side-bar .nav-list .nav-list .nav-list-link.active {
-  color: #ffffff !important;
+/* --- Kill ALL theme background gradients on nav links ---
+   Theme injects per-page <style> with nth-child selectors that add
+   background-image gradients. !important overrides regardless. */
+.nav-list-link {
   background-image: none !important;
-  background-color: #2a2a42 !important;
-  border-left: 3px solid #b5933a;
-  font-weight: 700 !important;
 }
 
-/* Search in sidebar — force readable text on dark bg */
-.side-bar .search-input,
-.side-bar input[type="text"],
-.side-bar input,
-.search .search-input,
-input.search-input {
-  background-color: #2a2a42 !important;
-  border: 1px solid #4a4a62 !important;
-  color: #ffffff !important;
-  font-size: 0.9rem;
+/* Search — lives in .main-header, not sidebar. Match the off-white content area. */
+.search-input {
+  background-color: #ffffff !important;
+  border: 1px solid #c4b49a !important;
+  color: #2c2c3a !important;
 }
 
-.side-bar .search-input::placeholder,
-.search .search-input::placeholder,
-input.search-input::placeholder {
-  color: #a09aaa !important;
+.search-input::placeholder {
+  color: #7a6a5a !important;
 }
 
-.side-bar .search-input:focus,
-input.search-input:focus {
-  border-color: #b5933a !important;
+.search-input:focus {
+  border-color: #7a3b1e !important;
   outline: none;
-}
-
-/* Search results */
-.search-results,
-.search-results-wrap {
-  background-color: #1c1c2e !important;
-  color: #e0d5c5 !important;
-}
-
-.search-results a,
-.search-results .search-result-title {
-  color: #fdfbf7 !important;
-}
-
-.search-results .search-result-doc-title {
-  color: #c4b49a !important;
-}
-
-.search-results .search-result-previews {
-  color: #e0d5c5 !important;
-}
-
-/* Search icon */
-.search-label .search-icon {
-  color: #a09aaa !important;
+  box-shadow: 0 0 0 2px rgba(122, 59, 30, 0.2);
 }
 
 /* ----- Homepage Hero ----- */
@@ -328,35 +290,27 @@ input.search-input:focus {
 
 /* ----- Footer ----- */
 
-/* Hide the theme's "This site uses Just the Docs" credit */
-.site-footer a[href="https://github.com/just-the-docs/just-the-docs"],
-.site-footer a[href*="just-the-docs"] {
+/* The theme's .site-footer is INSIDE .side-bar — hide it completely */
+.side-bar > .site-footer {
   display: none !important;
 }
 
-/* Hide the entire paragraph containing the theme credit */
-.site-footer p:last-child {
-  display: none !important;
-}
-
-/* Show only our custom footer content */
-.site-footer {
+/* Our custom footer is at the bottom of .main-content-wrap */
+.main-content-wrap > footer {
   text-align: center;
   padding: 1.5rem 1rem;
   border-top: 1px solid #c4b49a;
   font-size: 0.85rem;
   color: #2c2c3a;
-  margin-top: 3rem;
-  background-color: #fdfbf7;
 }
 
-.site-footer a {
-  color: #7a3b1e !important;
+.main-content-wrap > footer a {
+  color: #7a3b1e;
   text-decoration: underline;
 }
 
-.site-footer a:hover {
-  color: #5a2c14 !important;
+.main-content-wrap > footer a:hover {
+  color: #5a2c14;
 }
 
 .footer-links {
