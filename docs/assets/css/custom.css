@@ -123,15 +123,53 @@ a:hover {
   font-weight: 700 !important;
 }
 
-/* Search in sidebar */
-.search-input {
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(224, 213, 197, 0.3);
-  color: #e0d5c5;
+/* Search in sidebar — force readable text on dark bg */
+.side-bar .search-input,
+.side-bar input[type="text"],
+.side-bar input,
+.search .search-input,
+input.search-input {
+  background-color: #2a2a42 !important;
+  border: 1px solid #4a4a62 !important;
+  color: #ffffff !important;
+  font-size: 0.9rem;
 }
 
-.search-input::placeholder {
-  color: rgba(224, 213, 197, 0.7);
+.side-bar .search-input::placeholder,
+.search .search-input::placeholder,
+input.search-input::placeholder {
+  color: #a09aaa !important;
+}
+
+.side-bar .search-input:focus,
+input.search-input:focus {
+  border-color: #b5933a !important;
+  outline: none;
+}
+
+/* Search results */
+.search-results,
+.search-results-wrap {
+  background-color: #1c1c2e !important;
+  color: #e0d5c5 !important;
+}
+
+.search-results a,
+.search-results .search-result-title {
+  color: #fdfbf7 !important;
+}
+
+.search-results .search-result-doc-title {
+  color: #c4b49a !important;
+}
+
+.search-results .search-result-previews {
+  color: #e0d5c5 !important;
+}
+
+/* Search icon */
+.search-label .search-icon {
+  color: #a09aaa !important;
 }
 
 /* ----- Homepage Hero ----- */
@@ -289,22 +327,36 @@ a:hover {
 }
 
 /* ----- Footer ----- */
+
+/* Hide the theme's "This site uses Just the Docs" credit */
+.site-footer a[href="https://github.com/just-the-docs/just-the-docs"],
+.site-footer a[href*="just-the-docs"] {
+  display: none !important;
+}
+
+/* Hide the entire paragraph containing the theme credit */
+.site-footer p:last-child {
+  display: none !important;
+}
+
+/* Show only our custom footer content */
 .site-footer {
   text-align: center;
   padding: 1.5rem 1rem;
   border-top: 1px solid #c4b49a;
   font-size: 0.85rem;
-  color: #5a5a6e;
+  color: #2c2c3a;
   margin-top: 3rem;
+  background-color: #fdfbf7;
 }
 
 .site-footer a {
-  color: #7a3b1e;
+  color: #7a3b1e !important;
   text-decoration: underline;
 }
 
 .site-footer a:hover {
-  color: #5a2c14;
+  color: #5a2c14 !important;
 }
 
 .footer-links {
