@@ -82,31 +82,45 @@ a:hover {
   padding-bottom: 1rem;
 }
 
-/* Force all sidebar nav links to readable colors — override ALL theme defaults */
-.side-bar a,
-.side-bar .nav-list a,
-.side-bar .nav-list .nav-list-item a,
-.side-bar .nav-list .nav-list-item .nav-list-link,
-.side-bar .site-nav .nav-list a.nav-list-link {
-  color: #e0d5c5 !important;
+/* --- Sidebar nav: Part titles (top-level parents) --- */
+.side-bar .nav-list > .nav-list-item > .nav-list-link {
+  color: #fdfbf7 !important;
+  background-image: none !important;
   background-color: transparent !important;
+  font-weight: 700 !important;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
-.side-bar .nav-list a:hover,
-.side-bar .nav-list .nav-list-item a:hover,
-.side-bar .nav-list .nav-list-item .nav-list-link:hover {
+/* --- Sidebar nav: Chapter links (children) --- */
+.side-bar .nav-list .nav-list .nav-list-link {
+  color: #c4b49a !important;
+  background-image: none !important;
+  background-color: transparent !important;
+  font-weight: 400 !important;
+  font-size: 0.82rem;
+}
+
+/* --- Hover state for all sidebar links --- */
+.side-bar .nav-list-link:hover,
+.side-bar .nav-list .nav-list-link:hover {
   color: #ffffff !important;
+  background-image: none !important;
   background-color: #2a2a42 !important;
 }
 
-/* Active/selected page — solid dark bg so theme can't bleed through */
-.side-bar .nav-list .nav-list-item .nav-list-link.active,
-.side-bar .nav-list .nav-list-item a.nav-list-link.active,
-.side-bar .nav-list a.active {
+/* --- Active/selected page — kill the theme gradient, use solid bg --- */
+.nav-list-link.active,
+.nav-list-item.active > .nav-list-link,
+.side-bar .nav-list-link.active,
+.side-bar .nav-list .nav-list-item.active > .nav-list-link,
+.side-bar .nav-list .nav-list .nav-list-link.active {
   color: #ffffff !important;
+  background-image: none !important;
   background-color: #2a2a42 !important;
   border-left: 3px solid #b5933a;
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 
 /* Search in sidebar */
