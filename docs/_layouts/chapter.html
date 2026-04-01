@@ -2,6 +2,12 @@
 layout: default
 ---
 
+{% if page.chapter_number %}
+<h1 class="chapter-heading">Chapter {{ page.chapter_number }}: {{ page.title }}</h1>
+{% else %}
+<h1 class="chapter-heading">{{ page.title }}</h1>
+{% endif %}
+
 {% if page.toc != false %}
 <nav class="chapter-toc" aria-label="In this chapter">
   <p class="toc-label">In this chapter</p>

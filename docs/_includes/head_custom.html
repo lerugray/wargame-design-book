@@ -43,5 +43,14 @@
         });
       }
     });
+
+    /* Auto-scroll sidebar to the active chapter */
+    var activeLink = document.querySelector('.site-nav .nav-list-link.active');
+    if (activeLink) {
+      var nav = document.querySelector('.site-nav');
+      if (nav) {
+        nav.scrollTop = activeLink.offsetTop - (nav.clientHeight / 3);
+      }
+    }
   });
 </script>

@@ -32,13 +32,41 @@ a {
 }
 
 a:hover {
-  color: #7d6628;
+  color: #8a702d;
+  text-decoration: underline;
 }
 
-/* ----- Content Column ----- */
+/* ----- Content & Layout ----- */
 .main-content,
 .main-content-wrap {
   max-width: 680px;
+}
+
+/* Let .main fill remaining viewport — no right-side dead space */
+.main {
+  max-width: none;
+}
+
+.main-header {
+  max-width: none;
+}
+
+/* Match header background to page background */
+.main-header,
+.side-bar + .main .main-header {
+  background-color: #fdfbf7 !important;
+  border-bottom: 1px solid #c4b49a;
+}
+
+/* ----- Chapter Heading ----- */
+.chapter-heading {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1c1c2e;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+  line-height: 1.2;
 }
 
 /* ----- Sidebar ----- */
@@ -61,9 +89,28 @@ a:hover {
   overflow-x: hidden;
   padding-bottom: 2rem;
   border-top: 1px solid rgba(224, 213, 197, 0.25);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(196, 180, 154, 0.3) transparent;
 }
 
-/* Expand all nav items by default — book should show all chapters */
+.site-nav::-webkit-scrollbar {
+  width: 6px;
+}
+
+.site-nav::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.site-nav::-webkit-scrollbar-thumb {
+  background: rgba(196, 180, 154, 0.3);
+  border-radius: 3px;
+}
+
+.site-nav::-webkit-scrollbar-thumb:hover {
+  background: rgba(196, 180, 154, 0.5);
+}
+
+/* Expand all nav items by default */
 .site-nav .nav-list .nav-list {
   display: block !important;
 }
@@ -72,6 +119,12 @@ a:hover {
   display: none !important;
 }
 
+/* Kill ALL theme background gradients on nav links */
+.nav-list-link {
+  background-image: none !important;
+}
+
+/* Site title */
 .site-title,
 .site-title:hover,
 .site-title:active,
@@ -89,27 +142,44 @@ a.site-title:hover {
   padding-bottom: 1rem;
 }
 
-/* --- Sidebar nav: Part titles (top-level parents) --- */
+/* Part titles (top-level) — white, uppercase, bold */
 .side-bar .nav-list > .nav-list-item > .nav-list-link {
   color: #fdfbf7 !important;
   background-image: none !important;
   background-color: transparent !important;
   font-weight: 700 !important;
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
 
-/* --- Sidebar nav: Chapter links (children) --- */
+/* Active Part link */
+.side-bar .nav-list > .nav-list-item > .nav-list-link.active {
+  color: #ffffff !important;
+  border-left: 3px solid #b5933a;
+}
+
+/* Chapter links (children) — warm tan, normal case */
 .side-bar .nav-list .nav-list .nav-list-link {
   color: #c4b49a !important;
   background-image: none !important;
   background-color: transparent !important;
   font-weight: 400 !important;
   font-size: 0.82rem;
+  text-transform: none !important;
+  letter-spacing: normal;
 }
 
-/* --- Hover state for all sidebar links --- */
+/* Active chapter link */
+.side-bar .nav-list .nav-list .nav-list-link.active {
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  background-color: rgba(181, 147, 58, 0.15) !important;
+  border-left: 3px solid #b5933a;
+  padding-left: 29px;
+}
+
+/* Hover for all sidebar links */
 .side-bar .nav-list-link:hover,
 .side-bar .nav-list .nav-list-link:hover {
   color: #ffffff !important;
@@ -117,18 +187,23 @@ a.site-title:hover {
   background-color: #2a2a42 !important;
 }
 
-/* --- Kill ALL theme background gradients on nav links ---
-   Theme injects per-page <style> with nth-child selectors that add
-   background-image gradients. !important overrides regardless. */
-.nav-list-link {
-  background-image: none !important;
+/* ----- Search ----- */
+.search {
+  width: 100%;
 }
 
-/* Search — lives in .main-header, not sidebar. Match the off-white content area. */
+.search-input-wrap {
+  width: 100%;
+  max-width: 500px;
+}
+
 .search-input {
-  background-color: #ffffff !important;
+  background-color: #fdfbf7 !important;
   border: 1px solid #c4b49a !important;
+  border-radius: 4px;
   color: #2c2c3a !important;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 0.9rem;
 }
 
 .search-input::placeholder {
@@ -139,6 +214,31 @@ a.site-title:hover {
   border-color: #7a3b1e !important;
   outline: none;
   box-shadow: 0 0 0 2px rgba(122, 59, 30, 0.2);
+}
+
+/* Aux nav (Buy on Amazon link) */
+.aux-nav {
+  display: flex;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.aux-nav-list-item a {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 0.85rem;
+  color: #7a3b1e !important;
+  text-decoration: none;
+  border: 1px solid #c4b49a;
+  padding: 0.4rem 1rem;
+  border-radius: 4px;
+  white-space: nowrap;
+  transition: 0.2s;
+}
+
+.aux-nav-list-item a:hover {
+  background-color: #7a3b1e;
+  color: #fdfbf7 !important;
+  border-color: #7a3b1e;
 }
 
 /* ----- Homepage Hero ----- */
@@ -232,6 +332,15 @@ a.site-title:hover {
   border-color: #7a3b1e;
 }
 
+/* Single next link → right-aligned; single prev → left-aligned */
+.chapter-nav-links .next-chapter:first-child:last-child {
+  margin-left: auto;
+}
+
+.chapter-nav-links .prev-chapter:first-child:last-child {
+  margin-right: auto;
+}
+
 .prev-chapter::before {
   content: none;
 }
@@ -297,12 +406,12 @@ a.site-title:hover {
 
 /* ----- Footer ----- */
 
-/* The theme's .site-footer is INSIDE .side-bar — hide it completely */
+/* The theme's .site-footer is INSIDE .side-bar — hide it */
 .side-bar > .site-footer {
   display: none !important;
 }
 
-/* Our custom footer is at the bottom of .main-content-wrap */
+/* Our custom footer in .main-content-wrap */
 .main-content-wrap > footer {
   text-align: center;
   padding: 1.5rem 1rem;
