@@ -74,8 +74,13 @@ a:hover {
 
 .site-title,
 .site-title:hover,
-.site-title:visited {
+.site-title:active,
+.site-title:visited,
+a.site-title,
+a.site-title:hover {
   color: #fdfbf7 !important;
+  background-image: none !important;
+  background-color: transparent !important;
   font-family: 'Playfair Display', Georgia, serif;
   font-size: 1.1rem !important;
   font-weight: 700 !important;
