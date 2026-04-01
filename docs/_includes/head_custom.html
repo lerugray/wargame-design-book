@@ -22,11 +22,26 @@
     transition: width 0.1s ease-out;
   }
 </style>
-<div id="reading-progress"></div>
+<div id="reading-progress" role="progressbar" aria-label="Reading progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
 <script>
   document.addEventListener('scroll', function () {
     var docHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-    var scrolled = (window.scrollY / docHeight) * 100;
-    document.getElementById('reading-progress').style.width = scrolled + '%';
+    var scrolled = Math.round((window.scrollY / docHeight) * 100);
+    var bar = document.getElementById('reading-progress');
+    bar.style.width = scrolled + '%';
+    bar.setAttribute('aria-valuenow', scrolled);
+  });
+
+  /* Make all content images clickable — open full-size in new tab */
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.main-content img').forEach(function (img) {
+      if (!img.closest('a')) {
+        img.style.cursor = 'pointer';
+        img.title = 'Click to view full size';
+        img.addEventListener('click', function () {
+          window.open(img.src, '_blank');
+        });
+      }
+    });
   });
 </script>

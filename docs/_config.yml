@@ -15,9 +15,9 @@ kramdown:
   syntax_highlighter: rouge
 
 # Navigation
-aux_links:
-  "Buy on Amazon (Coming Soon)":
-    - "#"
+# aux_links:
+#   "Buy on Amazon":
+#     - "URL_WHEN_READY"
 
 # Search
 search_enabled: true

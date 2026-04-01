@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if page.toc != false %}
-<nav class="chapter-toc">
+<nav class="chapter-toc" aria-label="In this chapter">
   <p class="toc-label">In this chapter</p>
   {% include toc.html html=content sanitize=true %}
 </nav>
