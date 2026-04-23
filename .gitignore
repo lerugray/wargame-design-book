@@ -5,3 +5,11 @@ docs/.jekyll-metadata
 docs/Gemfile.lock
 *.swp
 .claude/
+
+# GeneralStaff bot worktree (created by engineer_command.sh, cleaned on exit)
+.bot-worktree/
+
+# Pandoc / KDP build output — generated artifacts, not source
+print/out/
+print/build/
+*.pdf.bak
