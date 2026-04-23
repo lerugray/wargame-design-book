@@ -102,7 +102,7 @@ Decide on your hex scale, turn scale, and unit scale. The research above gives y
 - How many turns in the game? (6–8, representing roughly 3–4 days each.)
 - How far should a unit move in one turn? Infantry and armor move at different rates. Consult Appendix D for march rates and decide what fits your hex scale.
 
-**Constraint:** The entire map must fit on a single A4 sheet of paper (210 × 297 mm). With hexes at roughly 15–20 mm across, that gives you a map of about 10–14 hexes wide and 15–20 hexes tall. Your design must work within that space.
+**Constraint:** The entire map must fit on a single A4 sheet of paper (210 �— 297 mm). With hexes at roughly 15–20 mm across, that gives you a map of about 10–14 hexes wide and 15–20 hexes tall. Your design must work within that space.
 
 A sketch on graph paper is fine. You are making a functional tool for testing your design, not art.
 
