@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  KDP paperback cover template. 6x9 trim, white paper.
+  Reference page count: 340 pp, spine 0.7657 in, canvas 13.0157 x 9.25 in.
+  Regenerate for a different page count by running spine-width.py and
+  updating the width, viewBox, and spine / front x-offsets below.
+
+  Placeholders (Mustache-style, substituted by wdb-008 copy pass):
+    TITLE     - book title
+    SUBTITLE  - subtitle
+    AUTHOR    - author name
+    BACK_COPY - back-cover hook paragraph(s)
+    BIO       - author bio (short, back cover)
+    ISBN      - 13-digit ISBN for the barcode block
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="13.0157in" height="9.25in"
+     viewBox="0 0 13.0157 9.25"
+     preserveAspectRatio="xMidYMid meet">
+
+  <defs>
+    <!-- Safety zones (0.125" inside the trim edge; text must stay inside) -->
+    <style>
+      .bleed-fill   { fill: #f4efe6; }
+      .trim-guide   { fill: none; stroke: #c94f4f; stroke-width: 0.005; stroke-dasharray: 0.04 0.02; }
+      .spine-guide  { fill: none; stroke: #4f7cc9; stroke-width: 0.005; stroke-dasharray: 0.04 0.02; }
+      .safety-guide { fill: none; stroke: #6aa86a; stroke-width: 0.005; stroke-dasharray: 0.02 0.02; }
+      .title-text   { font-family: 'Playfair Display', 'Georgia', serif; fill: #1a1a1a; }
+      .body-text    { font-family: 'Lora', 'Georgia', serif; fill: #1a1a1a; }
+      .spine-text   { font-family: 'Playfair Display', 'Georgia', serif; fill: #1a1a1a; }
+      .placeholder  { fill: #888; font-style: italic; }
+    </style>
+  </defs>
+
+  <!-- =========================================================
+       Background fill across the entire bleed-inclusive canvas.
+       Replace this rect with cover-art.* when the art is ready.
+       ========================================================= -->
+  <rect x="0" y="0" width="13.0157" height="9.25" class="bleed-fill"/>
+
+  <!-- =========================================================
+       BACK COVER  (x: 0.125 to 6.125, width 6)
+       ========================================================= -->
+  <g id="back-cover">
+    <!-- safety zone: 0.125" in from trim edges -->
+    <rect x="0.25" y="0.25" width="5.75" height="8.75" class="safety-guide"/>
+
+    <text x="0.5" y="1.0" class="title-text" font-size="0.22">{{TITLE}} — back cover hook</text>
+
+    <foreignObject x="0.5" y="1.3" width="5.125" height="5.5">
+      <div xmlns="http://www.w3.org/1999/xhtml"
+           style="font-family: Lora, Georgia, serif; font-size: 0.16in; line-height: 1.45; color: #1a1a1a;">
+        {{BACK_COPY}}
+      </div>
+    </foreignObject>
+
+    <!-- author bio block -->
+    <foreignObject x="0.5" y="7.0" width="4.0" height="1.5">
+      <div xmlns="http://www.w3.org/1999/xhtml"
+           style="font-family: Lora, Georgia, serif; font-size: 0.13in; line-height: 1.4; color: #333;">
+        <strong>About the author.</strong> {{BIO}}
+      </div>
+    </foreignObject>
+
+    <!-- ISBN / barcode placeholder (KDP auto-applies barcode; keep this area clear) -->
+    <rect x="4.325" y="7.25" width="1.7" height="1.0" fill="#ffffff" stroke="#999" stroke-width="0.005"/>
+    <text x="5.175" y="7.75" text-anchor="middle" class="body-text placeholder" font-size="0.09">
+      KDP barcode area
+    </text>
+    <text x="5.175" y="7.92" text-anchor="middle" class="body-text placeholder" font-size="0.09">
+      (keep clear — KDP auto-fills)
+    </text>
+    <text x="5.175" y="8.12" text-anchor="middle" class="body-text" font-size="0.09">
+      ISBN {{ISBN}}
+    </text>
+  </g>
+
+  <!-- =========================================================
+       SPINE  (x: 6.125 to 6.8907, width 0.7657)
+       Text rotates 90° and reads top-to-bottom on Amazon shelf.
+       Only render spine text when page count >= 80.
+       ========================================================= -->
+  <g id="spine">
+    <!-- spine safety: 0.0625" off each spine edge for text -->
+    <line x1="6.1875" y1="0.25" x2="6.1875" y2="9.0" class="spine-guide"/>
+    <line x1="6.8282" y1="0.25" x2="6.8282" y2="9.0" class="spine-guide"/>
+
+    <text transform="translate(6.55 1.0) rotate(90)"
+          class="spine-text" font-size="0.28" text-anchor="start">
+      {{TITLE}}
+    </text>
+    <text transform="translate(6.55 8.9) rotate(90)"
+          class="spine-text" font-size="0.18" text-anchor="end">
+      {{AUTHOR}}
+    </text>
+  </g>
+
+  <!-- =========================================================
+       FRONT COVER  (x: 6.8907 to 12.8907, width 6)
+       ========================================================= -->
+  <g id="front-cover">
+    <rect x="7.0157" y="0.25" width="5.75" height="8.75" class="safety-guide"/>
+
+    <!-- title block -->
+    <text x="9.8907" y="2.5" text-anchor="middle" class="title-text" font-size="0.55">
+      {{TITLE}}
+    </text>
+    <text x="9.8907" y="3.1" text-anchor="middle" class="title-text" font-size="0.28" font-style="italic">
+      {{SUBTITLE}}
+    </text>
+
+    <!-- art placeholder box (replace with print/cover/cover-art.* — that file is hands_off) -->
+    <rect x="7.5" y="3.6" width="4.78" height="3.2" fill="#ffffff" stroke="#999" stroke-width="0.01"/>
+    <text x="9.89" y="5.25" text-anchor="middle" class="body-text placeholder" font-size="0.16">
+      cover art placeholder
+    </text>
+
+    <!-- author line -->
+    <text x="9.8907" y="8.0" text-anchor="middle" class="title-text" font-size="0.3">
+      {{AUTHOR}}
+    </text>
+  </g>
+
+  <!-- =========================================================
+       GUIDE OVERLAYS — delete these <g> blocks before export.
+       They exist to show trim/spine boundaries during design.
+       ========================================================= -->
+  <g id="guides" opacity="0.9">
+    <!-- trim box: 0.125" inside the bleed on all four outer edges, and at spine edges -->
+    <rect x="0.125" y="0.125" width="12.7657" height="9.0" class="trim-guide"/>
+    <!-- spine boundaries -->
+    <line x1="6.125"  y1="0" x2="6.125"  y2="9.25" class="spine-guide"/>
+    <line x1="6.8907" y1="0" x2="6.8907" y2="9.25" class="spine-guide"/>
+  </g>
+</svg>
