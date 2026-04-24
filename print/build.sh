@@ -23,8 +23,11 @@ mkdir -p "$OUT_DIR"
 
 # Pandoc + xelatex paths. On Windows pip/winget-installed tools may
 # not be on MSYS PATH; reference absolute paths when we know them.
-PANDOC="${PANDOC:-C:/Users/rweis/AppData/Local/Pandoc/pandoc.exe}"
-XELATEX="${XELATEX:-C:/Users/rweis/AppData/Local/Programs/MiKTeX/miktex/bin/x64/xelatex.exe}"
+# Default to USERNAME-based paths so this works on any Ray Windows
+# machine (home-PC = rweis, work-PC = rweiss, etc.). Override via
+# PANDOC= / XELATEX= env vars if your layout differs.
+PANDOC="${PANDOC:-C:/Users/$USERNAME/AppData/Local/Pandoc/pandoc.exe}"
+XELATEX="${XELATEX:-C:/Users/$USERNAME/AppData/Local/Programs/MiKTeX/miktex/bin/x64/xelatex.exe}"
 
 if [[ ! -x "$PANDOC" ]]; then
   echo "ERROR: pandoc not found at $PANDOC" >&2
