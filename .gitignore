@@ -17,3 +17,7 @@ print/build/
 # GS state junction (gs-232 parallel-picker workaround)
 state/
 
+
+# 2026-04-24 overnight-bot sanity cleanup — untracked artifacts that were blocking GS dispatcher clean-tree preflight
+wargame-book-full-audit-brief*.md
+
