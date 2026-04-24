@@ -38,8 +38,12 @@ if [[ ! -x "$XELATEX" ]]; then
   exit 1
 fi
 
-echo "[1/3] Assembling chapters -> $OUT_DIR/book.md"
-python "$PRINT_DIR/prepare-chapters.py" > "$OUT_DIR/book.md"
+echo "[1/3] Assembling front matter + chapters -> $OUT_DIR/book.md"
+{
+  cat "$PRINT_DIR/front-matter.md"
+  echo
+  python "$PRINT_DIR/prepare-chapters.py"
+} > "$OUT_DIR/book.md"
 
 echo "[2/3] Pandoc -> XeLaTeX -> PDF (first run may be slow; MiKTeX auto-installs packages)"
 "$PANDOC" \
@@ -49,6 +53,7 @@ echo "[2/3] Pandoc -> XeLaTeX -> PDF (first run may be slow; MiKTeX auto-install
   --pdf-engine-opt=-interaction=nonstopmode \
   --top-level-division=chapter \
   --standalone \
+  --resource-path="$PROJECT_ROOT/docs" \
   "$OUT_DIR/book.md" \
   -o "$OUT_DIR/wargame-design-book.pdf"
 

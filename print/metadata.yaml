@@ -37,4 +37,8 @@ header-includes:
   - \renewcommand{\headrulewidth}{0pt}
   - \usepackage{emptypage}
   - \raggedbottom
+  # headingfont kept as an alias for front-matter.md; currently Georgia
+  # pending font-polish follow-up (Lora + Playfair Display variable-TTFs
+  # broke dvipdfmx — need static TTFs or LuaLaTeX engine swap).
+  - \newfontfamily\headingfont{Georgia}
 ...

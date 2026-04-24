@@ -33,6 +33,10 @@ ORDER: list[str] = (
 
 FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
 TITLE_RE = re.compile(r'^title:\s*"?(.+?)"?\s*$', re.MULTILINE)
+# Jekyll {{ site.baseurl }} prefix on image paths — pandoc can't interpret
+# Liquid templating, so we strip the prefix and rely on --resource-path to
+# find the images relative to docs/.
+JEKYLL_BASEURL_RE = re.compile(r"\{\{\s*site\.baseurl\s*\}\}/")
 
 
 def extract_title(frontmatter: str) -> str | None:
@@ -49,6 +53,8 @@ def prepare(path: Path) -> str:
 
     frontmatter = fm_match.group(1)
     body = raw[fm_match.end():]
+    # Strip Jekyll Liquid prefix so pandoc sees plain `assets/images/...` paths.
+    body = JEKYLL_BASEURL_RE.sub("", body)
     title = extract_title(frontmatter)
 
     # Emit H1 only if the body doesn't already start with one.
@@ -68,7 +74,9 @@ def main() -> int:
         pieces.append(prepare(path))
 
     # Join with double-newline so pandoc sees clear chapter breaks.
-    sys.stdout.write("\n\n".join(pieces))
+    # Write as raw UTF-8 bytes to sidestep Windows CP1252 stdout default.
+    output = "\n\n".join(pieces).encode("utf-8")
+    sys.stdout.buffer.write(output)
     return 0
 
 
