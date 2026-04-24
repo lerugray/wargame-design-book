@@ -4,7 +4,16 @@ docs/.jekyll-cache/
 docs/.jekyll-metadata
 docs/Gemfile.lock
 *.swp
-.claude/
+
+# Claude Code — preserve any future SKILLs cross-machine
+.claude/*
+!.claude/skills/
+
+# Claude Design raw output (preview HTML + React + screenshots) —
+# final deliverables live at print/cover/*.svg + cover-decisions.md
+print/cover/claude-design-output/
+wargame design book cover.zip
+wargame_design_book_cover.zip
 
 # GeneralStaff bot worktree (created by engineer_command.sh, cleaned on exit)
 .bot-worktree/
@@ -18,6 +27,6 @@ print/build/
 state/
 
 
-# 2026-04-24 overnight-bot sanity cleanup � untracked artifacts that were blocking GS dispatcher clean-tree preflight
+# 2026-04-24 overnight-bot sanity cleanup � untracked artifacts that were blocking GS dispatcher clean-tree preflight
 wargame-book-full-audit-brief*.md
 

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13.0157in" height="9.25in" viewBox="0 0 13.0157 9.25">
+
+  <defs>
+    
+    <filter id="paperGrain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="22" numOctaves="2" seed="3"></feTurbulence>
+      <feColorMatrix values="0 0 0 0 0.12  0 0 0 0 0.10  0 0 0 0 0.08  0 0 0 0.04 0"></feColorMatrix>
+    </filter>
+  </defs>
+
+  
+  <rect class="paper" width="13.0157" height="9.25"></rect>
+  <rect width="13.0157" height="9.25" filter="url(#paperGrain)" opacity="0.5"></rect>
+
+  
+  <rect x="6.125" y="0" width="0.7657" height="9.25" class="paper-dark" opacity="0.45"></rect>
+
+  
+  
+  
+  <g id="back-cover">
+    
+    <line x1="0.625" y1="0.55" x2="5.625" y2="0.55" stroke="#A0342A" stroke-width="0.012"></line>
+
+    
+    <text class="mono accent" x="0.625" y="0.85" font-size="0.09" letter-spacing="0.02">A FIELD MANUAL FOR WARGAME DESIGNERS</text>
+
+    
+    
+
+    
+    <line x1="0.625" y1="4.2" x2="2.125" y2="4.2" stroke="#A0342A" stroke-width="0.01"></line>
+
+    
+    <text class="mono ink-muted" x="0.625" y="4.55" font-size="0.085" letter-spacing="0.02">ABOUT THE AUTHOR</text>
+
+    
+    
+
+    
+    <rect x="3.875" y="7.68" width="2.0" height="1.2" fill="#FFFFFF" stroke="#1E1A15" stroke-width="0.004"></rect>
+    <text class="mono" x="4.875" y="8.35" text-anchor="middle" font-size="0.08" letter-spacing="0.015" fill="#666">ISBN  978-X-XXXXXX-XX-X</text>
+    <text class="mono" x="4.875" y="8.50" text-anchor="middle" font-size="0.07" fill="#888">barcode auto-inserted by KDP</text>
+
+    
+    <text class="mono ink-muted" x="0.625" y="8.83" font-size="0.072" letter-spacing="0.012">CONFLICT SIMULATIONS LLC</text>
+    <text class="mono ink-muted" x="0.625" y="8.98" font-size="0.065" letter-spacing="0.006">lerugray.github.io/wargame-design-book</text>
+  </g>
+
+  
+  
+  
+  
+  
+  <g id="spine">
+    
+    <line x1="6.1875" y1="0.625" x2="6.8282" y2="0.625" stroke="#A0342A" stroke-width="0.01"></line>
+    <line x1="6.1875" y1="8.625" x2="6.8282" y2="8.625" stroke="#A0342A" stroke-width="0.01"></line>
+
+    
+    <g transform="translate(6.50785 1.45) rotate(90)">
+      <text class="serif ink" font-size="0.20" font-weight="600" letter-spacing="0.025">A CONTEMPORARY GUIDE TO WARGAME DESIGN</text>
+    </g>
+
+    
+    <g transform="translate(6.50785 6.90) rotate(90)">
+      <text class="serif accent" font-size="0.16" font-style="italic" letter-spacing="0.03">Ray Weiss</text>
+    </g>
+
+    
+    <g transform="translate(6.50785 8.30)">
+      <polygon points="0.16,0 0.08,0.1386 -0.08,0.1386 -0.16,0 -0.08,-0.1386 0.08,-0.1386" fill="none" stroke="#A0342A" stroke-width="0.012"></polygon>
+      <text class="mono accent" x="0" y="0.04" text-anchor="middle" font-size="0.07" font-weight="600">CS</text>
+    </g>
+  </g>
+
+  
+  
+  
+  <g id="front-cover">
+    
+    <line x1="7.6407" y1="0.7" x2="12.1407" y2="0.7" stroke="#A0342A" stroke-width="0.009"></line>
+
+    
+    <text class="mono accent" x="9.8907" y="1.05" text-anchor="middle" font-size="0.10" letter-spacing="0.045">ON THE CRAFT OF</text>
+
+    
+    <text class="serif ink" x="9.8907" y="1.95" text-anchor="middle" font-size="0.62" font-weight="500" letter-spacing="0.012">A CONTEMPORARY</text>
+    <text class="serif ink" x="9.8907" y="2.65" text-anchor="middle" font-size="0.38" font-style="italic" font-weight="400" letter-spacing="0.03">guide to</text>
+    <text class="serif accent" x="9.8907" y="3.55" text-anchor="middle" font-size="0.78" font-weight="600" letter-spacing="0.042">WARGAME</text>
+    <text class="serif accent" x="9.8907" y="4.35" text-anchor="middle" font-size="0.78" font-weight="600" letter-spacing="0.042">DESIGN</text>
+
+    
+    <text class="serif ink-muted" x="9.8907" y="4.95" text-anchor="middle" font-size="0.155" font-style="italic" letter-spacing="0.006">a practical, opinionated guide to designing</text>
+    <text class="serif ink-muted" x="9.8907" y="5.22" text-anchor="middle" font-size="0.155" font-style="italic" letter-spacing="0.006">historical board wargames</text>
+
+    
+    <g id="counter" transform="translate(9.8907 5.95) rotate(-3.2)">
+      
+      <rect x="-0.517" y="-0.517" width="1.10" height="1.10" fill="#7E2820" opacity="0.55"></rect>
+      
+      <rect x="-0.55" y="-0.55" width="1.10" height="1.10" fill="#A0342A" stroke="#1E1A15" stroke-width="0.018"></rect>
+      
+      <rect x="-0.495" y="-0.495" width="0.99" height="0.99" fill="none" stroke="#ECE4D0" stroke-width="0.011" opacity="0.35"></rect>
+      
+      <g transform="translate(0 -0.077)">
+        <rect x="-0.396" y="-0.231" width="0.792" height="0.462" fill="none" stroke="#ECE4D0" stroke-width="0.031"></rect>
+        <line x1="-0.396" y1="-0.231" x2="0.396" y2="0.231" stroke="#ECE4D0" stroke-width="0.031"></line>
+        <line x1="0.396" y1="-0.231" x2="-0.396" y2="0.231" stroke="#ECE4D0" stroke-width="0.031"></line>
+      </g>
+      
+      <text class="mono" x="0" y="0.396" text-anchor="middle" font-size="0.198" font-weight="600" fill="#ECE4D0" letter-spacing="0.011">4-6-2</text>
+    </g>
+
+    
+    <line x1="8.8907" y1="7.55" x2="10.8907" y2="7.55" stroke="#A0342A" stroke-width="0.009"></line>
+    <text class="serif ink" x="9.8907" y="7.95" text-anchor="middle" font-size="0.24" font-weight="500" letter-spacing="0.06">RAY WEISS</text>
+
+    
+    <text class="mono ink-muted" x="9.8907" y="8.75" text-anchor="middle" font-size="0.075" letter-spacing="0.035">CONFLICT SIMULATIONS · 2026</text>
+  </g>
+
+  
+  
+  
+  <g id="guides" opacity="1">
+    
+    <rect x="0" y="0" width="13.0157" height="9.25" fill="none" stroke="#E91E63" stroke-width="0.012" stroke-dasharray="0.06 0.04"></rect>
+    
+    <rect x="0.125" y="0.125" width="12.7657" height="9.0" fill="none" stroke="#00B8D4" stroke-width="0.012"></rect>
+    
+    <rect x="0.25" y="0.25" width="5.75" height="8.75" fill="none" stroke="#00B8D4" stroke-width="0.008" stroke-dasharray="0.03 0.03"></rect>
+    
+    <rect x="7.0157" y="0.25" width="5.75" height="8.75" fill="none" stroke="#00B8D4" stroke-width="0.008" stroke-dasharray="0.03 0.03"></rect>
+    
+    <line x1="6.125" y1="0" x2="6.125" y2="9.25" stroke="#FFB300" stroke-width="0.01"></line>
+    <line x1="6.8907" y1="0" x2="6.8907" y2="9.25" stroke="#FFB300" stroke-width="0.01"></line>
+    
+    <line x1="6.1875" y1="0" x2="6.1875" y2="9.25" stroke="#FFB300" stroke-width="0.007" stroke-dasharray="0.03 0.03"></line>
+    <line x1="6.8282" y1="0" x2="6.8282" y2="9.25" stroke="#FFB300" stroke-width="0.007" stroke-dasharray="0.03 0.03"></line>
+    
+    <rect x="3.875" y="7.68" width="2.0" height="1.2" fill="none" stroke="#00C853" stroke-width="0.01" stroke-dasharray="0.04 0.03"></rect>
+  </g>
+</svg>
