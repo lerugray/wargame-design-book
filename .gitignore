@@ -13,3 +13,7 @@ docs/Gemfile.lock
 print/out/
 print/build/
 *.pdf.bak
+
+# GS state junction (gs-232 parallel-picker workaround)
+state/
+
