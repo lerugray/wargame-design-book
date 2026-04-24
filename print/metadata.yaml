@@ -18,8 +18,18 @@ geometry:
   - headheight=14pt
   - headsep=0.15in
   - footskip=0.35in
-mainfont: "Georgia"
-sansfont: "Georgia"
+mainfont: "Lora"
+mainfontoptions:
+  - "BoldFont=Lora-Regular"
+  - "ItalicFont=Lora-Italic"
+  - "BoldItalicFont=Lora-Italic"
+  - "AutoFakeBold=2"
+sansfont: "Lora"
+sansfontoptions:
+  - "BoldFont=Lora-Regular"
+  - "ItalicFont=Lora-Italic"
+  - "BoldItalicFont=Lora-Italic"
+  - "AutoFakeBold=2"
 monofont: "Consolas"
 fontsize: 11pt
 linestretch: 1.2
@@ -37,8 +47,12 @@ header-includes:
   - \renewcommand{\headrulewidth}{0pt}
   - \usepackage{emptypage}
   - \raggedbottom
-  # headingfont kept as an alias for front-matter.md; currently Georgia
-  # pending font-polish follow-up (Lora + Playfair Display variable-TTFs
-  # broke dvipdfmx — need static TTFs or LuaLaTeX engine swap).
-  - \newfontfamily\headingfont{Georgia}
+  # wdb-011 (2026-04-24): swapped to Playfair Display for chapter
+  # heads + Lora for body. Static-TTF variants (Lora-Regular,
+  # Lora-Italic, PlayfairDisplay-Regular) installed in the user
+  # font dir. Bold variants not yet installed; AutoFakeBold synthesizes
+  # them. If/when bold-italic Lora + bold/italic Playfair land, drop
+  # AutoFakeBold and add the explicit BoldFont/ItalicFont/BoldItalicFont
+  # entries to mainfontoptions and headingfont below.
+  - \newfontfamily\headingfont[AutoFakeBold=2]{Playfair Display}
 ...

@@ -21,13 +21,18 @@ OUT_DIR="$PRINT_DIR/out"
 
 mkdir -p "$OUT_DIR"
 
-# Pandoc + xelatex paths. On Windows pip/winget-installed tools may
+# Pandoc + lualatex paths. On Windows pip/winget-installed tools may
 # not be on MSYS PATH; reference absolute paths when we know them.
 # Default to USERNAME-based paths so this works on any Ray Windows
 # machine (home-PC = rweis, work-PC = rweiss, etc.). Override via
-# PANDOC= / XELATEX= env vars if your layout differs.
+# PANDOC= / LUALATEX= env vars if your layout differs.
+#
+# wdb-011 (2026-04-24): swapped from xelatex+dvipdfmx to lualatex
+# for native variable-font handling (xelatex+dvipdfmx errored on
+# the Lora + Playfair Display TTFs — even static variants triggered
+# silent dvipdfmx fault. lualatex's luaotfload handles both).
 PANDOC="${PANDOC:-C:/Users/$USERNAME/AppData/Local/Pandoc/pandoc.exe}"
-XELATEX="${XELATEX:-C:/Users/$USERNAME/AppData/Local/Programs/MiKTeX/miktex/bin/x64/xelatex.exe}"
+LUALATEX="${LUALATEX:-C:/Users/$USERNAME/AppData/Local/Programs/MiKTeX/miktex/bin/x64/lualatex.exe}"
 
 if [[ ! -x "$PANDOC" ]]; then
   echo "ERROR: pandoc not found at $PANDOC" >&2
@@ -35,9 +40,9 @@ if [[ ! -x "$PANDOC" ]]; then
   exit 1
 fi
 
-if [[ ! -x "$XELATEX" ]]; then
-  echo "ERROR: xelatex not found at $XELATEX" >&2
-  echo "Override via: XELATEX=/path/to/xelatex ./build.sh" >&2
+if [[ ! -x "$LUALATEX" ]]; then
+  echo "ERROR: lualatex not found at $LUALATEX" >&2
+  echo "Override via: LUALATEX=/path/to/lualatex ./build.sh" >&2
   exit 1
 fi
 
@@ -48,11 +53,11 @@ echo "[1/3] Assembling front matter + chapters -> $OUT_DIR/book.md"
   python "$PRINT_DIR/prepare-chapters.py"
 } > "$OUT_DIR/book.md"
 
-echo "[2/3] Pandoc -> XeLaTeX -> PDF (first run may be slow; MiKTeX auto-installs packages)"
+echo "[2/3] Pandoc -> LuaLaTeX -> PDF (first run may be slow; MiKTeX auto-installs packages)"
 "$PANDOC" \
   --from=markdown+smart \
   --metadata-file="$PRINT_DIR/metadata.yaml" \
-  --pdf-engine="$XELATEX" \
+  --pdf-engine="$LUALATEX" \
   --pdf-engine-opt=-interaction=nonstopmode \
   --top-level-division=chapter \
   --standalone \
