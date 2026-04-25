@@ -10,7 +10,7 @@ KDP books — rename tokens and swap the art, the math is the same.
 - `cover-template.svg` — wraparound cover with bleed, trim, and spine guides
   marked, plus Mustache-style placeholders for title / subtitle / author /
   back-cover copy / bio / ISBN. Reference canvas: **6x9 trim, white paper,
-  340 pages** (spine 0.7657 in, canvas 13.0157 x 9.25 in).
+  360 pages** (spine 0.8107 in, canvas 13.0607 x 9.25 in).
 - `cover-art.*` — dropped in later. Replaces the `<rect class="bleed-fill">`
   background and the front-cover art placeholder box. **Hands-off for the
   bot** — human-curated artwork only.
@@ -21,7 +21,7 @@ KDP books — rename tokens and swap the art, the math is the same.
 2. Run the calculator with that page count:
 
    ```
-   python spine-width.py --pages 340 --paper white --trim 6x9
+   python spine-width.py --pages 360 --paper white --trim 6x9
    ```
 
    Note the spine width and the canvas width.

@@ -1,7 +1,7 @@
 # Cover decisions — A Contemporary Guide to Wargame Design
 
 Ray Weiss · Conflict Simulations LLC · 2026
-KDP paperback · 6×9 trim · 340pp · white paper · spine 0.7657"
+KDP paperback · 6×9 trim · 360pp · white paper · spine 0.8107" *(re-cooked 2026-04-24 evening from 340pp/0.7657" baseline after wdb-011 font swap added 14 interior pages)*
 
 ## Palette chosen — A · Cartographic cream + ops-red
 
@@ -83,7 +83,7 @@ when the book lies face-up — KDP's left-to-right convention). Title
 (0.20" caps) + author (0.16" italic, accent) + a small CS-in-hex
 publisher glyph at the foot. Two accent hairlines top and bottom as
 tick-marks. All text stays 0.0625" inside the spine edges, well
-within the 0.7657" usable width.
+within the 0.8107" usable width.
 
 The spine uses a subtly darker tone of the base (#E3D9BF at 45%
 opacity over the cream) to create library-binding depth when the

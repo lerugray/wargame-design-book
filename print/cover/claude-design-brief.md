@@ -5,12 +5,12 @@ wraparound paperback cover (front + spine + back) for Amazon KDP
 print-on-demand. Output lands as drop-in artwork for the
 existing `print/cover/cover-template.svg` scaffold.
 
-Scope: **the full wraparound at 6×9 trim, ~340-346 pages,
+Scope: **the full wraparound at 6×9 trim, 360 pages,
 white-paper B&W interior** — spine width ~0.76 inches, canvas
 ~13.02 × 9.25 inches including 0.125" bleed on all outer edges.
 (Exact spine width is computed by `print/cover/spine-width.py`
 once the interior page count is final; brief assumes the
-340-page-reference number noted in `print/cover/README.md`.)
+360-page-reference number noted in `print/cover/README.md`.)
 
 ---
 
@@ -287,7 +287,7 @@ safety zone is the minimum, not the target.
 
 ---
 
-## Spine (narrow strip, ~0.76" × 9" for 340pp)
+## Spine (narrow strip, ~0.81" × 9" for 360pp)
 
 Layout (reading head-to-foot):
 
@@ -368,8 +368,8 @@ canvas. Claude Design should:
    spine guide lines — as a SEPARATE LAYER that gets stripped
    before KDP upload (per the README workflow step 5). Don't
    fuse guides into the design.
-3. **Respect the canvas dimensions** — 13.0157" × 9.25" for
-   the 340-page reference build. If the art is vector (SVG) it
+3. **Respect the canvas dimensions** — 13.0607" × 9.25" for
+   the 360-page reference build. If the art is vector (SVG) it
    scales cleanly when the final page count nudges the spine.
 4. **Output both a populated example** (title + subtitle +
    author filled in with the real copy above) **and the

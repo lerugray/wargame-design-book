@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   KDP paperback cover template. 6x9 trim, white paper.
-  Reference page count: 340 pp, spine 0.7657 in, canvas 13.0157 x 9.25 in.
+  Reference page count: 360 pp, spine 0.8107 in, canvas 13.0607 x 9.25 in.
   Regenerate for a different page count by running spine-width.py and
   updating the width, viewBox, and spine / front x-offsets below.
 
@@ -14,8 +14,8 @@
     ISBN      - 13-digit ISBN for the barcode block
 -->
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="13.0157in" height="9.25in"
-     viewBox="0 0 13.0157 9.25"
+     width="13.0607in" height="9.25in"
+     viewBox="0 0 13.0607 9.25"
      preserveAspectRatio="xMidYMid meet">
 
   <defs>
@@ -36,7 +36,7 @@
        Background fill across the entire bleed-inclusive canvas.
        Replace this rect with cover-art.* when the art is ready.
        ========================================================= -->
-  <rect x="0" y="0" width="13.0157" height="9.25" class="bleed-fill"/>
+  <rect x="0" y="0" width="13.0607" height="9.25" class="bleed-fill"/>
 
   <!-- =========================================================
        BACK COVER  (x: 0.125 to 6.125, width 6)
@@ -76,7 +76,7 @@
   </g>
 
   <!-- =========================================================
-       SPINE  (x: 6.125 to 6.8907, width 0.7657)
+       SPINE  (x: 6.125 to 6.9357, width 0.8107)
        Text rotates 90° and reads top-to-bottom on Amazon shelf.
        Only render spine text when page count >= 80.
        ========================================================= -->
@@ -85,27 +85,27 @@
     <line x1="6.1875" y1="0.25" x2="6.1875" y2="9.0" class="spine-guide"/>
     <line x1="6.8282" y1="0.25" x2="6.8282" y2="9.0" class="spine-guide"/>
 
-    <text transform="translate(6.55 1.0) rotate(90)"
+    <text transform="translate(6.5304 1.0) rotate(90)"
           class="spine-text" font-size="0.28" text-anchor="start">
       {{TITLE}}
     </text>
-    <text transform="translate(6.55 8.9) rotate(90)"
+    <text transform="translate(6.5304 8.9) rotate(90)"
           class="spine-text" font-size="0.18" text-anchor="end">
       {{AUTHOR}}
     </text>
   </g>
 
   <!-- =========================================================
-       FRONT COVER  (x: 6.8907 to 12.8907, width 6)
+       FRONT COVER  (x: 6.9357 to 12.8907, width 6)
        ========================================================= -->
   <g id="front-cover">
-    <rect x="7.0157" y="0.25" width="5.75" height="8.75" class="safety-guide"/>
+    <rect x="7.0607" y="0.25" width="5.75" height="8.75" class="safety-guide"/>
 
     <!-- title block -->
-    <text x="9.8907" y="2.5" text-anchor="middle" class="title-text" font-size="0.55">
+    <text x="9.9357" y="2.5" text-anchor="middle" class="title-text" font-size="0.55">
       {{TITLE}}
     </text>
-    <text x="9.8907" y="3.1" text-anchor="middle" class="title-text" font-size="0.28" font-style="italic">
+    <text x="9.9357" y="3.1" text-anchor="middle" class="title-text" font-size="0.28" font-style="italic">
       {{SUBTITLE}}
     </text>
 
@@ -116,7 +116,7 @@
     </text>
 
     <!-- author line -->
-    <text x="9.8907" y="8.0" text-anchor="middle" class="title-text" font-size="0.3">
+    <text x="9.9357" y="8.0" text-anchor="middle" class="title-text" font-size="0.3">
       {{AUTHOR}}
     </text>
   </g>
@@ -127,9 +127,9 @@
        ========================================================= -->
   <g id="guides" opacity="0.9">
     <!-- trim box: 0.125" inside the bleed on all four outer edges, and at spine edges -->
-    <rect x="0.125" y="0.125" width="12.7657" height="9.0" class="trim-guide"/>
+    <rect x="0.125" y="0.125" width="12.8107" height="9.0" class="trim-guide"/>
     <!-- spine boundaries -->
     <line x1="6.125"  y1="0" x2="6.125"  y2="9.25" class="spine-guide"/>
-    <line x1="6.8907" y1="0" x2="6.8907" y2="9.25" class="spine-guide"/>
+    <line x1="6.9357" y1="0" x2="6.9357" y2="9.25" class="spine-guide"/>
   </g>
 </svg>
