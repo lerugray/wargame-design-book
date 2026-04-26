@@ -1,54 +1,63 @@
-# Cover template (KDP paperback)
+# Cover Template (KDP Paperback)
 
-Parametric scaffolding for the wraparound cover. Reusable across future Ray
-KDP books — rename tokens and swap the art, the math is the same.
+Parametric wraparound cover scaffolding for Ray's KDP paperbacks.
+The current reference build is **6x9 trim, B&W white paper, 360 pages**:
+spine `0.8107 in`, full canvas `13.0607 x 9.25 in` including bleed.
 
 ## Files
 
-- `spine-width.py` — CLI calculator. Emits spine width and full-cover canvas
-  dimensions for a given page count, paper type, and trim size.
-- `cover-template.svg` — wraparound cover with bleed, trim, and spine guides
-  marked, plus Mustache-style placeholders for title / subtitle / author /
-  back-cover copy / bio / ISBN. Reference canvas: **6x9 trim, white paper,
-  360 pages** (spine 0.8107 in, canvas 13.0607 x 9.25 in).
-- `cover-art.*` — dropped in later. Replaces the `<rect class="bleed-fill">`
-  background and the front-cover art placeholder box. **Hands-off for the
-  bot** — human-curated artwork only.
+- `spine-width.py` calculates KDP spine width and full-cover dimensions.
+- `kdp_cover.py` holds reusable KDP math, the site palette, and SVG renderer.
+- `build-cover.py` writes editable SVG sources and, when local tooling exists,
+  exports print-ready PDF/PNG previews.
+- `cover-final.svg` is the WDB editable source with title/author filled and
+  Ray-owned copy blocks left as placeholders.
+- `cover-template.svg` and `cover-template-filled.svg` keep Mustache-style
+  placeholders for future Ray KDP books.
 
-## Workflow
+## Build
 
-1. Finalize the print PDF (`wdb-001`) so the actual page count is known.
-2. Run the calculator with that page count:
+```bash
+python print/cover/spine-width.py --pages 360 --paper white --trim 6x9
+python print/cover/build-cover.py --pages 360 --paper white --trim 6x9
+```
 
-   ```
-   python spine-width.py --pages 360 --paper white --trim 6x9
-   ```
+Expected generated outputs:
 
-   Note the spine width and the canvas width.
+- `print/cover/cover-final.svg`
+- `print/cover/cover-template.svg`
+- `print/cover/cover-template-filled.svg`
+- `print/out/wargame-design-book-cover.pdf`
+- `print/out/wargame-design-book-cover.png`
 
-3. Update `cover-template.svg`:
-   - `width="..."` and `viewBox="0 0 ... 9.25"` to the new canvas width.
-   - Spine boundaries (currently `x=6.125` and `x=6.8907`) to
-     `0.125 + 6` and `0.125 + 6 + spine_width`.
-   - Front-cover safety rect `x=7.0157` to `0.25 + 6 + spine_width`.
-   - Spine text `transform="translate(6.55 ...)` to
-     `0.125 + 6 + spine_width/2`.
-   - Trim box width `12.7657` to `canvas_width - 0.25`.
+PDF/PNG export uses Python `cairosvg` if installed, then falls back to
+Inkscape or `rsvg-convert`. The PDF/PNG files live in `print/out/`, which is
+gitignored because they are generated artifacts.
 
-4. Drop in cover art and the finalized copy from `wdb-008`.
+## Parameters
 
-5. Strip the `<g id="guides">` block before exporting to PDF for KDP upload.
+The build script accepts the reusable book fields:
 
-## Paper factor reference
+```bash
+python print/cover/build-cover.py \
+  --title "Future Ray Book" \
+  --subtitle "Subtitle goes here" \
+  --author "Ray Weiss" \
+  --spine-title "Future Ray Book" \
+  --spine-kicker "A Practical Guide to" \
+  --pages 300
+```
 
-KDP spine width = `pages * paper_factor`:
+## Paper Factor Reference
 
-| Paper            | Factor (in/page) |
-|------------------|------------------|
-| B&W on white     | 0.002252         |
-| B&W on cream     | 0.0025           |
-| Premium color    | 0.002347         |
+KDP spine width = `pages * paper_factor`.
 
-Bleed is 0.125 in on all outer edges. Text safety zone is 0.125 in inside the
-trim on front/back; 0.0625 in off each spine edge. Spine text is only
-permitted at >= 80 pages.
+| Paper | Factor (in/page) |
+| --- | ---: |
+| B&W on white | `0.002252` |
+| B&W on cream | `0.0025` |
+| Premium color | `0.002347` |
+
+Bleed is `0.125 in` on all outer edges. Text safety is `0.125 in` inside
+front/back trim and `0.0625 in` off each spine edge. KDP allows spine text
+only at `>= 80` pages.

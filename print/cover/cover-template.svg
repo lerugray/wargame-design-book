@@ -1,135 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  KDP paperback cover template. 6x9 trim, white paper.
-  Reference page count: 360 pp, spine 0.8107 in, canvas 13.0607 x 9.25 in.
-  Regenerate for a different page count by running spine-width.py and
-  updating the width, viewBox, and spine / front x-offsets below.
-
-  Placeholders (Mustache-style, substituted by wdb-008 copy pass):
-    TITLE     - book title
-    SUBTITLE  - subtitle
-    AUTHOR    - author name
-    BACK_COPY - back-cover hook paragraph(s)
-    BIO       - author bio (short, back cover)
-    ISBN      - 13-digit ISBN for the barcode block
+  Editable KDP paperback cover template.
+  Reference: 6x9 trim, white paper, 360 pages, spine 0.8107 in.
+  Regenerate different dimensions with:
+    python print/cover/build-cover.py --pages PAGE_COUNT --paper white --trim 6x9
 -->
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="13.0607in" height="9.25in"
-     viewBox="0 0 13.0607 9.25"
-     preserveAspectRatio="xMidYMid meet">
-
+     width="13.0607in" height="9.2500in"
+     viewBox="0 0 13.0607 9.2500">
   <defs>
-    <!-- Safety zones (0.125" inside the trim edge; text must stay inside) -->
     <style>
-      .bleed-fill   { fill: #f4efe6; }
-      .trim-guide   { fill: none; stroke: #c94f4f; stroke-width: 0.005; stroke-dasharray: 0.04 0.02; }
-      .spine-guide  { fill: none; stroke: #4f7cc9; stroke-width: 0.005; stroke-dasharray: 0.04 0.02; }
-      .safety-guide { fill: none; stroke: #6aa86a; stroke-width: 0.005; stroke-dasharray: 0.02 0.02; }
-      .title-text   { font-family: 'Playfair Display', 'Georgia', serif; fill: #1a1a1a; }
-      .body-text    { font-family: 'Lora', 'Georgia', serif; fill: #1a1a1a; }
-      .spine-text   { font-family: 'Playfair Display', 'Georgia', serif; fill: #1a1a1a; }
-      .placeholder  { fill: #888; font-style: italic; }
+      .paper { fill: #fdfbf7; }
+      .paper-alt { fill: #f5f0e8; }
+      .ink { fill: #1c1c2e; }
+      .body { fill: #2c2c3a; }
+      .muted { fill: #5a5a6e; }
+      .accent { fill: #7a3b1e; }
+      .display { font-family: 'Playfair Display', Georgia, serif; }
+      .lora { font-family: Lora, Georgia, 'Times New Roman', serif; }
+      .small { font-family: Lora, Georgia, 'Times New Roman', serif; text-transform: uppercase; }
+      .guide-trim { fill: none; stroke: #00B8D4; stroke-width: 0.010; }
+      .guide-safe { fill: none; stroke: #00B8D4; stroke-width: 0.006; stroke-dasharray: 0.035 0.025; }
+      .guide-bleed { fill: none; stroke: #E91E63; stroke-width: 0.010; stroke-dasharray: 0.055 0.040; }
+      .guide-spine { fill: none; stroke: #FFB300; stroke-width: 0.009; }
     </style>
   </defs>
 
-  <!-- =========================================================
-       Background fill across the entire bleed-inclusive canvas.
-       Replace this rect with cover-art.* when the art is ready.
-       ========================================================= -->
-  <rect x="0" y="0" width="13.0607" height="9.25" class="bleed-fill"/>
+  <rect x="0" y="0" width="13.0607" height="9.2500" class="paper"/>
+  <rect x="6.1250" y="0" width="0.8107" height="9.2500" class="paper-alt"/>
 
-  <!-- =========================================================
-       BACK COVER  (x: 0.125 to 6.125, width 6)
-       ========================================================= -->
   <g id="back-cover">
-    <!-- safety zone: 0.125" in from trim edges -->
-    <rect x="0.25" y="0.25" width="5.75" height="8.75" class="safety-guide"/>
-
-    <text x="0.5" y="1.0" class="title-text" font-size="0.22">{{TITLE}} — back cover hook</text>
-
-    <foreignObject x="0.5" y="1.3" width="5.125" height="5.5">
-      <div xmlns="http://www.w3.org/1999/xhtml"
-           style="font-family: Lora, Georgia, serif; font-size: 0.16in; line-height: 1.45; color: #1a1a1a;">
-        {{BACK_COPY}}
-      </div>
-    </foreignObject>
-
-    <!-- author bio block -->
-    <foreignObject x="0.5" y="7.0" width="4.0" height="1.5">
-      <div xmlns="http://www.w3.org/1999/xhtml"
-           style="font-family: Lora, Georgia, serif; font-size: 0.13in; line-height: 1.4; color: #333;">
-        <strong>About the author.</strong> {{BIO}}
-      </div>
-    </foreignObject>
-
-    <!-- ISBN / barcode placeholder (KDP auto-applies barcode; keep this area clear) -->
-    <rect x="4.325" y="7.25" width="1.7" height="1.0" fill="#ffffff" stroke="#999" stroke-width="0.005"/>
-    <text x="5.175" y="7.75" text-anchor="middle" class="body-text placeholder" font-size="0.09">
-      KDP barcode area
+    <line x1="0.6250" y1="0.6200" x2="5.6250" y2="0.6200" stroke="#c4b49a" stroke-width="0.012"/>
+    <text x="0.6250" y="0.9300" class="small accent" font-size="0.095" letter-spacing="0.030" font-weight="700">BACK COVER</text>
+    <rect x="0.6250" y="1.1800" width="5.0000" height="2.4500" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
+    <text x="0.8050" y="1.5200" class="lora body" font-size="0.135">
+      <tspan x="0.8050" dy="0">BACK COVER COPY PLACEHOLDER</tspan>
+      <tspan x="0.8050" dy="0.2450">{{BACK_COVER_COPY}}</tspan>
+      <tspan x="0.8050" dy="0.2450">Ray fills this block in wdb-008.</tspan>
     </text>
-    <text x="5.175" y="7.92" text-anchor="middle" class="body-text placeholder" font-size="0.09">
-      (keep clear — KDP auto-fills)
+    <line x1="0.6250" y1="4.2600" x2="2.1250" y2="4.2600" stroke="#7a3b1e" stroke-width="0.010"/>
+    <text x="0.6250" y="4.6000" class="small muted" font-size="0.085" letter-spacing="0.030" font-weight="700">ABOUT THE AUTHOR</text>
+    <rect x="0.6250" y="4.8200" width="3.5500" height="1.5200" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
+    <text x="0.7850" y="5.1200" class="lora body" font-size="0.115">
+      <tspan x="0.7850" dy="0">ABOUT THE AUTHOR PLACEHOLDER</tspan>
+      <tspan x="0.7850" dy="0.2050">{{ABOUT_AUTHOR_LINE}}</tspan>
+      <tspan x="0.7850" dy="0.2050">Ray fills this block in wdb-008.</tspan>
     </text>
-    <text x="5.175" y="8.12" text-anchor="middle" class="body-text" font-size="0.09">
-      ISBN {{ISBN}}
+    <rect x="3.8750" y="7.5200" width="2.0000" height="1.2000" fill="#ffffff" stroke="#1c1c2e" stroke-width="0.006" stroke-dasharray="0.045 0.030"/>
+    <text x="4.8750" y="8.0100" class="small muted" font-size="0.080" text-anchor="middle" letter-spacing="0.018">
+      <tspan x="4.8750" dy="0">KDP BARCODE</tspan>
+      <tspan x="4.8750" dy="0.1800">PLACEHOLDER</tspan>
+      <tspan x="4.8750" dy="0.1800">KDP auto-fills</tspan>
     </text>
+    <text x="0.6250" y="8.9100" class="lora muted" font-size="0.070">{{WEBSITE}}</text>
   </g>
 
-  <!-- =========================================================
-       SPINE  (x: 6.125 to 6.9357, width 0.8107)
-       Text rotates 90° and reads top-to-bottom on Amazon shelf.
-       Only render spine text when page count >= 80.
-       ========================================================= -->
   <g id="spine">
-    <!-- spine safety: 0.0625" off each spine edge for text -->
-    <line x1="6.1875" y1="0.25" x2="6.1875" y2="9.0" class="spine-guide"/>
-    <line x1="6.8282" y1="0.25" x2="6.8282" y2="9.0" class="spine-guide"/>
-
-    <text transform="translate(6.5304 1.0) rotate(90)"
-          class="spine-text" font-size="0.28" text-anchor="start">
-      {{TITLE}}
-    </text>
-    <text transform="translate(6.5304 8.9) rotate(90)"
-          class="spine-text" font-size="0.18" text-anchor="end">
-      {{AUTHOR}}
-    </text>
+    <line x1="6.2500" y1="0.6400" x2="6.8107" y2="0.6400" stroke="#b5933a" stroke-width="0.010"/>
+    <line x1="6.2500" y1="8.6100" x2="6.8107" y2="8.6100" stroke="#b5933a" stroke-width="0.010"/>
+    <g transform="translate(6.4304 7.8200) rotate(-90)">
+      <text class="display muted" font-size="0.105" font-weight="700" letter-spacing="0.016">{{SPINE_KICKER}}</text>
+    </g>
+    <g transform="translate(6.6204 7.8200) rotate(-90)">
+      <text class="display ink" font-size="0.220" font-weight="900" letter-spacing="0.030">{{SPINE_TITLE}}</text>
+    </g>
+    <g transform="translate(6.5304 1.4500) rotate(-90)">
+      <text class="lora accent" font-size="0.155" font-weight="700" letter-spacing="0.028">{{AUTHOR}}</text>
+    </g>
+    <polygon points="6.5304,8.3300 6.6704,8.4108 6.6704,8.5725 6.5304,8.6533 6.3904,8.5725 6.3904,8.4108" fill="none" stroke="#7a3b1e" stroke-width="0.010"/>
   </g>
 
-  <!-- =========================================================
-       FRONT COVER  (x: 6.9357 to 12.8907, width 6)
-       ========================================================= -->
   <g id="front-cover">
-    <rect x="7.0607" y="0.25" width="5.75" height="8.75" class="safety-guide"/>
-
-    <!-- title block -->
-    <text x="9.9357" y="2.5" text-anchor="middle" class="title-text" font-size="0.55">
-      {{TITLE}}
-    </text>
-    <text x="9.9357" y="3.1" text-anchor="middle" class="title-text" font-size="0.28" font-style="italic">
-      {{SUBTITLE}}
-    </text>
-
-    <!-- art placeholder box (replace with print/cover/cover-art.* — that file is hands_off) -->
-    <rect x="7.5" y="3.6" width="4.78" height="3.2" fill="#ffffff" stroke="#999" stroke-width="0.01"/>
-    <text x="9.89" y="5.25" text-anchor="middle" class="body-text placeholder" font-size="0.16">
-      cover art placeholder
-    </text>
-
-    <!-- author line -->
-    <text x="9.9357" y="8.0" text-anchor="middle" class="title-text" font-size="0.3">
-      {{AUTHOR}}
-    </text>
+    <line x1="7.6857" y1="0.7200" x2="12.1857" y2="0.7200" stroke="#c4b49a" stroke-width="0.010"/>
+    <text x="9.9357" y="1.0800" class="small accent" font-size="0.095" text-anchor="middle" letter-spacing="0.045" font-weight="700">{{FRONT_KICKER}}</text>
+    <text x="9.9357" y="1.9000" class="display ink" font-size="0.580" text-anchor="middle" font-weight="800" letter-spacing="0.020">{{TITLE_LINE_1}}</text>
+    <text x="9.9357" y="2.6600" class="display accent" font-size="0.580" text-anchor="middle" font-weight="900" letter-spacing="0.040">{{TITLE_LINE_2}}</text>
+    <text x="9.9357" y="5.0300" class="lora muted" font-size="0.150" text-anchor="middle" font-style="italic">{{SUBTITLE}}</text>
+    <g id="counter" transform="translate(9.9357 6.1200) rotate(-3.2)">
+      <rect x="-0.5000" y="-0.5000" width="1.0800" height="1.0800" fill="#5a2c14" opacity="0.20"/>
+      <rect x="-0.5400" y="-0.5400" width="1.0800" height="1.0800" fill="#7a3b1e" stroke="#1c1c2e" stroke-width="0.016"/>
+      <rect x="-0.4860" y="-0.4860" width="0.9720" height="0.9720" fill="none" stroke="#fdfbf7" stroke-width="0.011" opacity="0.55"/>
+      <rect x="-0.3500" y="-0.2550" width="0.7000" height="0.4600" fill="none" stroke="#fdfbf7" stroke-width="0.030"/>
+      <line x1="-0.3500" y1="-0.2550" x2="0.3500" y2="0.2050" stroke="#fdfbf7" stroke-width="0.030"/>
+      <line x1="0.3500" y1="-0.2550" x2="-0.3500" y2="0.2050" stroke="#fdfbf7" stroke-width="0.030"/>
+      <text class="lora" x="0" y="0.3950" text-anchor="middle" font-size="0.175" font-weight="700" fill="#fdfbf7" letter-spacing="0.010">4-6-2</text>
+    </g>
+    <line x1="8.9357" y1="7.5800" x2="10.9357" y2="7.5800" stroke="#c4b49a" stroke-width="0.010"/>
+    <text x="9.9357" y="8.0000" class="lora ink" font-size="0.225" text-anchor="middle" font-weight="700" letter-spacing="0.060">{{AUTHOR_UPPER}}</text>
+    <text x="9.9357" y="8.7200" class="lora muted" font-size="0.070" text-anchor="middle" letter-spacing="0.030">{{YEAR}}</text>
   </g>
 
-  <!-- =========================================================
-       GUIDE OVERLAYS — delete these <g> blocks before export.
-       They exist to show trim/spine boundaries during design.
-       ========================================================= -->
-  <g id="guides" opacity="0.9">
-    <!-- trim box: 0.125" inside the bleed on all four outer edges, and at spine edges -->
-    <rect x="0.125" y="0.125" width="12.8107" height="9.0" class="trim-guide"/>
-    <!-- spine boundaries -->
-    <line x1="6.125"  y1="0" x2="6.125"  y2="9.25" class="spine-guide"/>
-    <line x1="6.9357" y1="0" x2="6.9357" y2="9.25" class="spine-guide"/>
+  <g id="guides">
+    <rect x="0" y="0" width="13.0607" height="9.2500" class="guide-bleed"/>
+    <rect x="0.1250" y="0.1250" width="12.8107" height="9.0000" class="guide-trim"/>
+    <rect x="0.2500" y="0.2500" width="5.7500" height="8.7500" class="guide-safe"/>
+    <rect x="7.0607" y="0.2500" width="5.7500" height="8.7500" class="guide-safe"/>
+    <line x1="6.1250" y1="0" x2="6.1250" y2="9.2500" class="guide-spine"/>
+    <line x1="6.9357" y1="0" x2="6.9357" y2="9.2500" class="guide-spine"/>
+    <line x1="6.1875" y1="0" x2="6.1875" y2="9.2500" class="guide-spine" stroke-dasharray="0.035 0.025"/>
+    <line x1="6.8732" y1="0" x2="6.8732" y2="9.2500" class="guide-spine" stroke-dasharray="0.035 0.025"/>
+    <rect x="3.8750" y="7.5200" width="2.0000" height="1.2000" fill="none" stroke="#00C853" stroke-width="0.010" stroke-dasharray="0.040 0.030"/>
   </g>
 </svg>

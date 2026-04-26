@@ -2,6 +2,9 @@
 """
 KDP paperback spine-width calculator.
 
+Formula follows Amazon KDP's cover calculator:
+https://kdp.amazon.com/cover-calculator
+
 KDP's documented paper factors (inches per interior page):
   - Black & white on white paper:  0.002252
   - Black & white on cream paper:  0.0025

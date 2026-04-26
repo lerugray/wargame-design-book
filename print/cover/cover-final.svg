@@ -1,149 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13.0607in" height="9.25in" viewBox="0 0 13.0607 9.25">
-
+<!-- KDP paperback cover: 6x9 trim, white paper, 360 pages, spine 0.8107 in. -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="13.0607in" height="9.2500in"
+     viewBox="0 0 13.0607 9.2500">
   <defs>
-    
-    <filter id="paperGrain" x="0" y="0" width="100%" height="100%">
-      <feTurbulence type="fractalNoise" baseFrequency="22" numOctaves="2" seed="3"></feTurbulence>
-      <feColorMatrix values="0 0 0 0 0.12  0 0 0 0 0.10  0 0 0 0 0.08  0 0 0 0.04 0"></feColorMatrix>
-    </filter>
+    <style>
+      .paper { fill: #fdfbf7; }
+      .paper-alt { fill: #f5f0e8; }
+      .ink { fill: #1c1c2e; }
+      .body { fill: #2c2c3a; }
+      .muted { fill: #5a5a6e; }
+      .accent { fill: #7a3b1e; }
+      .display { font-family: 'Playfair Display', Georgia, serif; }
+      .lora { font-family: Lora, Georgia, 'Times New Roman', serif; }
+      .small { font-family: Lora, Georgia, 'Times New Roman', serif; text-transform: uppercase; }
+      .guide-trim { fill: none; stroke: #00B8D4; stroke-width: 0.010; }
+      .guide-safe { fill: none; stroke: #00B8D4; stroke-width: 0.006; stroke-dasharray: 0.035 0.025; }
+      .guide-bleed { fill: none; stroke: #E91E63; stroke-width: 0.010; stroke-dasharray: 0.055 0.040; }
+      .guide-spine { fill: none; stroke: #FFB300; stroke-width: 0.009; }
+    </style>
   </defs>
 
-  
-  <rect class="paper" width="13.0607" height="9.25"></rect>
-  <rect width="13.0607" height="9.25" filter="url(#paperGrain)" opacity="0.5"></rect>
+  <rect x="0" y="0" width="13.0607" height="9.2500" class="paper"/>
+  <rect x="6.1250" y="0" width="0.8107" height="9.2500" class="paper-alt"/>
 
-  
-  <rect x="6.125" y="0" width="0.8107" height="9.25" class="paper-dark" opacity="0.45"></rect>
-
-  
-  
-  
   <g id="back-cover">
-    
-    <line x1="0.625" y1="0.55" x2="5.625" y2="0.55" stroke="#A0342A" stroke-width="0.012"></line>
-
-    
-    <text class="mono accent" x="0.625" y="0.85" font-size="0.09" letter-spacing="0.02">A FIELD MANUAL FOR WARGAME DESIGNERS</text>
-
-    
-    
-
-    
-    <line x1="0.625" y1="4.5" x2="2.125" y2="4.5" stroke="#A0342A" stroke-width="0.01"></line>
-
-
-    <text class="mono ink-muted" x="0.625" y="4.85" font-size="0.085" letter-spacing="0.02">ABOUT THE AUTHOR</text>
-
-    
-    
-
-    
-    <rect x="3.875" y="7.68" width="2.0" height="1.2" fill="#FFFFFF" stroke="#1E1A15" stroke-width="0.004"></rect>
-    <text class="mono" x="4.875" y="8.35" text-anchor="middle" font-size="0.08" letter-spacing="0.015" fill="#666">ISBN  978-X-XXXXXX-XX-X</text>
-    <text class="mono" x="4.875" y="8.50" text-anchor="middle" font-size="0.07" fill="#888">barcode auto-inserted by KDP</text>
-
-    
-    <text class="mono ink-muted" x="0.625" y="8.83" font-size="0.072" letter-spacing="0.012">CONFLICT SIMULATIONS LLC</text>
-    <text class="mono ink-muted" x="0.625" y="8.98" font-size="0.065" letter-spacing="0.006">lerugray.github.io/wargame-design-book</text>
+    <line x1="0.6250" y1="0.6200" x2="5.6250" y2="0.6200" stroke="#c4b49a" stroke-width="0.012"/>
+    <text x="0.6250" y="0.9300" class="small accent" font-size="0.095" letter-spacing="0.030" font-weight="700">BACK COVER</text>
+    <rect x="0.6250" y="1.1800" width="5.0000" height="2.4500" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
+    <text x="0.8050" y="1.5200" class="lora body" font-size="0.135">
+      <tspan x="0.8050" dy="0">BACK COVER COPY PLACEHOLDER</tspan>
+      <tspan x="0.8050" dy="0.2450">{{BACK_COVER_COPY}}</tspan>
+      <tspan x="0.8050" dy="0.2450">Ray fills this block in wdb-008.</tspan>
+      <tspan x="0.8050" dy="0.2450">Keep this space clear for now.</tspan>
+    </text>
+    <line x1="0.6250" y1="4.2600" x2="2.1250" y2="4.2600" stroke="#7a3b1e" stroke-width="0.010"/>
+    <text x="0.6250" y="4.6000" class="small muted" font-size="0.085" letter-spacing="0.030" font-weight="700">ABOUT THE AUTHOR</text>
+    <rect x="0.6250" y="4.8200" width="3.5500" height="1.5200" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
+    <text x="0.7850" y="5.1200" class="lora body" font-size="0.115">
+      <tspan x="0.7850" dy="0">ABOUT THE AUTHOR PLACEHOLDER</tspan>
+      <tspan x="0.7850" dy="0.2050">{{ABOUT_AUTHOR_LINE}}</tspan>
+      <tspan x="0.7850" dy="0.2050">Ray fills this block in wdb-008.</tspan>
+    </text>
+    <rect x="3.8750" y="7.5200" width="2.0000" height="1.2000" fill="#ffffff" stroke="#1c1c2e" stroke-width="0.006" stroke-dasharray="0.045 0.030"/>
+    <text x="4.8750" y="8.0100" class="small muted" font-size="0.080" text-anchor="middle" letter-spacing="0.018">
+      <tspan x="4.8750" dy="0">KDP BARCODE</tspan>
+      <tspan x="4.8750" dy="0.1800">PLACEHOLDER</tspan>
+      <tspan x="4.8750" dy="0.1800">KDP auto-fills</tspan>
+    </text>
+    <text x="0.6250" y="8.9100" class="lora muted" font-size="0.070">lerugray.github.io/wargame-design-book</text>
   </g>
 
-  
-  
-  
-  
-  
   <g id="spine">
-    
-    <line x1="6.1875" y1="0.625" x2="6.8732" y2="0.625" stroke="#A0342A" stroke-width="0.01"></line>
-    <line x1="6.1875" y1="8.625" x2="6.8732" y2="8.625" stroke="#A0342A" stroke-width="0.01"></line>
-
-    
-    <g transform="translate(6.4203 1.45) rotate(90)">
-      <text class="serif ink-muted" font-size="0.10" font-style="italic" letter-spacing="0.012">A Contemporary Guide to</text>
+    <line x1="6.2500" y1="0.6400" x2="6.8107" y2="0.6400" stroke="#b5933a" stroke-width="0.010"/>
+    <line x1="6.2500" y1="8.6100" x2="6.8107" y2="8.6100" stroke="#b5933a" stroke-width="0.010"/>
+    <g transform="translate(6.4304 7.8200) rotate(-90)">
+      <text class="display muted" font-size="0.105" font-weight="700" letter-spacing="0.016">A Contemporary Guide to</text>
     </g>
-    <g transform="translate(6.5903 1.45) rotate(90)">
-      <text class="serif ink" font-size="0.22" font-weight="600" letter-spacing="0.032">WARGAME DESIGN</text>
+    <g transform="translate(6.6204 7.8200) rotate(-90)">
+      <text class="display ink" font-size="0.220" font-weight="900" letter-spacing="0.030">WARGAME DESIGN</text>
     </g>
-
-    
-    <g transform="translate(6.5304 6.90) rotate(90)">
-      <text class="serif accent" font-size="0.16" font-style="italic" letter-spacing="0.03">Ray Weiss</text>
+    <g transform="translate(6.5304 1.4500) rotate(-90)">
+      <text class="lora accent" font-size="0.155" font-weight="700" letter-spacing="0.028">Ray Weiss</text>
     </g>
-
-    
-    <g transform="translate(6.5304 8.30)">
-      <polygon points="0.16,0 0.08,0.1386 -0.08,0.1386 -0.16,0 -0.08,-0.1386 0.08,-0.1386" fill="none" stroke="#A0342A" stroke-width="0.012"></polygon>
-      <text class="mono accent" x="0" y="0.04" text-anchor="middle" font-size="0.07" font-weight="600">CS</text>
-    </g>
+    <polygon points="6.5304,8.3300 6.6704,8.4108 6.6704,8.5725 6.5304,8.6533 6.3904,8.5725 6.3904,8.4108" fill="none" stroke="#7a3b1e" stroke-width="0.010"/>
   </g>
 
-  
-  
-  
   <g id="front-cover">
-    
-    <line x1="7.6857" y1="0.7" x2="12.1857" y2="0.7" stroke="#A0342A" stroke-width="0.009"></line>
-
-    
-    <text class="mono accent" x="9.9357" y="1.05" text-anchor="middle" font-size="0.10" letter-spacing="0.045">ON THE CRAFT OF</text>
-
-    
-    <text class="serif ink" x="9.9357" y="1.95" text-anchor="middle" font-size="0.62" font-weight="500" letter-spacing="0.012">A CONTEMPORARY</text>
-    <text class="serif ink" x="9.9357" y="2.65" text-anchor="middle" font-size="0.38" font-style="italic" font-weight="400" letter-spacing="0.03">guide to</text>
-    <text class="serif accent" x="9.9357" y="3.55" text-anchor="middle" font-size="0.78" font-weight="600" letter-spacing="0.042">WARGAME</text>
-    <text class="serif accent" x="9.9357" y="4.35" text-anchor="middle" font-size="0.78" font-weight="600" letter-spacing="0.042">DESIGN</text>
-
-    
-    <text class="serif ink-muted" x="9.9357" y="4.95" text-anchor="middle" font-size="0.155" font-style="italic" letter-spacing="0.006">a practical, opinionated guide to designing</text>
-    <text class="serif ink-muted" x="9.9357" y="5.22" text-anchor="middle" font-size="0.155" font-style="italic" letter-spacing="0.006">historical board wargames</text>
-
-    
-    <g id="counter" transform="translate(9.9357 5.95) rotate(-3.2)">
-      
-      <rect x="-0.517" y="-0.517" width="1.10" height="1.10" fill="#7E2820" opacity="0.55"></rect>
-      
-      <rect x="-0.55" y="-0.55" width="1.10" height="1.10" fill="#A0342A" stroke="#1E1A15" stroke-width="0.018"></rect>
-      
-      <rect x="-0.495" y="-0.495" width="0.99" height="0.99" fill="none" stroke="#ECE4D0" stroke-width="0.011" opacity="0.35"></rect>
-      
-      <g transform="translate(0 -0.077)">
-        <rect x="-0.396" y="-0.231" width="0.792" height="0.462" fill="none" stroke="#ECE4D0" stroke-width="0.031"></rect>
-        <line x1="-0.396" y1="-0.231" x2="0.396" y2="0.231" stroke="#ECE4D0" stroke-width="0.031"></line>
-        <line x1="0.396" y1="-0.231" x2="-0.396" y2="0.231" stroke="#ECE4D0" stroke-width="0.031"></line>
-      </g>
-      
-      <text class="mono" x="0" y="0.396" text-anchor="middle" font-size="0.198" font-weight="600" fill="#ECE4D0" letter-spacing="0.011">4-6-2</text>
+    <line x1="7.6857" y1="0.7200" x2="12.1857" y2="0.7200" stroke="#c4b49a" stroke-width="0.010"/>
+    <text x="9.9357" y="1.0800" class="small accent" font-size="0.095" text-anchor="middle" letter-spacing="0.045" font-weight="700">ON THE CRAFT OF</text>
+    <text x="9.9357" y="1.9000" class="display ink" font-size="0.600" text-anchor="middle" font-weight="800" letter-spacing="0.012">A CONTEMPORARY</text>
+    <text x="9.9357" y="2.5400" class="display ink" font-size="0.360" text-anchor="middle" font-weight="700" letter-spacing="0.018">guide to</text>
+    <text x="9.9357" y="3.3000" class="display accent" font-size="0.760" text-anchor="middle" font-weight="900" letter-spacing="0.040">WARGAME</text>
+    <text x="9.9357" y="4.0600" class="display accent" font-size="0.760" text-anchor="middle" font-weight="900" letter-spacing="0.040">DESIGN</text>
+    <text x="9.9357" y="5.0300" class="lora muted" font-size="0.150" text-anchor="middle" font-style="italic">
+      <tspan x="9.9357" dy="0">A practical, opinionated guide to designing</tspan>
+      <tspan x="9.9357" dy="0.2550">historical board wargames</tspan>
+    </text>
+    <g id="counter" transform="translate(9.9357 6.1200) rotate(-3.2)">
+      <rect x="-0.5000" y="-0.5000" width="1.0800" height="1.0800" fill="#5a2c14" opacity="0.20"/>
+      <rect x="-0.5400" y="-0.5400" width="1.0800" height="1.0800" fill="#7a3b1e" stroke="#1c1c2e" stroke-width="0.016"/>
+      <rect x="-0.4860" y="-0.4860" width="0.9720" height="0.9720" fill="none" stroke="#fdfbf7" stroke-width="0.011" opacity="0.55"/>
+      <rect x="-0.3500" y="-0.2550" width="0.7000" height="0.4600" fill="none" stroke="#fdfbf7" stroke-width="0.030"/>
+      <line x1="-0.3500" y1="-0.2550" x2="0.3500" y2="0.2050" stroke="#fdfbf7" stroke-width="0.030"/>
+      <line x1="0.3500" y1="-0.2550" x2="-0.3500" y2="0.2050" stroke="#fdfbf7" stroke-width="0.030"/>
+      <text class="lora" x="0" y="0.3950" text-anchor="middle" font-size="0.175" font-weight="700" fill="#fdfbf7" letter-spacing="0.010">4-6-2</text>
     </g>
-
-    
-    <line x1="8.9357" y1="7.55" x2="10.9357" y2="7.55" stroke="#A0342A" stroke-width="0.009"></line>
-    <text class="serif ink" x="9.9357" y="7.95" text-anchor="middle" font-size="0.24" font-weight="500" letter-spacing="0.06">RAY WEISS</text>
-
-    
-    <text class="mono ink-muted" x="9.9357" y="8.75" text-anchor="middle" font-size="0.075" letter-spacing="0.035">CONFLICT SIMULATIONS · 2026</text>
+    <line x1="8.9357" y1="7.5800" x2="10.9357" y2="7.5800" stroke="#c4b49a" stroke-width="0.010"/>
+    <text x="9.9357" y="8.0000" class="lora ink" font-size="0.225" text-anchor="middle" font-weight="700" letter-spacing="0.060">RAY WEISS</text>
+    <text x="9.9357" y="8.7200" class="lora muted" font-size="0.070" text-anchor="middle" letter-spacing="0.030">2026</text>
   </g>
 
-  
-  
-  
-  <g id="guides" opacity="1">
-    
-    <rect x="0" y="0" width="13.0607" height="9.25" fill="none" stroke="#E91E63" stroke-width="0.012" stroke-dasharray="0.06 0.04"></rect>
-    
-    <rect x="0.125" y="0.125" width="12.8107" height="9.0" fill="none" stroke="#00B8D4" stroke-width="0.012"></rect>
-    
-    <rect x="0.25" y="0.25" width="5.75" height="8.75" fill="none" stroke="#00B8D4" stroke-width="0.008" stroke-dasharray="0.03 0.03"></rect>
-    
-    <rect x="7.0607" y="0.25" width="5.75" height="8.75" fill="none" stroke="#00B8D4" stroke-width="0.008" stroke-dasharray="0.03 0.03"></rect>
-    
-    <line x1="6.125" y1="0" x2="6.125" y2="9.25" stroke="#FFB300" stroke-width="0.01"></line>
-    <line x1="6.9357" y1="0" x2="6.9357" y2="9.25" stroke="#FFB300" stroke-width="0.01"></line>
-    
-    <line x1="6.1875" y1="0" x2="6.1875" y2="9.25" stroke="#FFB300" stroke-width="0.007" stroke-dasharray="0.03 0.03"></line>
-    <line x1="6.8732" y1="0" x2="6.8732" y2="9.25" stroke="#FFB300" stroke-width="0.007" stroke-dasharray="0.03 0.03"></line>
-    
-    <rect x="3.875" y="7.68" width="2.0" height="1.2" fill="none" stroke="#00C853" stroke-width="0.01" stroke-dasharray="0.04 0.03"></rect>
+  <g id="guides">
+    <rect x="0" y="0" width="13.0607" height="9.2500" class="guide-bleed"/>
+    <rect x="0.1250" y="0.1250" width="12.8107" height="9.0000" class="guide-trim"/>
+    <rect x="0.2500" y="0.2500" width="5.7500" height="8.7500" class="guide-safe"/>
+    <rect x="7.0607" y="0.2500" width="5.7500" height="8.7500" class="guide-safe"/>
+    <line x1="6.1250" y1="0" x2="6.1250" y2="9.2500" class="guide-spine"/>
+    <line x1="6.9357" y1="0" x2="6.9357" y2="9.2500" class="guide-spine"/>
+    <line x1="6.1875" y1="0" x2="6.1875" y2="9.2500" class="guide-spine" stroke-dasharray="0.035 0.025"/>
+    <line x1="6.8732" y1="0" x2="6.8732" y2="9.2500" class="guide-spine" stroke-dasharray="0.035 0.025"/>
+    <rect x="3.8750" y="7.5200" width="2.0000" height="1.2000" fill="none" stroke="#00C853" stroke-width="0.010" stroke-dasharray="0.040 0.030"/>
   </g>
 </svg>
