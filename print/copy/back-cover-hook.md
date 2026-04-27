@@ -1,14 +1,6 @@
-# Back Cover Hook Drafts
+# Back Cover Hook
 
-## Candidate 1
-
-Every wargame starts with a problem. A battle, a campaign, a war, a crisis. Something happened, and the designer has to decide what mattered enough to put on the map.
-
-That is where most new designers get stuck. They know the history. They know the games they like. They do not yet know how to turn research into counters, movement rates, combat systems, victory conditions, and rules that other people can actually play.
-
-*A Contemporary Guide to Wargame Design* is a practical guide to that work. Ray Weiss walks through the decisions behind historical board wargames, from choosing a subject to playtesting the thing until it stops lying to you.
-
-## Candidate 2
+## Selected: Candidate 2
 
 You do not need a giant game to learn wargame design. You need a subject you care about, a clear idea of what the players should be deciding, and enough discipline to leave out the parts that do not matter.
 
@@ -18,7 +10,19 @@ Ray Weiss has designed and published nearly thirty historical wargames. In *A Co
 
 Start small. Finish something. Learn from the table.
 
-## Candidate 3
+---
+
+## Alternates (kept for reference)
+
+### Candidate 1
+
+Every wargame starts with a problem. A battle, a campaign, a war, a crisis. Something happened, and the designer has to decide what mattered enough to put on the map.
+
+That is where most new designers get stuck. They know the history. They know the games they like. They do not yet know how to turn research into counters, movement rates, combat systems, victory conditions, and rules that other people can actually play.
+
+*A Contemporary Guide to Wargame Design* is a practical guide to that work. Ray Weiss walks through the decisions behind historical board wargames, from choosing a subject to playtesting the thing until it stops lying to you.
+
+### Candidate 3
 
 Wargames make history playable. That sounds simple until you try to design one.
 
