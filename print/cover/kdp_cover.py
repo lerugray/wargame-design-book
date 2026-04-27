@@ -225,19 +225,19 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
         "",
         '  <g id="back-cover">',
         f'    <line x1="{back_inner_x:.4f}" y1="0.6200" x2="{back_right:.4f}" y2="0.6200" stroke="{p["rule"]}" stroke-width="0.012"/>',
-        _text_block(["BACK COVER"], back_inner_x, 0.930, "small accent", 0.095, 0.145, extra='letter-spacing="0.030" font-weight="700"'),
+        _text_block(["BACK COVER"], back_inner_x, 0.930, "small accent", 0.111, 0.155, extra='letter-spacing="0.030" font-weight="700"'),
         f'    <rect x="{back_inner_x:.4f}" y="1.1800" width="5.0000" height="2.4500" fill="none" stroke="{p["rule"]}" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>',
-        _text_block(back_copy_lines, back_inner_x + 0.180, 1.520, "lora body", 0.135, 0.245),
+        _text_block(back_copy_lines, back_inner_x + 0.180, 1.520, "lora body", 0.153, 0.260),
         f'    <line x1="{back_inner_x:.4f}" y1="4.2600" x2="{back_inner_x + 1.500:.4f}" y2="4.2600" stroke="{p["accent"]}" stroke-width="0.010"/>',
-        _text_block(["ABOUT THE AUTHOR"], back_inner_x, 4.600, "small muted", 0.085, 0.130, extra='letter-spacing="0.030" font-weight="700"'),
+        _text_block(["ABOUT THE AUTHOR"], back_inner_x, 4.600, "small muted", 0.111, 0.155, extra='letter-spacing="0.030" font-weight="700"'),
         f'    <rect x="{back_inner_x:.4f}" y="4.8200" width="3.5500" height="1.5200" fill="none" stroke="{p["rule"]}" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>',
-        _text_block(bio_lines, back_inner_x + 0.160, 5.120, "lora body", 0.115, 0.205),
+        _text_block(bio_lines, back_inner_x + 0.160, 5.120, "lora body", 0.139, 0.230),
         f'    <rect x="{back_x + 3.750:.4f}" y="7.5200" width="2.0000" height="1.2000" fill="{p["white"]}" stroke="{p["ink"]}" stroke-width="0.006" stroke-dasharray="0.045 0.030"/>',
-        _text_block(["KDP BARCODE", "PLACEHOLDER", "KDP auto-fills"], back_x + 4.750, 8.010, "small muted", 0.080, 0.180, anchor="middle", extra='letter-spacing="0.018"'),
+        _text_block(["KDP BARCODE", "PLACEHOLDER", "KDP auto-fills"], back_x + 4.750, 8.010, "small muted", 0.090, 0.190, anchor="middle", extra='letter-spacing="0.018"'),
     ]
 
     if website:
-        parts.append(_text_block([website], back_inner_x, 8.910, "lora muted", 0.070, 0.100))
+        parts.append(_text_block([website], back_inner_x, 8.890, "lora muted", 0.095, 0.110))
 
     parts.extend([
         "  </g>",
@@ -245,21 +245,21 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
         '  <g id="spine">',
         f'    <line x1="{spine_line_left:.4f}" y1="0.6400" x2="{spine_line_right:.4f}" y2="0.6400" stroke="{p["gold"]}" stroke-width="0.010"/>',
         f'    <line x1="{spine_line_left:.4f}" y1="8.6100" x2="{spine_line_right:.4f}" y2="8.6100" stroke="{p["gold"]}" stroke-width="0.010"/>',
-        f'    <g transform="translate({spine_center - 0.100:.4f} 7.8200) rotate(-90)">',
-        f'      <text class="display muted" font-size="0.105" font-weight="700" letter-spacing="0.016">{escape(spine_kicker)}</text>',
+        f'    <g transform="translate({spine_center - 0.120:.4f} 7.8200) rotate(-90)">',
+        f'      <text class="display muted" font-size="0.125" font-weight="700" letter-spacing="0.016">{escape(spine_kicker)}</text>',
         "    </g>",
         f'    <g transform="translate({spine_center + 0.090:.4f} 7.8200) rotate(-90)">',
         f'      <text class="display ink" font-size="0.220" font-weight="900" letter-spacing="0.030">{escape(spine_title.upper())}</text>',
         "    </g>",
         f'    <g transform="translate({spine_center:.4f} 1.4500) rotate(-90)">',
-        f'      <text class="lora accent" font-size="0.155" font-weight="700" letter-spacing="0.028">{escape(author)}</text>',
+        f'      <text class="lora accent" font-size="0.167" font-weight="700" letter-spacing="0.028">{escape(author)}</text>',
         "    </g>",
         f'    <polygon points="{spine_center:.4f},8.3300 {spine_center + 0.140:.4f},8.4108 {spine_center + 0.140:.4f},8.5725 {spine_center:.4f},8.6533 {spine_center - 0.140:.4f},8.5725 {spine_center - 0.140:.4f},8.4108" fill="none" stroke="{p["accent"]}" stroke-width="0.010"/>',
         "  </g>",
         "",
         '  <g id="front-cover">',
         f'    <line x1="{front_x + 0.750:.4f}" y1="0.7200" x2="{front_x + 5.250:.4f}" y2="0.7200" stroke="{p["rule"]}" stroke-width="0.010"/>',
-        _text_block([front_kicker], front_center, 1.080, "small accent", 0.095, 0.140, anchor="middle", extra='letter-spacing="0.045" font-weight="700"'),
+        _text_block([front_kicker], front_center, 1.080, "small accent", 0.111, 0.155, anchor="middle", extra='letter-spacing="0.045" font-weight="700"'),
     ])
 
     y = 1.900
@@ -271,7 +271,7 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
     if placeholders:
         subtitle_lines = ["{{SUBTITLE}}"]
     parts.extend([
-        _text_block(subtitle_lines[:2], front_center, 5.030, "lora muted", 0.150, 0.255, anchor="middle", extra='font-style="italic"'),
+        _text_block(subtitle_lines[:2], front_center, 5.030, "lora muted", 0.167, 0.275, anchor="middle", extra='font-style="italic"'),
         f'    <g id="counter" transform="translate({front_center:.4f} 6.1200) rotate(-3.2)">',
         f'      <rect x="-0.5000" y="-0.5000" width="1.0800" height="1.0800" fill="{p["accent_dark"]}" opacity="0.20"/>',
         f'      <rect x="-0.5400" y="-0.5400" width="1.0800" height="1.0800" fill="{p["accent"]}" stroke="{p["ink"]}" stroke-width="0.016"/>',
@@ -279,14 +279,14 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
         f'      <rect x="-0.3500" y="-0.2550" width="0.7000" height="0.4600" fill="none" stroke="{p["paper"]}" stroke-width="0.030"/>',
         f'      <line x1="-0.3500" y1="-0.2550" x2="0.3500" y2="0.2050" stroke="{p["paper"]}" stroke-width="0.030"/>',
         f'      <line x1="0.3500" y1="-0.2550" x2="-0.3500" y2="0.2050" stroke="{p["paper"]}" stroke-width="0.030"/>',
-        f'      <text class="lora" x="0" y="0.3950" text-anchor="middle" font-size="0.175" font-weight="700" fill="{p["paper"]}" letter-spacing="0.010">4-6-2</text>',
+        f'      <text class="lora" x="0" y="0.4050" text-anchor="middle" font-size="0.194" font-weight="700" fill="{p["paper"]}" letter-spacing="0.010">4-6-2</text>',
         "    </g>",
         f'    <line x1="{front_center - 1.000:.4f}" y1="7.5800" x2="{front_center + 1.000:.4f}" y2="7.5800" stroke="{p["rule"]}" stroke-width="0.010"/>',
         _text_block([author_upper], front_center, 8.000, "lora ink", 0.225, 0.100, anchor="middle", extra='font-weight="700" letter-spacing="0.060"'),
     ])
 
     if params.year:
-        parts.append(_text_block([params.year if not placeholders else "{{YEAR}}"], front_center, 8.720, "lora muted", 0.070, 0.100, anchor="middle", extra='letter-spacing="0.030"'))
+        parts.append(_text_block([params.year if not placeholders else "{{YEAR}}"], front_center, 8.700, "lora muted", 0.095, 0.110, anchor="middle", extra='letter-spacing="0.030"'))
 
     parts.extend([
         "  </g>",

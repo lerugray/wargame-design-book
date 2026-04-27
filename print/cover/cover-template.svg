@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-  Editable KDP paperback cover template.
-  Reference: 6x9 trim, white paper, 360 pages, spine 0.8107 in.
-  Regenerate different dimensions with:
-    python print/cover/build-cover.py --pages PAGE_COUNT --paper white --trim 6x9
--->
+<!-- KDP paperback cover: 6x9 trim, white paper, 360 pages, spine 0.8107 in. -->
 <svg xmlns="http://www.w3.org/2000/svg"
      width="13.0607in" height="9.2500in"
      viewBox="0 0 13.0607 9.2500">
@@ -16,6 +11,7 @@
       .body { fill: #2c2c3a; }
       .muted { fill: #5a5a6e; }
       .accent { fill: #7a3b1e; }
+      .gold { fill: #b5933a; }
       .display { font-family: 'Playfair Display', Georgia, serif; }
       .lora { font-family: Lora, Georgia, 'Times New Roman', serif; }
       .small { font-family: Lora, Georgia, 'Times New Roman', serif; text-transform: uppercase; }
@@ -31,51 +27,67 @@
 
   <g id="back-cover">
     <line x1="0.6250" y1="0.6200" x2="5.6250" y2="0.6200" stroke="#c4b49a" stroke-width="0.012"/>
-    <text x="0.6250" y="0.9300" class="small accent" font-size="0.095" letter-spacing="0.030" font-weight="700">BACK COVER</text>
+    <text x="0.6250" y="0.9300" class="small accent" font-size="0.111" text-anchor="start" letter-spacing="0.030" font-weight="700">
+      <tspan x="0.6250" dy="0.0000">BACK COVER</tspan>
+    </text>
     <rect x="0.6250" y="1.1800" width="5.0000" height="2.4500" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
-    <text x="0.8050" y="1.5200" class="lora body" font-size="0.135">
-      <tspan x="0.8050" dy="0">BACK COVER COPY PLACEHOLDER</tspan>
-      <tspan x="0.8050" dy="0.2450">{{BACK_COVER_COPY}}</tspan>
-      <tspan x="0.8050" dy="0.2450">Ray fills this block in wdb-008.</tspan>
+    <text x="0.8050" y="1.5200" class="lora body" font-size="0.153" text-anchor="start">
+      <tspan x="0.8050" dy="0.0000">BACK COVER COPY PLACEHOLDER</tspan>
+      <tspan x="0.8050" dy="0.2600">{{BACK_COVER_COPY}}</tspan>
+      <tspan x="0.8050" dy="0.2600">Ray fills this block in wdb-008; keep the</tspan>
+      <tspan x="0.8050" dy="0.2600">space clear for now.</tspan>
     </text>
     <line x1="0.6250" y1="4.2600" x2="2.1250" y2="4.2600" stroke="#7a3b1e" stroke-width="0.010"/>
-    <text x="0.6250" y="4.6000" class="small muted" font-size="0.085" letter-spacing="0.030" font-weight="700">ABOUT THE AUTHOR</text>
+    <text x="0.6250" y="4.6000" class="small muted" font-size="0.111" text-anchor="start" letter-spacing="0.030" font-weight="700">
+      <tspan x="0.6250" dy="0.0000">ABOUT THE AUTHOR</tspan>
+    </text>
     <rect x="0.6250" y="4.8200" width="3.5500" height="1.5200" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
-    <text x="0.7850" y="5.1200" class="lora body" font-size="0.115">
-      <tspan x="0.7850" dy="0">ABOUT THE AUTHOR PLACEHOLDER</tspan>
-      <tspan x="0.7850" dy="0.2050">{{ABOUT_AUTHOR_LINE}}</tspan>
-      <tspan x="0.7850" dy="0.2050">Ray fills this block in wdb-008.</tspan>
+    <text x="0.7850" y="5.1200" class="lora body" font-size="0.139" text-anchor="start">
+      <tspan x="0.7850" dy="0.0000">ABOUT THE AUTHOR PLACEHOLDER</tspan>
+      <tspan x="0.7850" dy="0.2300">{{ABOUT_AUTHOR_LINE}}</tspan>
+      <tspan x="0.7850" dy="0.2300">Ray fills this block in wdb-008; keep the</tspan>
+      <tspan x="0.7850" dy="0.2300">space clear for now.</tspan>
     </text>
     <rect x="3.8750" y="7.5200" width="2.0000" height="1.2000" fill="#ffffff" stroke="#1c1c2e" stroke-width="0.006" stroke-dasharray="0.045 0.030"/>
-    <text x="4.8750" y="8.0100" class="small muted" font-size="0.080" text-anchor="middle" letter-spacing="0.018">
-      <tspan x="4.8750" dy="0">KDP BARCODE</tspan>
-      <tspan x="4.8750" dy="0.1800">PLACEHOLDER</tspan>
-      <tspan x="4.8750" dy="0.1800">KDP auto-fills</tspan>
+    <text x="4.8750" y="8.0100" class="small muted" font-size="0.090" text-anchor="middle" letter-spacing="0.018">
+      <tspan x="4.8750" dy="0.0000">KDP BARCODE</tspan>
+      <tspan x="4.8750" dy="0.1900">PLACEHOLDER</tspan>
+      <tspan x="4.8750" dy="0.1900">KDP auto-fills</tspan>
     </text>
-    <text x="0.6250" y="8.9100" class="lora muted" font-size="0.070">{{WEBSITE}}</text>
+    <text x="0.6250" y="8.8900" class="lora muted" font-size="0.095" text-anchor="start">
+      <tspan x="0.6250" dy="0.0000">{{WEBSITE}}</tspan>
+    </text>
   </g>
 
   <g id="spine">
     <line x1="6.2500" y1="0.6400" x2="6.8107" y2="0.6400" stroke="#b5933a" stroke-width="0.010"/>
     <line x1="6.2500" y1="8.6100" x2="6.8107" y2="8.6100" stroke="#b5933a" stroke-width="0.010"/>
-    <g transform="translate(6.4304 7.8200) rotate(-90)">
-      <text class="display muted" font-size="0.105" font-weight="700" letter-spacing="0.016">{{SPINE_KICKER}}</text>
+    <g transform="translate(6.4104 7.8200) rotate(-90)">
+      <text class="display muted" font-size="0.125" font-weight="700" letter-spacing="0.016">{{SPINE_KICKER}}</text>
     </g>
     <g transform="translate(6.6204 7.8200) rotate(-90)">
       <text class="display ink" font-size="0.220" font-weight="900" letter-spacing="0.030">{{SPINE_TITLE}}</text>
     </g>
     <g transform="translate(6.5304 1.4500) rotate(-90)">
-      <text class="lora accent" font-size="0.155" font-weight="700" letter-spacing="0.028">{{AUTHOR}}</text>
+      <text class="lora accent" font-size="0.167" font-weight="700" letter-spacing="0.028">{{AUTHOR}}</text>
     </g>
     <polygon points="6.5304,8.3300 6.6704,8.4108 6.6704,8.5725 6.5304,8.6533 6.3904,8.5725 6.3904,8.4108" fill="none" stroke="#7a3b1e" stroke-width="0.010"/>
   </g>
 
   <g id="front-cover">
     <line x1="7.6857" y1="0.7200" x2="12.1857" y2="0.7200" stroke="#c4b49a" stroke-width="0.010"/>
-    <text x="9.9357" y="1.0800" class="small accent" font-size="0.095" text-anchor="middle" letter-spacing="0.045" font-weight="700">{{FRONT_KICKER}}</text>
-    <text x="9.9357" y="1.9000" class="display ink" font-size="0.580" text-anchor="middle" font-weight="800" letter-spacing="0.020">{{TITLE_LINE_1}}</text>
-    <text x="9.9357" y="2.6600" class="display accent" font-size="0.580" text-anchor="middle" font-weight="900" letter-spacing="0.040">{{TITLE_LINE_2}}</text>
-    <text x="9.9357" y="5.0300" class="lora muted" font-size="0.150" text-anchor="middle" font-style="italic">{{SUBTITLE}}</text>
+    <text x="9.9357" y="1.0800" class="small accent" font-size="0.111" text-anchor="middle" letter-spacing="0.045" font-weight="700">
+      <tspan x="9.9357" dy="0.0000">{{FRONT_KICKER}}</tspan>
+    </text>
+    <text x="9.9357" y="1.9000" class="display ink" font-size="0.580" text-anchor="middle" font-weight="800" letter-spacing="0.020">
+      <tspan x="9.9357" dy="0.0000">{{TITLE_LINE_1}}</tspan>
+    </text>
+    <text x="9.9357" y="2.5400" class="display accent" font-size="0.580" text-anchor="middle" font-weight="900" letter-spacing="0.040">
+      <tspan x="9.9357" dy="0.0000">{{TITLE_LINE_2}}</tspan>
+    </text>
+    <text x="9.9357" y="5.0300" class="lora muted" font-size="0.167" text-anchor="middle" font-style="italic">
+      <tspan x="9.9357" dy="0.0000">{{SUBTITLE}}</tspan>
+    </text>
     <g id="counter" transform="translate(9.9357 6.1200) rotate(-3.2)">
       <rect x="-0.5000" y="-0.5000" width="1.0800" height="1.0800" fill="#5a2c14" opacity="0.20"/>
       <rect x="-0.5400" y="-0.5400" width="1.0800" height="1.0800" fill="#7a3b1e" stroke="#1c1c2e" stroke-width="0.016"/>
@@ -83,11 +95,15 @@
       <rect x="-0.3500" y="-0.2550" width="0.7000" height="0.4600" fill="none" stroke="#fdfbf7" stroke-width="0.030"/>
       <line x1="-0.3500" y1="-0.2550" x2="0.3500" y2="0.2050" stroke="#fdfbf7" stroke-width="0.030"/>
       <line x1="0.3500" y1="-0.2550" x2="-0.3500" y2="0.2050" stroke="#fdfbf7" stroke-width="0.030"/>
-      <text class="lora" x="0" y="0.3950" text-anchor="middle" font-size="0.175" font-weight="700" fill="#fdfbf7" letter-spacing="0.010">4-6-2</text>
+      <text class="lora" x="0" y="0.4050" text-anchor="middle" font-size="0.194" font-weight="700" fill="#fdfbf7" letter-spacing="0.010">4-6-2</text>
     </g>
     <line x1="8.9357" y1="7.5800" x2="10.9357" y2="7.5800" stroke="#c4b49a" stroke-width="0.010"/>
-    <text x="9.9357" y="8.0000" class="lora ink" font-size="0.225" text-anchor="middle" font-weight="700" letter-spacing="0.060">{{AUTHOR_UPPER}}</text>
-    <text x="9.9357" y="8.7200" class="lora muted" font-size="0.070" text-anchor="middle" letter-spacing="0.030">{{YEAR}}</text>
+    <text x="9.9357" y="8.0000" class="lora ink" font-size="0.225" text-anchor="middle" font-weight="700" letter-spacing="0.060">
+      <tspan x="9.9357" dy="0.0000">{{AUTHOR_UPPER}}</tspan>
+    </text>
+    <text x="9.9357" y="8.7000" class="lora muted" font-size="0.095" text-anchor="middle" letter-spacing="0.030">
+      <tspan x="9.9357" dy="0.0000">{{YEAR}}</tspan>
+    </text>
   </g>
 
   <g id="guides">
