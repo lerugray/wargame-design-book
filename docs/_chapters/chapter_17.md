@@ -8,7 +8,7 @@ layout: chapter
 
 I have written close to thirty rulebooks, and the early ones were bad. Players had to guess what I meant in places where I thought I had been clear. Rules I considered unambiguous produced questions on BoardGameGeek. Mechanics I thought I had explained generated emails asking for clarification. I knew what the game was supposed to do. I had not learned how to get that knowledge out of my head and onto the page in a form that someone else could follow without help.
 
-A wargame is a miniature algorithm. It has inputs, procedures, conditions, exceptions, and outputs. Your rulebook documents that algorithm for a human operator, and if the documentation fails, the operator runs the algorithm wrong. The player misapplies a modifier, resolves combat on the wrong column, stacks units in a configuration you never intended, and produces a game state that has nothing to do with the simulation you designed.
+A wargame is a miniature algorithm. It has inputs, procedures, conditions, exceptions, and outputs. Your rulebook documents that algorithm for an operator, and if the documentation fails, the operator runs the algorithm wrong. The player misapplies a modifier, resolves combat on the wrong column, stacks units in a configuration you never intended, and produces a game state that has nothing to do with the simulation you designed.
 
 You have experienced this as a player. You sit down with a new game, reach a situation the rules do not address, and spend fifteen minutes arguing with your opponent about what the designer meant. You send the designer an email, or post on BGG, or invent a house rule and move on. The designer had an answer when they wrote the rules. They did not get it onto the page.
 
