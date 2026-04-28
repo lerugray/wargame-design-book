@@ -81,7 +81,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--title", default="A Contemporary Guide to Wargame Design")
     parser.add_argument("--subtitle", default="A practical, opinionated guide to designing historical board wargames")
     parser.add_argument("--author", default="Ray Weiss")
-    parser.add_argument("--pages", type=int, default=360)
+    parser.add_argument("--pages", type=int, default=364)
     parser.add_argument("--paper", choices=["white", "cream", "color"], default="white")
     parser.add_argument("--trim", choices=["5x8", "5.25x8", "5.5x8.5", "6x9", "7x10", "8.5x11"], default="6x9")
     parser.add_argument("--spine-title", default="Wargame Design")

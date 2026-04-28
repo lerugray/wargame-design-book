@@ -215,6 +215,7 @@ The Western Front locked up for four years because of a speed asymmetry. Attacke
 | Supply convoy by truck | 150-200 | |
 
 **Blitzkrieg advance rates:**
+
 - **France 1940:** Guderian's XIX Panzer Corps, Sedan to the Channel, roughly 150 miles in six days. About 25 miles per day.
 - **Barbarossa 1941:** Army Group Center covered roughly 600 miles (Brest-Litovsk to Smolensk) in four weeks, about 21 miles per day. Peak daily advances of 40-50 miles for armored spearheads. By autumn, rates dropped to 5-10 miles per day as logistics broke down.
 - **Patton's Third Army**, August 1944: roughly 600 miles across France in four weeks, about 21 miles per day average, with peak advances of 50 miles per day.
@@ -287,22 +288,26 @@ Heavy rain cuts mobility close to half. Mud season on the Eastern Front, monsoon
 An army's theoretical march rate and its actual sustained advance differ, and supply accounts for most of the gap.
 
 **Early modern armies** (from Van Creveld):
+
 - By the early seventeenth century, a typical army of 30,000 had one wagon for every eight to fifteen men, each drawn by two to four horses. Maurice of Nassau's 1602 campaign: 3,000 wagons for 24,000 men.
 - The camp-following population (women, children, servants, sutlers) ranged from 50% to 150% of the fighting strength. All of it marched with the army and consumed supplies.
 - Soldiers purchased food from their pay at organized markets in garrison. On campaign, the system collapsed into plunder unless magazines were established along the route.
 - The magazine system, formalized under Louvois in the 1660s, solved the plunder problem but imposed rigid geographic constraints. Armies could not outrun their depots.
 
 **Pre-railroad armies, ancient through Napoleonic** (from Engels and Van Creveld):
+
 - A pack animal carrying 250 pounds of supplies consumes about 20 pounds of its own cargo per day in fodder and grain. After roughly twelve days, it has eaten everything it was carrying.
 - Practical supply radius from a fixed depot: 75-100 miles (5-7 days of march).
 - Alexander's army consumed roughly 195,000 pounds of grain per day for personnel alone, plus 61,000 pounds for cavalry horses, plus feed for baggage animals. In desert conditions requiring carried water, the total daily requirement exceeded 1,260,000 pounds.
 - The army could carry at most a two-and-a-half-day supply of provisions in waterless desert.
 
 **Napoleonic era:**
+
 - Van Creveld's central finding: a four-horse wagon carried about 1,400 pounds but consumed its own payload in fodder within about five days of travel. The supply system was self-consuming.
 - Napoleon's army on the march to Moscow, 1812: 550 miles in about 80 days, an advance rate of under seven miles per day for an army that could march fifteen.
 
 **World War II** (from Dupuy):
+
 - A WWII-era division required roughly 181 tons of supply per day: 84 tons of ammunition, 47 tons of fuel, 25 tons of food, 15 tons of fodder, 10 tons of equipment.
 - A WWI-era division required roughly 117.5 tons per day.
 - At the Anzio beachhead, combat effectiveness degraded measurably when supply delivery dropped below 65% of requirements.

@@ -63,6 +63,7 @@ The operational area covers roughly 200 kilometers from Bone in the west to Tuni
 2. **Medjerda valley route:** Souk el Arba — Béja — Medjez el Bab — Tebourba — Djedeida — Tunis. The main corridor, following the Medjerda River. The valley narrows toward Tunis, with high ground (djebels) on both sides forming natural defensive positions.
 
 **Key locations:**
+
 - **Medjez el Bab:** Critical river crossing, roughly 60 km west of Tunis. Whoever holds this controls the main approach.
 - **Tebourba:** 30 km west of Tunis. Scene of the heaviest fighting.
 - **Djedeida:** Airfield complex, 30 km from Tunis. Farthest Allied penetration.
@@ -71,6 +72,7 @@ The operational area covers roughly 200 kilometers from Bone in the west to Tuni
 - **Tunis:** The objective.
 
 **Terrain types you will need:**
+
 - Open/valley (the Medjerda corridor and coastal plain)
 - Mountains/djebels (the Eastern Dorsal ridgeline, hills flanking the valley)
 - Roads (few, poor quality, critical for supply and movement)
@@ -98,6 +100,7 @@ Work through these in order. Each corresponds to skills covered in the main chap
 Decide on your hex scale, turn scale, and unit scale. The research above gives you the raw numbers. You need to make them work together.
 
 **Questions to answer:**
+
 - How many hexes from Medjez el Bab to Tunis? (This determines hex scale.)
 - How many turns in the game? (6–8, representing roughly 3–4 days each.)
 - How far should a unit move in one turn? Infantry and armor move at different rates. Consult Appendix D for march rates and decide what fits your hex scale.
@@ -111,6 +114,7 @@ A sketch on graph paper is fine. You are making a functional tool for testing yo
 Draw a playtest map. It does not need to be pretty. It needs to be accurate enough to test your design.
 
 **Requirements:**
+
 - Two approach routes (northern and Medjerda valley) converging on Tunis
 - Mountains channeling movement into corridors
 - Key towns marked (Medjez el Bab, Tebourba, Djedeida, Mateur, Tunis, Bizerte)
@@ -124,6 +128,7 @@ Draw a playtest map. It does not need to be pretty. It needs to be accurate enou
 Create a counter manifest: the complete list of every counter in the game and what goes on each one.
 
 **Decisions to make:**
+
 - What information goes on each counter? (Chapter 6 covers this.) At minimum: unit name, type (infantry/armor), combat strength, movement allowance.
 - How do you rate combat strength? Raw headcount? Combat effectiveness? A single number or attack/defense split?
 - Do all infantry brigades rate the same, or do the Guards and the Fallschirmjäger get higher values? The French garrison with their outdated equipment? The Italian Superga division?
@@ -156,6 +161,7 @@ Keep it simple. Every phase you add is a phase you have to write rules for, test
 The CRT determines whether your game works.
 
 **Decisions to make:**
+
 - Odds-based CRT or differential CRT? (Chapter 9 explains both.)
 - What results are possible? Retreat, step loss, exchange, attacker back?
 - How many columns? For a game this small, four to six.
@@ -168,6 +174,7 @@ The CRT determines whether your game works.
 Write a complete rulebook for your game. For a game this size, aim for three to six pages. Two is ideal but tight once you add examples and a terrain effects chart. If you find yourself writing past six, that is a sign your design may be more complex than this exercise calls for. Use the case-numbering format described in Chapter 17.
 
 **Required sections:**
+
 1.0 Introduction (one paragraph: what the game is about)
 2.0 Components (list of what is in the game)
 3.0 Sequence of Play
@@ -200,6 +207,7 @@ The mechanic you choose says something about what you think mattered most in thi
 Play your game. Solo is fine. Play both sides. Play it at least three times.
 
 **What to watch for:**
+
 - Does the game end too quickly or drag on?
 - Is one side consistently winning? By how much?
 - Are there meaningful decisions, or does the game play itself?

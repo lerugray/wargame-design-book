@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- KDP paperback cover: 6x9 trim, white paper, 360 pages, spine 0.8107 in. -->
+<!-- KDP paperback cover: 6x9 trim, white paper, 364 pages, spine 0.8197 in. -->
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="13.0607in" height="9.2500in"
-     viewBox="0 0 13.0607 9.2500">
+     width="13.0697in" height="9.2500in"
+     viewBox="0 0 13.0697 9.2500">
   <defs>
     <style>
       .paper { fill: #fdfbf7; }
@@ -22,8 +22,8 @@
     </style>
   </defs>
 
-  <rect x="0" y="0" width="13.0607" height="9.2500" class="paper"/>
-  <rect x="6.1250" y="0" width="0.8107" height="9.2500" class="paper-alt"/>
+  <rect x="0" y="0" width="13.0697" height="9.2500" class="paper"/>
+  <rect x="6.1250" y="0" width="0.8197" height="9.2500" class="paper-alt"/>
 
   <g id="back-cover">
     <line x1="0.7500" y1="0.6200" x2="5.5000" y2="0.6200" stroke="#c4b49a" stroke-width="0.012"/>
@@ -79,42 +79,42 @@
   </g>
 
   <g id="spine">
-    <line x1="6.2500" y1="0.6400" x2="6.8107" y2="0.6400" stroke="#b5933a" stroke-width="0.010"/>
-    <line x1="6.2500" y1="8.6100" x2="6.8107" y2="8.6100" stroke="#b5933a" stroke-width="0.010"/>
-    <g transform="translate(6.4104 7.8200) rotate(-90)">
+    <line x1="6.2500" y1="0.6400" x2="6.8197" y2="0.6400" stroke="#b5933a" stroke-width="0.010"/>
+    <line x1="6.2500" y1="8.6100" x2="6.8197" y2="8.6100" stroke="#b5933a" stroke-width="0.010"/>
+    <g transform="translate(6.4149 7.8200) rotate(-90)">
       <text class="display muted" font-size="0.125" font-weight="700" letter-spacing="0.016">A Contemporary Guide to</text>
     </g>
-    <g transform="translate(6.5904 7.8200) rotate(-90)">
+    <g transform="translate(6.5949 7.8200) rotate(-90)">
       <text class="display ink" font-size="0.190" font-weight="900" letter-spacing="0.030">WARGAME DESIGN</text>
     </g>
-    <g transform="translate(6.5304 1.8000) rotate(-90)">
+    <g transform="translate(6.5349 1.8000) rotate(-90)">
       <text class="lora accent" font-size="0.167" font-weight="700" letter-spacing="0.028">Ray Weiss</text>
     </g>
-    <polygon points="6.5304,8.2600 6.6704,8.3408 6.6704,8.5025 6.5304,8.5833 6.3904,8.5025 6.3904,8.3408" fill="none" stroke="#7a3b1e" stroke-width="0.010"/>
+    <polygon points="6.5349,8.2600 6.6749,8.3408 6.6749,8.5025 6.5349,8.5833 6.3949,8.5025 6.3949,8.3408" fill="none" stroke="#7a3b1e" stroke-width="0.010"/>
   </g>
 
   <g id="front-cover">
-    <line x1="7.6857" y1="0.7200" x2="12.1857" y2="0.7200" stroke="#c4b49a" stroke-width="0.010"/>
-    <text x="9.9357" y="1.0800" class="small accent" font-size="0.111" text-anchor="middle" letter-spacing="0.045" font-weight="700">
-      <tspan x="9.9357" dy="0.0000">ON THE CRAFT OF</tspan>
+    <line x1="7.6947" y1="0.7200" x2="12.1947" y2="0.7200" stroke="#c4b49a" stroke-width="0.010"/>
+    <text x="9.9447" y="1.0800" class="small accent" font-size="0.111" text-anchor="middle" letter-spacing="0.045" font-weight="700">
+      <tspan x="9.9447" dy="0.0000">ON THE CRAFT OF</tspan>
     </text>
-    <text x="9.9357" y="2.0500" class="display ink" font-size="0.545" text-anchor="middle" font-weight="800" letter-spacing="0.008">
-      <tspan x="9.9357" dy="0.0000">A CONTEMPORARY</tspan>
+    <text x="9.9447" y="2.0500" class="display ink" font-size="0.545" text-anchor="middle" font-weight="800" letter-spacing="0.008">
+      <tspan x="9.9447" dy="0.0000">A CONTEMPORARY</tspan>
     </text>
-    <text x="9.9357" y="2.6900" class="display ink" font-size="0.360" text-anchor="middle" font-weight="700" letter-spacing="0.018">
-      <tspan x="9.9357" dy="0.0000">guide to</tspan>
+    <text x="9.9447" y="2.6900" class="display ink" font-size="0.360" text-anchor="middle" font-weight="700" letter-spacing="0.018">
+      <tspan x="9.9447" dy="0.0000">guide to</tspan>
     </text>
-    <text x="9.9357" y="3.4500" class="display accent" font-size="0.665" text-anchor="middle" font-weight="900" letter-spacing="0.022">
-      <tspan x="9.9357" dy="0.0000">WARGAME</tspan>
+    <text x="9.9447" y="3.4500" class="display accent" font-size="0.665" text-anchor="middle" font-weight="900" letter-spacing="0.022">
+      <tspan x="9.9447" dy="0.0000">WARGAME</tspan>
     </text>
-    <text x="9.9357" y="4.2100" class="display accent" font-size="0.665" text-anchor="middle" font-weight="900" letter-spacing="0.022">
-      <tspan x="9.9357" dy="0.0000">DESIGN</tspan>
+    <text x="9.9447" y="4.2100" class="display accent" font-size="0.665" text-anchor="middle" font-weight="900" letter-spacing="0.022">
+      <tspan x="9.9447" dy="0.0000">DESIGN</tspan>
     </text>
-    <text x="9.9357" y="5.0300" class="lora muted" font-size="0.167" text-anchor="middle" font-style="italic">
-      <tspan x="9.9357" dy="0.0000">A practical, opinionated guide to</tspan>
-      <tspan x="9.9357" dy="0.2750">designing historical board wargames</tspan>
+    <text x="9.9447" y="5.0300" class="lora muted" font-size="0.167" text-anchor="middle" font-style="italic">
+      <tspan x="9.9447" dy="0.0000">A practical, opinionated guide to</tspan>
+      <tspan x="9.9447" dy="0.2750">designing historical board wargames</tspan>
     </text>
-    <g id="counter" transform="translate(9.9357 6.1200) rotate(-3.2)">
+    <g id="counter" transform="translate(9.9447 6.1200) rotate(-3.2)">
       <rect x="-0.5000" y="-0.5000" width="1.0800" height="1.0800" fill="#5a2c14" opacity="0.20"/>
       <rect x="-0.5400" y="-0.5400" width="1.0800" height="1.0800" fill="#7a3b1e" stroke="#1c1c2e" stroke-width="0.016"/>
       <rect x="-0.4860" y="-0.4860" width="0.9720" height="0.9720" fill="none" stroke="#fdfbf7" stroke-width="0.011" opacity="0.55"/>
@@ -123,24 +123,24 @@
       <line x1="0.3500" y1="-0.2550" x2="-0.3500" y2="0.2050" stroke="#fdfbf7" stroke-width="0.030"/>
       <text class="lora" x="0" y="0.4050" text-anchor="middle" font-size="0.194" font-weight="700" fill="#fdfbf7" letter-spacing="0.010">4-6-2</text>
     </g>
-    <line x1="8.9357" y1="7.5800" x2="10.9357" y2="7.5800" stroke="#c4b49a" stroke-width="0.010"/>
-    <text x="9.9357" y="8.0000" class="lora ink" font-size="0.225" text-anchor="middle" font-weight="700" letter-spacing="0.060">
-      <tspan x="9.9357" dy="0.0000">RAY WEISS</tspan>
+    <line x1="8.9447" y1="7.5800" x2="10.9447" y2="7.5800" stroke="#c4b49a" stroke-width="0.010"/>
+    <text x="9.9447" y="8.0000" class="lora ink" font-size="0.225" text-anchor="middle" font-weight="700" letter-spacing="0.060">
+      <tspan x="9.9447" dy="0.0000">RAY WEISS</tspan>
     </text>
-    <text x="9.9357" y="8.7000" class="lora muted" font-size="0.095" text-anchor="middle" letter-spacing="0.030">
-      <tspan x="9.9357" dy="0.0000">2026</tspan>
+    <text x="9.9447" y="8.7000" class="lora muted" font-size="0.095" text-anchor="middle" letter-spacing="0.030">
+      <tspan x="9.9447" dy="0.0000">2026</tspan>
     </text>
   </g>
 
   <g id="guides">
-    <rect x="0" y="0" width="13.0607" height="9.2500" class="guide-bleed"/>
-    <rect x="0.1250" y="0.1250" width="12.8107" height="9.0000" class="guide-trim"/>
+    <rect x="0" y="0" width="13.0697" height="9.2500" class="guide-bleed"/>
+    <rect x="0.1250" y="0.1250" width="12.8197" height="9.0000" class="guide-trim"/>
     <rect x="0.2500" y="0.2500" width="5.7500" height="8.7500" class="guide-safe"/>
-    <rect x="7.0607" y="0.2500" width="5.7500" height="8.7500" class="guide-safe"/>
+    <rect x="7.0697" y="0.2500" width="5.7500" height="8.7500" class="guide-safe"/>
     <line x1="6.1250" y1="0" x2="6.1250" y2="9.2500" class="guide-spine"/>
-    <line x1="6.9357" y1="0" x2="6.9357" y2="9.2500" class="guide-spine"/>
+    <line x1="6.9447" y1="0" x2="6.9447" y2="9.2500" class="guide-spine"/>
     <line x1="6.1875" y1="0" x2="6.1875" y2="9.2500" class="guide-spine" stroke-dasharray="0.035 0.025"/>
-    <line x1="6.8732" y1="0" x2="6.8732" y2="9.2500" class="guide-spine" stroke-dasharray="0.035 0.025"/>
+    <line x1="6.8822" y1="0" x2="6.8822" y2="9.2500" class="guide-spine" stroke-dasharray="0.035 0.025"/>
     <rect x="3.8750" y="7.5200" width="2.0000" height="1.2000" fill="none" stroke="#00C853" stroke-width="0.010" stroke-dasharray="0.040 0.030"/>
   </g>
 </svg>
