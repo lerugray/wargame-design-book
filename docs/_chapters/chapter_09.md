@@ -106,8 +106,6 @@ Start simple. A basic odds-based CRT with retreat and step loss results is enoug
 
 To make this concrete, here is a simple 1d6 CRT for a hypothetical operational game. Seven columns, five result types.
 
-![Sedan 1940 national combat matrix example]({{ site.baseurl }}/assets/images/sedan-combat-matrix.png)
-
 | 1d6 | 1:2 | 1:1 | 2:1 | 3:1 | 4:1 | 5:1 | 6:1 |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | 1 | AE | AR2 | AR1 | EX | DR1 | DR1 | DR2 |
@@ -126,6 +124,8 @@ Second, the 1:1 column has no Attacker Eliminated result. A 1:1 attack is risky 
 Third, look at the high-odds columns. At 5:1 and 6:1, Defender Eliminated shows up on rolls of 4, 5, and 6 (or 3 through 6 at 6:1). A player who masses enough force to achieve 6:1 should expect to destroy the defender most of the time. If the high-odds columns are too gentle, there is no incentive to concentrate force. If they are too harsh, small units become disposable and players stop caring about individual formations. The balance between those extremes is where your game's personality lives.
 
 This table is a starting point. Playtesting will tell you whether the 3:1 column is too bloody, whether retreats are too common at 1:1, whether the high-odds columns feel decisive enough. Adjust column by column until the results match the conflict you are simulating.
+
+![Sedan 1940 national combat matrix example]({{ site.baseurl }}/assets/images/sedan-combat-matrix.png)
 
 Expect the CRT to change more than any other component during development. Playtests will reveal problems your spreadsheet cannot. Results that seemed reasonable on paper will produce strange outcomes on the map. Adjust, playtest again, adjust again.
 
