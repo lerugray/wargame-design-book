@@ -71,6 +71,8 @@ class CoverParams:
     front_kicker: str = "On the Craft of"
     website: str = "lerugray.github.io/wargame-design-book"
     year: str = "2026"
+    back_cover_copy: str = ""
+    author_bio: str = ""
 
 
 def spine_width_in(pages: int, paper: str = "white") -> float:
@@ -132,6 +134,37 @@ def _wrap_placeholder(label: str, token: str, width: int = 46) -> list[str]:
     return lines
 
 
+def _lines_from_prose(
+    text: str,
+    width: int,
+    *,
+    separate_paragraphs: bool = True,
+) -> list[str]:
+    """Wrap body copy. If separate_paragraphs is False, join all paragraphs and wrap as one block (denser)."""
+    text = text.strip()
+    if not separate_paragraphs:
+        single = " ".join(text.split())
+        return wrap(single, width=width, break_long_words=False)
+    chunks = [p.strip() for p in text.split("\n\n") if p.strip()]
+    lines: list[str] = []
+    for index, para in enumerate(chunks):
+        if index:
+            lines.append("")
+        lines.extend(wrap(para, width=width, break_long_words=False, replace_whitespace=False))
+    return lines
+
+
+# Back-cover layout (inches): hook and bio panels stay inside trim safe area; barcode y=7.52–8.72.
+_BACK_HOOK_RECT = (1.1000, 5.0000, 3.5000)  # y, width, height
+_BACK_BIO_RECT = (5.2600, 5.0000, 1.7000)
+_BACK_HOOK_FONT = 0.130
+_BACK_HOOK_LEADING = 0.205
+_BACK_BIO_FONT = 0.115
+_BACK_BIO_LEADING = 0.138
+_BACK_HOOK_WRAP = 56
+_BACK_BIO_WRAP = 74
+
+
 def _front_title_lines(title: str) -> list[tuple[str, float, str, str]]:
     if title.lower() == "a contemporary guide to wargame design":
         return [
@@ -184,8 +217,33 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
     spine_line_left = spine_x + 0.125
     spine_line_right = spine_x + dims.spine_width - 0.125
 
-    back_copy_lines = _wrap_placeholder("BACK COVER COPY PLACEHOLDER", "{{BACK_COVER_COPY}}")
-    bio_lines = _wrap_placeholder("ABOUT THE AUTHOR PLACEHOLDER", "{{ABOUT_AUTHOR_LINE}}", width=42)
+    if placeholders:
+        back_copy_lines = _wrap_placeholder(
+            "BACK COVER COPY PLACEHOLDER", "{{BACK_COVER_COPY}}", width=_BACK_HOOK_WRAP
+        )
+        bio_lines = _wrap_placeholder(
+            "ABOUT THE AUTHOR PLACEHOLDER", "{{ABOUT_AUTHOR_LINE}}", width=_BACK_BIO_WRAP
+        )
+    else:
+        if params.back_cover_copy.strip():
+            back_copy_lines = _lines_from_prose(
+                params.back_cover_copy, _BACK_HOOK_WRAP, separate_paragraphs=False
+            )
+        else:
+            back_copy_lines = _wrap_placeholder(
+                "BACK COVER COPY PLACEHOLDER", "{{BACK_COVER_COPY}}", width=_BACK_HOOK_WRAP
+            )
+        if params.author_bio.strip():
+            bio_lines = _lines_from_prose(
+                params.author_bio, _BACK_BIO_WRAP, separate_paragraphs=False
+            )
+        else:
+            bio_lines = _wrap_placeholder(
+                "ABOUT THE AUTHOR PLACEHOLDER", "{{ABOUT_AUTHOR_LINE}}", width=_BACK_BIO_WRAP
+            )
+
+    hook_y, hook_w, hook_h = _BACK_HOOK_RECT
+    bio_y, bio_w, bio_h = _BACK_BIO_RECT
 
     if placeholders:
         title_lines = [
@@ -226,12 +284,34 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
         '  <g id="back-cover">',
         f'    <line x1="{back_inner_x:.4f}" y1="0.6200" x2="{back_right:.4f}" y2="0.6200" stroke="{p["rule"]}" stroke-width="0.012"/>',
         _text_block(["BACK COVER"], back_inner_x, 0.930, "small accent", 0.111, 0.155, extra='letter-spacing="0.030" font-weight="700"'),
-        f'    <rect x="{back_inner_x:.4f}" y="1.1800" width="4.7500" height="2.4500" fill="none" stroke="{p["rule"]}" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>',
-        _text_block(back_copy_lines, back_inner_x + 0.180, 1.520, "lora body", 0.153, 0.260),
-        f'    <line x1="{back_inner_x:.4f}" y1="4.2600" x2="{back_inner_x + 1.500:.4f}" y2="4.2600" stroke="{p["accent"]}" stroke-width="0.010"/>',
-        _text_block(["ABOUT THE AUTHOR"], back_inner_x, 4.600, "small muted", 0.111, 0.155, extra='letter-spacing="0.030" font-weight="700"'),
-        f'    <rect x="{back_inner_x:.4f}" y="4.8200" width="3.5500" height="1.5200" fill="none" stroke="{p["rule"]}" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>',
-        _text_block(bio_lines, back_inner_x + 0.160, 5.120, "lora body", 0.139, 0.230),
+        f'    <rect x="{back_inner_x:.4f}" y="{hook_y:.4f}" width="{hook_w:.4f}" height="{hook_h:.4f}" fill="none" stroke="{p["rule"]}" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>',
+        _text_block(
+            back_copy_lines,
+            back_inner_x + 0.150,
+            hook_y + 0.200,
+            "lora body",
+            _BACK_HOOK_FONT,
+            _BACK_HOOK_LEADING,
+        ),
+        f'    <line x1="{back_inner_x:.4f}" y1="{hook_y + hook_h + 0.0600:.4f}" x2="{back_inner_x + 1.500:.4f}" y2="{hook_y + hook_h + 0.0600:.4f}" stroke="{p["accent"]}" stroke-width="0.010"/>',
+        _text_block(
+            ["ABOUT THE AUTHOR"],
+            back_inner_x,
+            hook_y + hook_h + 0.3800,
+            "small muted",
+            0.111,
+            0.155,
+            extra='letter-spacing="0.030" font-weight="700"',
+        ),
+        f'    <rect x="{back_inner_x:.4f}" y="{bio_y:.4f}" width="{bio_w:.4f}" height="{bio_h:.4f}" fill="none" stroke="{p["rule"]}" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>',
+        _text_block(
+            bio_lines,
+            back_inner_x + 0.150,
+            bio_y + 0.1800,
+            "lora body",
+            _BACK_BIO_FONT,
+            _BACK_BIO_LEADING,
+        ),
         f'    <rect x="{back_x + 3.750:.4f}" y="7.5200" width="2.0000" height="1.2000" fill="{p["white"]}" stroke="{p["ink"]}" stroke-width="0.006" stroke-dasharray="0.045 0.030"/>',
         _text_block(["KDP BARCODE", "PLACEHOLDER", "KDP auto-fills"], back_x + 4.750, 8.010, "small muted", 0.090, 0.190, anchor="middle", extra='letter-spacing="0.018"'),
     ]

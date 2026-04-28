@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import re
 import shutil
 import subprocess
 import sys
@@ -14,7 +15,26 @@ from kdp_cover import CoverParams, cover_dimensions, render_cover_svg, write_svg
 
 ROOT = Path(__file__).resolve().parents[2]
 COVER_DIR = Path(__file__).resolve().parent
+COPY_DIR = ROOT / "print" / "copy"
 OUT_DIR = ROOT / "print" / "out"
+
+
+def _md_slice(text: str, start_header: str, end_header: str) -> str:
+    i0 = text.index(start_header)
+    i0 = text.find("\n", i0) + 1
+    i1 = text.index(end_header, i0)
+    return text[i0:i1].strip()
+
+
+def load_back_cover_hook() -> str:
+    path = COPY_DIR / "back-cover-hook.md"
+    body = _md_slice(path.read_text(encoding="utf-8"), "## Selected: Candidate 2", "## Alternates")
+    return re.sub(r"\*([^*]+)\*", r"\1", body)
+
+
+def load_short_author_bio() -> str:
+    path = COPY_DIR / "author-bio.md"
+    return _md_slice(path.read_text(encoding="utf-8"), "## Short bio (150 words)", "## Long bio")
 
 
 def export_with_cairosvg(svg_text: str, pdf_path: Path | None, png_path: Path | None, dpi: int) -> bool:
@@ -82,6 +102,8 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     args = parse_args()
+    back_copy = load_back_cover_hook()
+    author_bio = load_short_author_bio()
     params = CoverParams(
         title=args.title,
         subtitle=args.subtitle,
@@ -94,6 +116,8 @@ def main() -> int:
         front_kicker=args.front_kicker,
         website=args.website,
         year=args.year,
+        back_cover_copy=back_copy,
+        author_bio=author_bio,
     )
 
     write_svg(args.svg, params, placeholders=False, guides=True)

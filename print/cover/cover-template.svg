@@ -30,23 +30,22 @@
     <text x="0.7500" y="0.9300" class="small accent" font-size="0.111" text-anchor="start" letter-spacing="0.030" font-weight="700">
       <tspan x="0.7500" dy="0.0000">BACK COVER</tspan>
     </text>
-    <rect x="0.7500" y="1.1800" width="4.7500" height="2.4500" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
-    <text x="0.9300" y="1.5200" class="lora body" font-size="0.153" text-anchor="start">
-      <tspan x="0.9300" dy="0.0000">BACK COVER COPY PLACEHOLDER</tspan>
-      <tspan x="0.9300" dy="0.2600">{{BACK_COVER_COPY}}</tspan>
-      <tspan x="0.9300" dy="0.2600">Ray fills this block in wdb-008; keep the</tspan>
-      <tspan x="0.9300" dy="0.2600">space clear for now.</tspan>
+    <rect x="0.7500" y="1.1000" width="5.0000" height="3.5000" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
+    <text x="0.9000" y="1.3000" class="lora body" font-size="0.130" text-anchor="start">
+      <tspan x="0.9000" dy="0.0000">BACK COVER COPY PLACEHOLDER</tspan>
+      <tspan x="0.9000" dy="0.2050">{{BACK_COVER_COPY}}</tspan>
+      <tspan x="0.9000" dy="0.2050">Ray fills this block in wdb-008; keep the space clear</tspan>
+      <tspan x="0.9000" dy="0.2050">for now.</tspan>
     </text>
-    <line x1="0.7500" y1="4.2600" x2="2.2500" y2="4.2600" stroke="#7a3b1e" stroke-width="0.010"/>
-    <text x="0.7500" y="4.6000" class="small muted" font-size="0.111" text-anchor="start" letter-spacing="0.030" font-weight="700">
+    <line x1="0.7500" y1="4.6600" x2="2.2500" y2="4.6600" stroke="#7a3b1e" stroke-width="0.010"/>
+    <text x="0.7500" y="4.9800" class="small muted" font-size="0.111" text-anchor="start" letter-spacing="0.030" font-weight="700">
       <tspan x="0.7500" dy="0.0000">ABOUT THE AUTHOR</tspan>
     </text>
-    <rect x="0.7500" y="4.8200" width="3.5500" height="1.5200" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
-    <text x="0.9100" y="5.1200" class="lora body" font-size="0.139" text-anchor="start">
-      <tspan x="0.9100" dy="0.0000">ABOUT THE AUTHOR PLACEHOLDER</tspan>
-      <tspan x="0.9100" dy="0.2300">{{ABOUT_AUTHOR_LINE}}</tspan>
-      <tspan x="0.9100" dy="0.2300">Ray fills this block in wdb-008; keep the</tspan>
-      <tspan x="0.9100" dy="0.2300">space clear for now.</tspan>
+    <rect x="0.7500" y="5.2600" width="5.0000" height="1.7000" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
+    <text x="0.9000" y="5.4400" class="lora body" font-size="0.115" text-anchor="start">
+      <tspan x="0.9000" dy="0.0000">ABOUT THE AUTHOR PLACEHOLDER</tspan>
+      <tspan x="0.9000" dy="0.1380">{{ABOUT_AUTHOR_LINE}}</tspan>
+      <tspan x="0.9000" dy="0.1380">Ray fills this block in wdb-008; keep the space clear for now.</tspan>
     </text>
     <rect x="3.8750" y="7.5200" width="2.0000" height="1.2000" fill="#ffffff" stroke="#1c1c2e" stroke-width="0.006" stroke-dasharray="0.045 0.030"/>
     <text x="4.8750" y="8.0100" class="small muted" font-size="0.090" text-anchor="middle" letter-spacing="0.018">
