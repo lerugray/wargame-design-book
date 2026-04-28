@@ -135,10 +135,10 @@ def _wrap_placeholder(label: str, token: str, width: int = 46) -> list[str]:
 def _front_title_lines(title: str) -> list[tuple[str, float, str, str]]:
     if title.lower() == "a contemporary guide to wargame design":
         return [
-            ("A CONTEMPORARY", 0.600, "display ink", "font-weight=\"800\" letter-spacing=\"0.012\""),
+            ("A CONTEMPORARY", 0.545, "display ink", "font-weight=\"800\" letter-spacing=\"0.008\""),
             ("guide to", 0.360, "display ink", "font-weight=\"700\" letter-spacing=\"0.018\""),
-            ("WARGAME", 0.760, "display accent", "font-weight=\"900\" letter-spacing=\"0.040\""),
-            ("DESIGN", 0.760, "display accent", "font-weight=\"900\" letter-spacing=\"0.040\""),
+            ("WARGAME", 0.665, "display accent", "font-weight=\"900\" letter-spacing=\"0.022\""),
+            ("DESIGN", 0.665, "display accent", "font-weight=\"900\" letter-spacing=\"0.022\""),
         ]
 
     words = title.upper().split()
@@ -176,8 +176,8 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
     front_x = dims.front_left
     trim_y = dims.bleed
     front_center = front_x + dims.trim_width / 2
-    back_inner_x = back_x + 0.50
-    back_right = back_x + dims.trim_width - 0.50
+    back_inner_x = back_x + 0.625
+    back_right = back_x + dims.trim_width - 0.625
     spine_center = spine_x + dims.spine_width / 2
     spine_safe_left = spine_x + SPINE_TEXT_SAFETY_IN
     spine_safe_right = spine_x + dims.spine_width - SPINE_TEXT_SAFETY_IN
@@ -226,7 +226,7 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
         '  <g id="back-cover">',
         f'    <line x1="{back_inner_x:.4f}" y1="0.6200" x2="{back_right:.4f}" y2="0.6200" stroke="{p["rule"]}" stroke-width="0.012"/>',
         _text_block(["BACK COVER"], back_inner_x, 0.930, "small accent", 0.111, 0.155, extra='letter-spacing="0.030" font-weight="700"'),
-        f'    <rect x="{back_inner_x:.4f}" y="1.1800" width="5.0000" height="2.4500" fill="none" stroke="{p["rule"]}" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>',
+        f'    <rect x="{back_inner_x:.4f}" y="1.1800" width="4.7500" height="2.4500" fill="none" stroke="{p["rule"]}" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>',
         _text_block(back_copy_lines, back_inner_x + 0.180, 1.520, "lora body", 0.153, 0.260),
         f'    <line x1="{back_inner_x:.4f}" y1="4.2600" x2="{back_inner_x + 1.500:.4f}" y2="4.2600" stroke="{p["accent"]}" stroke-width="0.010"/>',
         _text_block(["ABOUT THE AUTHOR"], back_inner_x, 4.600, "small muted", 0.111, 0.155, extra='letter-spacing="0.030" font-weight="700"'),
@@ -248,13 +248,13 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
         f'    <g transform="translate({spine_center - 0.120:.4f} 7.8200) rotate(-90)">',
         f'      <text class="display muted" font-size="0.125" font-weight="700" letter-spacing="0.016">{escape(spine_kicker)}</text>',
         "    </g>",
-        f'    <g transform="translate({spine_center + 0.090:.4f} 7.8200) rotate(-90)">',
-        f'      <text class="display ink" font-size="0.220" font-weight="900" letter-spacing="0.030">{escape(spine_title.upper())}</text>',
+        f'    <g transform="translate({spine_center + 0.060:.4f} 7.8200) rotate(-90)">',
+        f'      <text class="display ink" font-size="0.190" font-weight="900" letter-spacing="0.030">{escape(spine_title.upper())}</text>',
         "    </g>",
-        f'    <g transform="translate({spine_center:.4f} 1.4500) rotate(-90)">',
+        f'    <g transform="translate({spine_center:.4f} 1.5300) rotate(-90)">',
         f'      <text class="lora accent" font-size="0.167" font-weight="700" letter-spacing="0.028">{escape(author)}</text>',
         "    </g>",
-        f'    <polygon points="{spine_center:.4f},8.3300 {spine_center + 0.140:.4f},8.4108 {spine_center + 0.140:.4f},8.5725 {spine_center:.4f},8.6533 {spine_center - 0.140:.4f},8.5725 {spine_center - 0.140:.4f},8.4108" fill="none" stroke="{p["accent"]}" stroke-width="0.010"/>',
+        f'    <polygon points="{spine_center:.4f},8.2600 {spine_center + 0.140:.4f},8.3408 {spine_center + 0.140:.4f},8.5025 {spine_center:.4f},8.5833 {spine_center - 0.140:.4f},8.5025 {spine_center - 0.140:.4f},8.3408" fill="none" stroke="{p["accent"]}" stroke-width="0.010"/>',
         "  </g>",
         "",
         '  <g id="front-cover">',
@@ -262,7 +262,7 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
         _text_block([front_kicker], front_center, 1.080, "small accent", 0.111, 0.155, anchor="middle", extra='letter-spacing="0.045" font-weight="700"'),
     ])
 
-    y = 1.900
+    y = 2.050
     for index, (line, size, class_name, extra) in enumerate(title_lines):
         parts.append(_text_block([line], front_center, y, class_name, size, 0.100, anchor="middle", extra=extra))
         y += 0.640 if index == 0 else 0.760

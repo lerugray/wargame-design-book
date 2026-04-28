@@ -55,7 +55,7 @@
       <tspan x="4.8750" dy="0.1900">KDP auto-fills</tspan>
     </text>
     <text x="0.7500" y="8.8900" class="lora muted" font-size="0.095" text-anchor="start">
-      <tspan x="0.7500" dy="0.0000">{{WEBSITE}}</tspan>
+      <tspan x="0.7500" dy="0.0000">lerugray.github.io/wargame-design-book</tspan>
     </text>
   </g>
 
@@ -63,13 +63,13 @@
     <line x1="6.2500" y1="0.6400" x2="6.8107" y2="0.6400" stroke="#b5933a" stroke-width="0.010"/>
     <line x1="6.2500" y1="8.6100" x2="6.8107" y2="8.6100" stroke="#b5933a" stroke-width="0.010"/>
     <g transform="translate(6.4104 7.8200) rotate(-90)">
-      <text class="display muted" font-size="0.125" font-weight="700" letter-spacing="0.016">{{SPINE_KICKER}}</text>
+      <text class="display muted" font-size="0.125" font-weight="700" letter-spacing="0.016">A Contemporary Guide to</text>
     </g>
     <g transform="translate(6.5904 7.8200) rotate(-90)">
-      <text class="display ink" font-size="0.190" font-weight="900" letter-spacing="0.030">{{SPINE_TITLE}}</text>
+      <text class="display ink" font-size="0.190" font-weight="900" letter-spacing="0.030">WARGAME DESIGN</text>
     </g>
     <g transform="translate(6.5304 1.5300) rotate(-90)">
-      <text class="lora accent" font-size="0.167" font-weight="700" letter-spacing="0.028">{{AUTHOR}}</text>
+      <text class="lora accent" font-size="0.167" font-weight="700" letter-spacing="0.028">Ray Weiss</text>
     </g>
     <polygon points="6.5304,8.2600 6.6704,8.3408 6.6704,8.5025 6.5304,8.5833 6.3904,8.5025 6.3904,8.3408" fill="none" stroke="#7a3b1e" stroke-width="0.010"/>
   </g>
@@ -77,16 +77,23 @@
   <g id="front-cover">
     <line x1="7.6857" y1="0.7200" x2="12.1857" y2="0.7200" stroke="#c4b49a" stroke-width="0.010"/>
     <text x="9.9357" y="1.0800" class="small accent" font-size="0.111" text-anchor="middle" letter-spacing="0.045" font-weight="700">
-      <tspan x="9.9357" dy="0.0000">{{FRONT_KICKER}}</tspan>
+      <tspan x="9.9357" dy="0.0000">ON THE CRAFT OF</tspan>
     </text>
-    <text x="9.9357" y="2.0500" class="display ink" font-size="0.580" text-anchor="middle" font-weight="800" letter-spacing="0.020">
-      <tspan x="9.9357" dy="0.0000">{{TITLE_LINE_1}}</tspan>
+    <text x="9.9357" y="2.0500" class="display ink" font-size="0.545" text-anchor="middle" font-weight="800" letter-spacing="0.008">
+      <tspan x="9.9357" dy="0.0000">A CONTEMPORARY</tspan>
     </text>
-    <text x="9.9357" y="2.6900" class="display accent" font-size="0.580" text-anchor="middle" font-weight="900" letter-spacing="0.040">
-      <tspan x="9.9357" dy="0.0000">{{TITLE_LINE_2}}</tspan>
+    <text x="9.9357" y="2.6900" class="display ink" font-size="0.360" text-anchor="middle" font-weight="700" letter-spacing="0.018">
+      <tspan x="9.9357" dy="0.0000">guide to</tspan>
+    </text>
+    <text x="9.9357" y="3.4500" class="display accent" font-size="0.665" text-anchor="middle" font-weight="900" letter-spacing="0.022">
+      <tspan x="9.9357" dy="0.0000">WARGAME</tspan>
+    </text>
+    <text x="9.9357" y="4.2100" class="display accent" font-size="0.665" text-anchor="middle" font-weight="900" letter-spacing="0.022">
+      <tspan x="9.9357" dy="0.0000">DESIGN</tspan>
     </text>
     <text x="9.9357" y="5.0300" class="lora muted" font-size="0.167" text-anchor="middle" font-style="italic">
-      <tspan x="9.9357" dy="0.0000">{{SUBTITLE}}</tspan>
+      <tspan x="9.9357" dy="0.0000">A practical, opinionated guide to</tspan>
+      <tspan x="9.9357" dy="0.2750">designing historical board wargames</tspan>
     </text>
     <g id="counter" transform="translate(9.9357 6.1200) rotate(-3.2)">
       <rect x="-0.5000" y="-0.5000" width="1.0800" height="1.0800" fill="#5a2c14" opacity="0.20"/>
@@ -99,22 +106,10 @@
     </g>
     <line x1="8.9357" y1="7.5800" x2="10.9357" y2="7.5800" stroke="#c4b49a" stroke-width="0.010"/>
     <text x="9.9357" y="8.0000" class="lora ink" font-size="0.225" text-anchor="middle" font-weight="700" letter-spacing="0.060">
-      <tspan x="9.9357" dy="0.0000">{{AUTHOR_UPPER}}</tspan>
+      <tspan x="9.9357" dy="0.0000">RAY WEISS</tspan>
     </text>
     <text x="9.9357" y="8.7000" class="lora muted" font-size="0.095" text-anchor="middle" letter-spacing="0.030">
-      <tspan x="9.9357" dy="0.0000">{{YEAR}}</tspan>
+      <tspan x="9.9357" dy="0.0000">2026</tspan>
     </text>
-  </g>
-
-  <g id="guides">
-    <rect x="0" y="0" width="13.0607" height="9.2500" class="guide-bleed"/>
-    <rect x="0.1250" y="0.1250" width="12.8107" height="9.0000" class="guide-trim"/>
-    <rect x="0.2500" y="0.2500" width="5.7500" height="8.7500" class="guide-safe"/>
-    <rect x="7.0607" y="0.2500" width="5.7500" height="8.7500" class="guide-safe"/>
-    <line x1="6.1250" y1="0" x2="6.1250" y2="9.2500" class="guide-spine"/>
-    <line x1="6.9357" y1="0" x2="6.9357" y2="9.2500" class="guide-spine"/>
-    <line x1="6.1875" y1="0" x2="6.1875" y2="9.2500" class="guide-spine" stroke-dasharray="0.035 0.025"/>
-    <line x1="6.8732" y1="0" x2="6.8732" y2="9.2500" class="guide-spine" stroke-dasharray="0.035 0.025"/>
-    <rect x="3.8750" y="7.5200" width="2.0000" height="1.2000" fill="none" stroke="#00C853" stroke-width="0.010" stroke-dasharray="0.040 0.030"/>
   </g>
 </svg>
