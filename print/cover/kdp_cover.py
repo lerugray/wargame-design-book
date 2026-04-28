@@ -251,7 +251,7 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
         f'    <g transform="translate({spine_center + 0.060:.4f} 7.8200) rotate(-90)">',
         f'      <text class="display ink" font-size="0.190" font-weight="900" letter-spacing="0.030">{escape(spine_title.upper())}</text>',
         "    </g>",
-        f'    <g transform="translate({spine_center:.4f} 1.5300) rotate(-90)">',
+        f'    <g transform="translate({spine_center:.4f} 1.8000) rotate(-90)">',
         f'      <text class="lora accent" font-size="0.167" font-weight="700" letter-spacing="0.028">{escape(author)}</text>',
         "    </g>",
         f'    <polygon points="{spine_center:.4f},8.2600 {spine_center + 0.140:.4f},8.3408 {spine_center + 0.140:.4f},8.5025 {spine_center:.4f},8.5833 {spine_center - 0.140:.4f},8.5025 {spine_center - 0.140:.4f},8.3408" fill="none" stroke="{p["accent"]}" stroke-width="0.010"/>',

@@ -68,7 +68,7 @@
     <g transform="translate(6.5904 7.8200) rotate(-90)">
       <text class="display ink" font-size="0.190" font-weight="900" letter-spacing="0.030">{{SPINE_TITLE}}</text>
     </g>
-    <g transform="translate(6.5304 1.5300) rotate(-90)">
+    <g transform="translate(6.5304 1.8000) rotate(-90)">
       <text class="lora accent" font-size="0.167" font-weight="700" letter-spacing="0.028">{{AUTHOR}}</text>
     </g>
     <polygon points="6.5304,8.2600 6.6704,8.3408 6.6704,8.5025 6.5304,8.5833 6.3904,8.5025 6.3904,8.3408" fill="none" stroke="#7a3b1e" stroke-width="0.010"/>
