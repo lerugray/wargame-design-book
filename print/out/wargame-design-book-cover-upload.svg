@@ -30,29 +30,31 @@
     <text x="0.7500" y="0.9300" class="small accent" font-size="0.111" text-anchor="start" letter-spacing="0.030" font-weight="700">
       <tspan x="0.7500" dy="0.0000">BACK COVER</tspan>
     </text>
-    <rect x="0.7500" y="1.1000" width="5.0000" height="3.5000" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
+    <rect x="0.7500" y="1.1000" width="5.0000" height="3.9000" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
     <text x="0.9000" y="1.3000" class="lora body" font-size="0.130" text-anchor="start">
       <tspan x="0.9000" dy="0.0000">You do not need a giant game to learn wargame design.</tspan>
       <tspan x="0.9000" dy="0.2050">You need a subject you care about, a clear idea of what</tspan>
       <tspan x="0.9000" dy="0.2050">the players should be deciding, and enough discipline to</tspan>
-      <tspan x="0.9000" dy="0.2050">leave out the parts that do not matter. This book is</tspan>
-      <tspan x="0.9000" dy="0.2050">about that discipline. Ray Weiss has designed and</tspan>
-      <tspan x="0.9000" dy="0.2050">published nearly thirty historical wargames. In A</tspan>
-      <tspan x="0.9000" dy="0.2050">Contemporary Guide to Wargame Design, he explains how</tspan>
-      <tspan x="0.9000" dy="0.2050">those games get built: scope, scale, maps, counters,</tspan>
-      <tspan x="0.9000" dy="0.2050">combat, supply, morale, victory, playtesting, rules</tspan>
-      <tspan x="0.9000" dy="0.2050">writing, and publication. The advice is practical</tspan>
-      <tspan x="0.9000" dy="0.2050">because the problems are practical. How much detail is</tspan>
-      <tspan x="0.9000" dy="0.2050">enough? When is chrome helping? Why does one system feel</tspan>
-      <tspan x="0.9000" dy="0.2050">historical and another feel arbitrary? Start small.</tspan>
-      <tspan x="0.9000" dy="0.2050">Finish something. Learn from the table. ---</tspan>
+      <tspan x="0.9000" dy="0.2050">leave out the parts that do not matter.</tspan>
+      <tspan x="0.9000" dy="0.3050">This book is about that discipline.</tspan>
+      <tspan x="0.9000" dy="0.3050">Ray Weiss has designed and published nearly thirty</tspan>
+      <tspan x="0.9000" dy="0.2050">historical wargames. In</tspan>
+      <tspan font-style="italic">A Contemporary Guide to Wargame</tspan>
+      <tspan x="0.9000" dy="0.2050" font-style="italic">Design</tspan>
+      <tspan>, he explains how those games get built: scope,</tspan>
+      <tspan x="0.9000" dy="0.2050">scale, maps, counters, combat, supply, morale, victory,</tspan>
+      <tspan x="0.9000" dy="0.2050">playtesting, rules writing, and publication. The advice</tspan>
+      <tspan x="0.9000" dy="0.2050">is practical because the problems are practical. How</tspan>
+      <tspan x="0.9000" dy="0.2050">much detail is enough? When is chrome helping? Why does</tspan>
+      <tspan x="0.9000" dy="0.2050">one system feel historical and another feel arbitrary?</tspan>
+      <tspan x="0.9000" dy="0.3050">Start small. Finish something. Learn from the table.</tspan>
     </text>
-    <line x1="0.7500" y1="4.6600" x2="2.2500" y2="4.6600" stroke="#7a3b1e" stroke-width="0.010"/>
-    <text x="0.7500" y="4.9800" class="small muted" font-size="0.111" text-anchor="start" letter-spacing="0.030" font-weight="700">
+    <line x1="0.7500" y1="5.0600" x2="2.2500" y2="5.0600" stroke="#7a3b1e" stroke-width="0.010"/>
+    <text x="0.7500" y="5.3800" class="small muted" font-size="0.111" text-anchor="start" letter-spacing="0.030" font-weight="700">
       <tspan x="0.7500" dy="0.0000">ABOUT THE AUTHOR</tspan>
     </text>
-    <rect x="0.7500" y="5.2600" width="5.0000" height="1.7000" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
-    <text x="0.9000" y="5.4400" class="lora body" font-size="0.115" text-anchor="start">
+    <rect x="0.7500" y="5.6600" width="5.0000" height="1.7000" fill="none" stroke="#c4b49a" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>
+    <text x="0.9000" y="5.8400" class="lora body" font-size="0.115" text-anchor="start">
       <tspan x="0.9000" dy="0.0000">Ray Weiss is an independent wargame designer and the founder of Conflict</tspan>
       <tspan x="0.9000" dy="0.1380">Simulations LLC, a small publishing company focused on historical board</tspan>
       <tspan x="0.9000" dy="0.1380">wargames. He has designed and published nearly thirty games covering</tspan>
