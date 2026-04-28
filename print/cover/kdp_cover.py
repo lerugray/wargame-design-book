@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass
 from html import escape
 from pathlib import Path
@@ -115,6 +116,111 @@ def fmt_in(value: float) -> str:
     return f"{value:.4f}"
 
 
+def _parse_words_with_markdown_italic(paragraph: str) -> list[tuple[str, bool]]:
+    """Split paragraph into (word, italic) using single *...* spans."""
+    parts = re.split(r"(\*[^*]+\*)", paragraph)
+    out: list[tuple[str, bool]] = []
+    for part in parts:
+        if not part:
+            continue
+        if part.startswith("*") and part.endswith("*") and len(part) >= 2:
+            inner = part[1:-1].strip()
+            for w in inner.split():
+                out.append((w, True))
+        else:
+            for w in part.split():
+                out.append((w, False))
+    return out
+
+
+def _collapse_word_runs(bucket: list[tuple[str, bool]]) -> list[tuple[str, bool]]:
+    if not bucket:
+        return []
+    merged: list[tuple[str, bool]] = []
+    buf, cur_it = bucket[0]
+    for word, it in bucket[1:]:
+        if it == cur_it:
+            buf += " " + word
+        else:
+            merged.append((buf, cur_it))
+            buf = word
+            cur_it = it
+    merged.append((buf, cur_it))
+    return merged
+
+
+def _wrap_mixed_paragraph(paragraph: str, width: int) -> list[list[tuple[str, bool]]]:
+    """Word-wrap one paragraph to lines of (text-run, italic) segments."""
+    words = _parse_words_with_markdown_italic(paragraph)
+    if not words:
+        return []
+    lines_out: list[list[tuple[str, bool]]] = []
+    bucket: list[tuple[str, bool]] = []
+    length = 0
+
+    def flush_bucket() -> None:
+        nonlocal bucket, length
+        if bucket:
+            lines_out.append(_collapse_word_runs(bucket))
+            bucket = []
+            length = 0
+
+    for word, it in words:
+        if len(word) > width:
+            flush_bucket()
+            for i in range(0, len(word), width):
+                lines_out.append([(word[i : i + width], it)])
+            continue
+        add = len(word) if not bucket else len(word) + 1
+        if length + add > width and bucket:
+            flush_bucket()
+            bucket = [(word, it)]
+            length = len(word)
+        else:
+            bucket.append((word, it))
+            length += add
+    flush_bucket()
+    return lines_out
+
+
+def _hook_mixed_text_block(
+    copy: str,
+    x: float,
+    y: float,
+    class_name: str,
+    size: float,
+    line_height: float,
+    para_extra_dy: float,
+    wrap_width: int,
+) -> str:
+    """Back-cover hook: paragraph gaps + *italic* segments as tspans."""
+    paras = [p.strip() for p in copy.split("\n\n") if p.strip()]
+    rows: list[tuple[list[tuple[str, bool]], bool]] = []
+    for pi, para in enumerate(paras):
+        for li, line_runs in enumerate(_wrap_mixed_paragraph(para, wrap_width)):
+            rows.append((line_runs, pi > 0 and li == 0))
+
+    attrs = f'class="{class_name}" font-size="{size:.3f}" text-anchor="start"'
+    parts = [f'    <text x="{fmt_in(x)}" y="{fmt_in(y)}" {attrs}>']
+    first_line = True
+    for line_runs, para_first in rows:
+        if first_line:
+            dy_line = 0.0
+            first_line = False
+        else:
+            dy_line = line_height + (para_extra_dy if para_first else 0.0)
+        for ri, (chunk, italic) in enumerate(line_runs):
+            style = ' font-style="italic"' if italic else ""
+            if ri == 0:
+                parts.append(
+                    f'      <tspan x="{fmt_in(x)}" dy="{fmt_in(dy_line)}"{style}>{escape(chunk)}</tspan>'
+                )
+            else:
+                parts.append(f'      <tspan{style}>{escape(chunk)}</tspan>')
+    parts.append("    </text>")
+    return "\n".join(parts)
+
+
 def _text_block(lines: list[str], x: float, y: float, class_name: str, size: float,
                 line_height: float, anchor: str = "start", extra: str = "") -> str:
     attrs = f'class="{class_name}" font-size="{size:.3f}" text-anchor="{anchor}"'
@@ -155,10 +261,12 @@ def _lines_from_prose(
 
 
 # Back-cover layout (inches): hook and bio panels stay inside trim safe area; barcode y=7.52–8.72.
-_BACK_HOOK_RECT = (1.1000, 5.0000, 3.5000)  # y, width, height
-_BACK_BIO_RECT = (5.2600, 5.0000, 1.7000)
+_BACK_HOOK_RECT = (1.1000, 5.0000, 3.9000)  # y, width, height (taller for paragraph rhythm)
+_BACK_BIO_GAP_BELOW_HOOK = 0.6600  # bio rect top minus hook bottom (was 5.26 − 4.60 at hook_h=3.5)
+_BACK_BIO_WH = (5.0000, 1.7000)
 _BACK_HOOK_FONT = 0.130
 _BACK_HOOK_LEADING = 0.205
+_BACK_HOOK_PARA_EXTRA_DY = 0.100  # first line of paragraph 2+ uses leading + this vs previous line
 _BACK_BIO_FONT = 0.115
 _BACK_BIO_LEADING = 0.138
 _BACK_HOOK_WRAP = 56
@@ -225,11 +333,7 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
             "ABOUT THE AUTHOR PLACEHOLDER", "{{ABOUT_AUTHOR_LINE}}", width=_BACK_BIO_WRAP
         )
     else:
-        if params.back_cover_copy.strip():
-            back_copy_lines = _lines_from_prose(
-                params.back_cover_copy, _BACK_HOOK_WRAP, separate_paragraphs=False
-            )
-        else:
+        if not params.back_cover_copy.strip():
             back_copy_lines = _wrap_placeholder(
                 "BACK COVER COPY PLACEHOLDER", "{{BACK_COVER_COPY}}", width=_BACK_HOOK_WRAP
             )
@@ -243,7 +347,38 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
             )
 
     hook_y, hook_w, hook_h = _BACK_HOOK_RECT
-    bio_y, bio_w, bio_h = _BACK_BIO_RECT
+    bio_w, bio_h = _BACK_BIO_WH
+    bio_y = hook_y + hook_h + _BACK_BIO_GAP_BELOW_HOOK
+
+    if placeholders:
+        hook_body_svg = _text_block(
+            back_copy_lines,
+            back_inner_x + 0.150,
+            hook_y + 0.200,
+            "lora body",
+            _BACK_HOOK_FONT,
+            _BACK_HOOK_LEADING,
+        )
+    elif params.back_cover_copy.strip():
+        hook_body_svg = _hook_mixed_text_block(
+            params.back_cover_copy,
+            back_inner_x + 0.150,
+            hook_y + 0.200,
+            "lora body",
+            _BACK_HOOK_FONT,
+            _BACK_HOOK_LEADING,
+            _BACK_HOOK_PARA_EXTRA_DY,
+            _BACK_HOOK_WRAP,
+        )
+    else:
+        hook_body_svg = _text_block(
+            back_copy_lines,
+            back_inner_x + 0.150,
+            hook_y + 0.200,
+            "lora body",
+            _BACK_HOOK_FONT,
+            _BACK_HOOK_LEADING,
+        )
 
     if placeholders:
         title_lines = [
@@ -285,14 +420,7 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
         f'    <line x1="{back_inner_x:.4f}" y1="0.6200" x2="{back_right:.4f}" y2="0.6200" stroke="{p["rule"]}" stroke-width="0.012"/>',
         _text_block(["BACK COVER"], back_inner_x, 0.930, "small accent", 0.111, 0.155, extra='letter-spacing="0.030" font-weight="700"'),
         f'    <rect x="{back_inner_x:.4f}" y="{hook_y:.4f}" width="{hook_w:.4f}" height="{hook_h:.4f}" fill="none" stroke="{p["rule"]}" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>',
-        _text_block(
-            back_copy_lines,
-            back_inner_x + 0.150,
-            hook_y + 0.200,
-            "lora body",
-            _BACK_HOOK_FONT,
-            _BACK_HOOK_LEADING,
-        ),
+        hook_body_svg,
         f'    <line x1="{back_inner_x:.4f}" y1="{hook_y + hook_h + 0.0600:.4f}" x2="{back_inner_x + 1.500:.4f}" y2="{hook_y + hook_h + 0.0600:.4f}" stroke="{p["accent"]}" stroke-width="0.010"/>',
         _text_block(
             ["ABOUT THE AUTHOR"],

@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import argparse
-import re
 import shutil
 import subprocess
 import sys
@@ -29,7 +28,8 @@ def _md_slice(text: str, start_header: str, end_header: str) -> str:
 def load_back_cover_hook() -> str:
     path = COPY_DIR / "back-cover-hook.md"
     body = _md_slice(path.read_text(encoding="utf-8"), "## Selected: Candidate 2", "## Alternates")
-    return re.sub(r"\*([^*]+)\*", r"\1", body)
+    chunks = [p.strip() for p in body.split("\n\n") if p.strip() and p.strip() != "---"]
+    return "\n\n".join(chunks)
 
 
 def load_short_author_bio() -> str:
