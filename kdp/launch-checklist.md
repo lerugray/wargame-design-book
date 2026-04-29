@@ -4,10 +4,11 @@ A reusable, fill-in-the-blanks playbook for taking a KDP paperback from "interio
 
 This doc is content-neutral. The actual listing copy, author bio, keywords, BISAC categories, and final price live in their own files because they are voice-sensitive or business decisions Ray makes:
 
-- **Listing description (short hook + long body)** → drafted in `kdp/listing-description.md` (task wdb-007)
-- **Author bio + back-cover hook** → drafted in `kdp/author-bio.md` (task wdb-008)
-- **7 keywords + 2 BISAC categories** → chosen in `kdp/keywords-and-categories.md` (task wdb-009)
-- **Final retail price** → decided in `kdp/pricing-decision.md` (task wdb-010, downstream of `royalty-analysis.md`)
+- **Listing description (short hook + long body)** → drafted in `print/copy/amazon-listing.md` (task wdb-007)
+- **Author bio (short + long)** → drafted in `print/copy/author-bio.md` (task wdb-008)
+- **Back-cover hook** → drafted in `print/copy/back-cover-hook.md` (task wdb-008; already baked into the cover PDF — reference only)
+- **7 keywords + 2 BISAC categories** → chosen in `print/copy/keywords-worksheet.md` (task wdb-009)
+- **Final retail price** → decided in `print/copy/pricing-recommendation.md` (task wdb-010, downstream of `royalty-analysis.md`)
 
 This checklist references those files; it does not duplicate their content.
 
@@ -29,12 +30,12 @@ These are the fields KDP's "Paperback Details" + "Paperback Content" + "Paperbac
 | Edition number | 1 | bump for revised editions |
 | Author (primary) | Ray Weiss | matches docs site + manuscript |
 | Contributors | _(blank unless adding editor / illustrator credit)_ | — |
-| Description | → see `kdp/listing-description.md` | wdb-007 |
+| Description | → see `print/copy/amazon-listing.md` | wdb-007 |
 | Publishing rights | I own the copyright and hold the necessary publishing rights | — |
 | Primary audience | Adults | wargame audience is adult |
 | Reading age | _(leave blank for adult title)_ | — |
-| Keywords (up to 7) | → see `kdp/keywords-and-categories.md` | wdb-009 |
-| Categories (up to 2) | → see `kdp/keywords-and-categories.md` | wdb-009 |
+| Keywords (up to 7) | → see `print/copy/keywords-worksheet.md` | wdb-009 |
+| Categories (up to 2) | → see `print/copy/keywords-worksheet.md` | wdb-009 |
 | Adult content | No | — |
 
 ### A.2 Paperback Content
@@ -47,7 +48,7 @@ These are the fields KDP's "Paperback Details" + "Paperback Content" + "Paperbac
 | Print options | Black & white interior, cream paper, 6 x 9 in, paperback, matte cover | matches print pipeline (`print/metadata.yaml`) |
 | Bleed | No bleed | interior has no full-bleed art; flip to "Bleed" only if that changes |
 | Manuscript | upload `print/out/wargame-design-book.pdf` | from wdb-001 build |
-| Cover | upload `print/cover/out/cover-final.pdf` | from wdb-002 once interactive cover work lands |
+| Cover | upload `print/out/wargame-design-book-cover.pdf` | from wdb-002 (wraparound, spine 0.8197 in) |
 
 ### A.3 Paperback Rights & Pricing
 
@@ -56,7 +57,7 @@ These are the fields KDP's "Paperback Details" + "Paperback Content" + "Paperbac
 | Territories | All territories (worldwide rights) | default unless rights are encumbered |
 | Primary marketplace | Amazon.com | — |
 | Royalty plan | 60% (only option for paperback) | — |
-| List price (US) | → see `kdp/pricing-decision.md` | wdb-010 |
+| List price (US) | → see `print/copy/pricing-recommendation.md` | wdb-010 |
 | Other marketplace prices | "Calculate from US price" (KDP auto-converts) | re-check after launch — currency rounding can land at ugly numbers |
 | Expanded Distribution | _(leave OFF by default)_ | enables only after launch settles; cuts royalty further and rarely moves units for niche non-fiction |
 
@@ -73,17 +74,17 @@ Do not hit "Publish" until every box below is checked. Each unchecked box is a l
 - [ ] All proof-round fixes applied; final proof shows no remaining markups
 
 ### B.2 Listing copy
-- [ ] `kdp/listing-description.md` has both short hook (≤200 char) and long description (≤4000 char) and has been run through `/stop-slop`
-- [ ] `kdp/author-bio.md` final draft approved by Ray (bio appears on Amazon Author Central + back cover)
+- [ ] `print/copy/amazon-listing.md` has both short hook (≤200 char) and long description (≤4000 char) and has been run through `/stop-slop`
+- [ ] `print/copy/author-bio.md` final draft approved by Ray (bio appears on Amazon Author Central + back cover)
 - [ ] Title + subtitle + series fields match across: KDP listing, back cover, copyright page, title page
 
 ### B.3 Discoverability
-- [ ] 7 keywords selected (`kdp/keywords-and-categories.md`); each is ≤50 chars; none duplicate the title
+- [ ] 7 keywords selected (`print/copy/keywords-worksheet.md`); each is ≤50 chars; none duplicate the title
 - [ ] 2 BISAC categories selected; both have been spot-checked against existing top-100 books in that category to confirm fit
 - [ ] Amazon Author Central page exists for Ray Weiss; bio, photo, and at least one prior title (if applicable) are populated
 
 ### B.4 Pricing & royalty
-- [ ] Final list price set per `kdp/pricing-decision.md`
+- [ ] Final list price set per `print/copy/pricing-recommendation.md`
 - [ ] Royalty per copy at chosen price recalculated and recorded (KDP shows it on the pricing page; sanity-check against `royalty-analysis.md`)
 - [ ] Marketplace prices (UK, DE, etc.) sanity-checked — KDP's auto-convert can land at £19.97 or €22.49; round manually to memorable numbers if it does
 
@@ -173,7 +174,7 @@ Pin this somewhere visible on launch day. Times are illustrative — adjust to R
 ### T-3 days
 - Final KDP previewer pass on interior + cover. If anything fails, abort launch. Do not "we'll fix it after."
 - Confirm prelaunch email list is loaded into your mail client with the link placeholder.
-- Double-check `kdp/pricing-decision.md` against KDP's calculated royalty — has anything changed (page count drift, new printing-cost table)?
+- Double-check `print/copy/pricing-recommendation.md` against KDP's calculated royalty — has anything changed (page count drift, new printing-cost table)?
 
 ### T-1 day (the night before)
 - Hit "Publish" on KDP.
@@ -221,7 +222,7 @@ Do, in this order:
 
 This file is intentionally generic where possible. For Ray's next KDP title:
 - Replace the title/subtitle/audience rows in Section A.
-- Re-do `kdp/listing-description.md`, `kdp/author-bio.md` (or trim to a one-line "also wrote X" addition), `kdp/keywords-and-categories.md`, `kdp/pricing-decision.md`. The voice and discovery work do not transfer.
+- Re-do `print/copy/amazon-listing.md`, `print/copy/author-bio.md` (or trim to a one-line "also wrote X" addition), `print/copy/keywords-worksheet.md`, `print/copy/pricing-recommendation.md`. The voice and discovery work do not transfer.
 - Keep Sections B (gate), C (templates — light edits per book), D (D-day sequence), and E (flat-launch playbook) as-is. They're book-agnostic.
 - Update `royalty-analysis.md` for the new page count + chosen retail price.
 
