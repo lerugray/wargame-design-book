@@ -125,8 +125,6 @@ Third, look at the high-odds columns. At 5:1 and 6:1, Defender Eliminated shows 
 
 This table is a starting point. Playtesting will tell you whether the 3:1 column is too bloody, whether retreats are too common at 1:1, whether the high-odds columns feel decisive enough. Adjust column by column until the results match the conflict you are simulating.
 
-![Sedan 1940 national combat matrix example]({{ site.baseurl }}/assets/images/sedan-combat-matrix.png)
-
 Expect the CRT to change more than any other component during development. Playtests will reveal problems your spreadsheet cannot. Results that seemed reasonable on paper will produce strange outcomes on the map. Adjust, playtest again, adjust again.
 
 Once you are comfortable with established systems and understand what makes them work, begin to experiment. Introduce mechanics from games you admire. Combine approaches. Try a differential table with ratio column shifts. Try a dice pool system. The proven systems exist because they work, but the best games in this hobby have come from designers who understood the conventions well enough to deviate from them with purpose.
