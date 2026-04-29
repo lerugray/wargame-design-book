@@ -107,8 +107,6 @@ Start simple. A basic odds-based CRT with retreat and step loss results is enoug
 
 To make this concrete, here is a simple 1d6 CRT for a hypothetical operational game. Seven columns, five result types.
 
-![Sedan 1940 national combat matrix example]({{ site.baseurl }}/assets/images/sedan-combat-matrix.png)
-
 | 1d6 | 1:2 | 1:1 | 2:1 | 3:1 | 4:1 | 5:1 | 6:1 |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | 1 | AE | AR2 | AR1 | EX | DR1 | DR1 | DR2 |
