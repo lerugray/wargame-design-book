@@ -60,6 +60,23 @@ This will be done separately using Claude in Chrome with frontend design plugins
 - **Keep it simple** — this is a book website, not a web app. Clean reading experience is the goal.
 - **The repo is PUBLIC** — do not put API keys, personal info, or anything sensitive here.
 
+## Maintenance Hazards
+
+### Chapter content lives in TWO places
+
+Every chapter exists at both `docs/chapter_NN.md` AND `docs/_chapters/chapter_NN.md`. They are NOT the same file — they have diverged historically. This is a quiet footgun:
+
+- **Online site (Jekyll)** renders from `docs/chapter_NN.md`. The non-prefixed copies. `_config.yml` line 37 EXCLUDES `_chapters/` from the site build.
+- **Print pipeline (Pandoc → LuaLaTeX)** assembles `docs/_chapters/chapter_NN.md`. The prefixed copies. See `print/build.sh` and `print/prepare-chapters.py`.
+
+If you edit ONE copy, the other surface drifts. Concrete example: 2026-04-28 a misplaced Sedan combat-matrix figure in chapter 9 needed two commits to fully remove — `85cb1f2` fixed the print source (`docs/_chapters/`), `e12c33b` fixed the site source (`docs/`). Either commit alone would have left one surface broken.
+
+**Whenever you edit chapter content, always update both files.** Or pick one to delete + adjust `_config.yml`/`build.sh` to read from the other. The current divergence is technical debt; deleting one side cleanly is preferable to maintaining the parallel sync.
+
+### `print/build.sh` has CRLF line endings
+
+`bash print/build.sh` fails with `$'\r': command not found` on Windows because the file has CRLF. Workaround: run the underlying command sequence directly (`python print/prepare-chapters.py` + Pandoc + LuaLaTeX). Permanent fix: normalize the file to LF, or rewrite the build as a `.ps1` / Python script.
+
 ## File Structure
 
 ```
