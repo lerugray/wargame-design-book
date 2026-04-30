@@ -8,11 +8,11 @@ A practical guide to designing historical board wargames, from choosing a subjec
 
 ## Long body (4000 chars max)
 
-*A Contemporary Guide to Wargame Design* is a practical guide to designing historical board wargames. Ray Weiss has spent more than a decade designing and publishing them. The book covers the full path from first idea to finished prototype: research, scope, scale, orders of battle, movement, combat systems, sequence of play, supply, morale, victory conditions, playtesting, rules writing, development, and publication.
+*A Contemporary Guide to Wargame Design* shows how historical board wargames get built. Ray Weiss has spent more than a decade designing and publishing them. The book covers the full path from first idea to finished prototype: research, scope, scale, orders of battle, movement, combat systems, sequence of play, supply, morale, victory conditions, playtesting, rules writing, development, and publication.
 
-Wargames look complicated from the outside: dense maps, counters full of numbers, rulebooks that run for dozens of pages. Under that complexity, a good wargame is a small set of decisions. What the game is about. What the players can do. What the system needs to model. What to leave out.
+Wargames look complicated from the outside: dense maps, counters full of numbers, rulebooks that run for dozens of pages. Under that complexity, a good wargame is a small set of decisions: what the game is about, what the players can do, what to leave out.
 
-The book treats design as work, not theory. Why does one combat results table feel right and another feel arbitrary? How do you decide whether a hex represents 500 meters or 50 kilometers, and when a unit needs separate ratings for attack, defense, morale, and movement?
+The book treats design as work. Why does one combat results table feel right and another feel arbitrary? How do you decide whether a hex represents 500 meters or 50 kilometers, and when a unit needs separate ratings for attack, defense, morale, and movement?
 
 A tactical game about infantry combat needs different tools than an operational game about supply lines. A card-driven game needs different habits than a hex-and-counter design. The book shows you how experienced designers think through those problems, test their assumptions, and cut what does not serve the game.
 
