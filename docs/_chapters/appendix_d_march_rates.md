@@ -205,7 +205,7 @@ The Western Front locked up for four years because of a speed asymmetry. Attacke
 
 | Movement Type | Rate (mi/day) | Notes |
 |---|---|---|
-| Infantry on roads | 15-20 | Unchanged since antiquity |
+| Infantry on roads | 15-20 | |
 | Infantry, cross-country | 10-15 | |
 | Armor on roads, light opposition | 30-50 | |
 | Armor vs. organized defense | 5-15 | |

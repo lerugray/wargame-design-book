@@ -48,7 +48,7 @@ These are the fields KDP's "Paperback Details" + "Paperback Content" + "Paperbac
 | Print options | Black & white interior, cream paper, 6 x 9 in, paperback, matte cover | matches print pipeline (`print/metadata.yaml`) |
 | Bleed | No bleed | interior has no full-bleed art; flip to "Bleed" only if that changes |
 | Manuscript | upload `print/out/wargame-design-book.pdf` | from wdb-001 build |
-| Cover | upload `print/out/wargame-design-book-cover.pdf` | from wdb-002 (wraparound, spine 0.9050 in for 362pp cream) |
+| Cover | upload `print/out/wargame-design-book-cover.pdf` | from wdb-002 (wraparound, spine 0.9000 in for 360pp cream) |
 
 ### A.3 Paperback Rights & Pricing
 

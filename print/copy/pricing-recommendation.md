@@ -4,13 +4,13 @@
 
 Launch the paperback at **$24.99**.
 
-That price fits the book better than $19.99 without pushing it into the harder-to-defend $29.99 band. The current print analysis uses a 362-page, 6x9, black-and-white paperback with cream paper. At $24.99, KDP's Amazon-direct 60% royalty produces about **$9.80 per copy** after the estimated $5.20 print cost. At $19.99, the royalty is about **$6.80 per copy**. That $3 difference matters. At 100 copies, it is roughly $300 of margin from the same amount of marketing work.
+That price fits the book better than $19.99 without pushing it into the harder-to-defend $29.99 band. The current print analysis uses a 360-page, 6x9, black-and-white paperback with cream paper. At $24.99, KDP's Amazon-direct 60% royalty produces about **$9.82 per copy** after the estimated $5.17 print cost. At $19.99, the royalty is about **$6.82 per copy**. That $3 difference matters. At 100 copies, it is roughly $300 of margin from the same amount of marketing work.
 
 ## Comparables
 
 The closest wargame design books are a strange market. Dunnigan's work is foundational but old, and some editions are out of print or priced like collector items. Rick Priestley and John Lambshead's *Tabletop Wargames: A Designers' and Writers' Handbook* appears around the high teens to mid-$20s depending on seller. Broader board game design books often sit in the $15-$25 band, while academic or professional simulation books can go much higher.
 
-This book should not be priced like a thin hobby pamphlet. It is a 362-page design reference on a niche topic. Wargamers also buy $60-$100 boxed games and $40 rulebooks, so $24.99 is not a shocking price for the audience. It is still low enough that a curious designer can take a chance on it.
+This book should not be priced like a thin hobby pamphlet. It is a 360-page design reference on a niche topic. Wargamers also buy $60-$100 boxed games and $40 rulebooks, so $24.99 is not a shocking price for the audience. It is still low enough that a curious designer can take a chance on it.
 
 ## Tradeoffs
 
