@@ -26,11 +26,11 @@ operational version that Chrome-Claude executes against KDP.
 
 I'm publishing my first paperback on KDP. Title:
 **A Contemporary Guide to Wargame Design** by Ray Weiss. Standalone
-title, no series, no subtitle, English, 360 pages, 6x9, B&W
+title, no series, no subtitle, English, 362 pages, 6x9, B&W
 interior on cream paper, matte cover. Print files are local
 (`print/out/wargame-design-book.pdf` interior +
 `print/out/wargame-design-book-cover.pdf` wraparound cover, spine
-0.8197 in). I'll handle the file uploads myself when KDP asks.
+0.9050 in). I'll handle the file uploads myself when KDP asks.
 
 Your job: be my second pair of eyes inside the KDP UI. Walk me
 through each of the three KDP pages (Paperback Details, Paperback
@@ -117,7 +117,7 @@ verify with the spot-check before I click Save.
 | Print options | Black & white interior, cream paper, 6 x 9 in, paperback, matte cover |
 | Bleed | No bleed |
 | Manuscript | I'll upload `wargame-design-book.pdf` |
-| Cover | I'll upload `wargame-design-book-cover.pdf` (wraparound, spine 0.8197 in) |
+| Cover | I'll upload `wargame-design-book-cover.pdf` (wraparound, spine 0.9050 in for 362pp cream) |
 
 After upload: KDP will run its previewer. Have me confirm **zero
 errors AND zero warnings** before letting me proceed. If anything
@@ -137,10 +137,10 @@ fails, do not let me click "Approve" — we abort and fix the file.
 ### Royalty sanity check
 
 KDP's pricing page should show a per-copy royalty. At $24.99 on a
-360-page B&W 6x9 paperback with $5.32 print cost:
+362-page B&W 6x9 cream paperback with ~$5.20 print cost:
 
 - $24.99 × 0.6 = $14.994
-- $14.994 - $5.32 = **$9.67 per copy**
+- $14.994 - $5.20 = **~$9.80 per copy**
 
 If KDP shows substantially different (under $8 or over $11), flag
 it — likely the page count drifted. Do not proceed past the pricing
@@ -174,7 +174,7 @@ this gate with me. If any item is unchecked, we don't publish.
 ### Files
 - [ ] KDP previewer passed with **zero errors AND zero warnings**
   on both interior and cover
-- [ ] Cover spine width matches KDP's calculated value for 360 pages
+- [ ] Cover spine width matches KDP's calculated value for 362 pages
 - [ ] At least one physical proof has been ordered, received, and
   reviewed (this is days of lead time — if I skipped it, ask me)
 
@@ -193,7 +193,7 @@ this gate with me. If any item is unchecked, we don't publish.
 
 ### Pricing
 - [ ] List price = $24.99
-- [ ] Royalty per copy ≈ $9.67 (within $0.50)
+- [ ] Royalty per copy ≈ $9.80 (within $0.50)
 - [ ] Marketplace prices manually rounded for any I expect traffic from
 
 ### Operational

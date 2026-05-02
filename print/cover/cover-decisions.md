@@ -1,7 +1,7 @@
 # Cover Decisions - A Contemporary Guide to Wargame Design
 
-Ray Weiss, 2026. KDP paperback, 6x9 trim, 364 pages, B&W white paper,
-spine `0.8197 in`.
+Ray Weiss, 2026. KDP paperback, 6x9 trim, 362 pages, B&W cream paper,
+spine `0.9050 in`.
 
 ## Palette
 
@@ -34,7 +34,7 @@ dominant accent line. Subtitle and author stay quieter in Lora.
 - Front: title, subtitle, one flat infantry-counter cue, author, year.
 - Spine: bottom-to-top title/author orientation per US paperback convention,
   with the title split into a small kicker and larger display line so it fits
-  the `0.8197 in` spine.
+  the `0.9050 in` spine.
 - Back: placeholder region for Ray's back-cover copy, placeholder region for
   the author line, and a clean 2.0 x 1.2 in KDP barcode box. No ISBN is
   printed in the source file.

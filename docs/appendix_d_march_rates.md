@@ -137,11 +137,13 @@ A French corps of 20,000 men marching in column of route on a single road could 
 
 | Movement Type | Rate (mi/day) | Notes |
 |---|---|---|
-| Sustained corps march | 15 | Standard operational tempo |
-| Forced march | 20-25 | Sustainable for several consecutive days |
-| Extreme forced march | 30+ | Davout's III Corps before Austerlitz: ~70 miles in 46 hours |
-| Cavalry, strategic | 25-30 | Sustained; up to 50 in pursuit |
-| Artillery train | 10-12 | The slowest element and the pacing factor |
+| Sustained corps march | 15 | Standard tempo |
+| Forced march | 20-25 | Sustainable several days |
+| Extreme forced march | 30+ | See Davout below |
+| Cavalry, strategic | 25-30 | Up to 50 in pursuit |
+| Artillery train | 10-12 | The pacing factor |
+
+Davout's III Corps marched roughly seventy miles in forty-six hours to reach Austerlitz on December 1, 1805, the canonical example of an extreme forced march by an entire corps. The artillery train was the slowest element of the column and the factor that paced the rest.
 
 Dupuy's campaign advance rate data, measured as the average daily advance across the full campaign including combat and rest days, shows how much friction eats into raw march speed:
 
@@ -207,13 +209,13 @@ The Western Front locked up for four years because of a speed asymmetry. Attacke
 |---|---|---|
 | Infantry on roads | 15-20 | Unchanged since antiquity |
 | Infantry, cross-country | 10-15 | |
-| Armor on roads, low resistance | 30-50 | |
-| Armor, against organized defense | 5-15 | |
-| Combat advance, light resistance | 12-15 | FM 101-10 planning factor |
-| Combat advance, heavy resistance | 3-6 | FM 101-10 planning factor |
-| Motorized infantry, road movement | 100-150 | Non-combat administrative movement |
-| Armored units, road movement | 100-150 | Non-combat administrative movement |
-| Armored units, cross-country | 50-75 | Non-combat administrative movement |
+| Armor on roads, light opposition | 30-50 | |
+| Armor vs. organized defense | 5-15 | |
+| Combat advance, light resistance | 12-15 | FM 101-10 |
+| Combat advance, heavy resistance | 3-6 | FM 101-10 |
+| Motorized infantry, road | 100-150 | Admin (non-combat) |
+| Armored units, road | 100-150 | Admin (non-combat) |
+| Armored units, cross-country | 50-75 | Admin (non-combat) |
 | Supply convoy by truck | 150-200 | |
 
 **Blitzkrieg advance rates:**
