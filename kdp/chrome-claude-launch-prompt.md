@@ -137,10 +137,11 @@ fails, do not let me click "Approve" — we abort and fix the file.
 ### Royalty sanity check
 
 KDP's pricing page should show a per-copy royalty. At $24.99 on a
-360-page B&W 6x9 cream paperback with ~$5.17 print cost:
+360-page B&W 6x9 cream paperback with $5.32 print cost
+(KDP's actual formula: $1.00 fixed + $0.012/page = $1.00 + $4.32):
 
 - $24.99 × 0.6 = $14.994
-- $14.994 - $5.20 = **~$9.80 per copy**
+- $14.994 - $5.32 = **$9.67 per copy** (verified against KDP UI 2026-05-02)
 
 If KDP shows substantially different (under $8 or over $11), flag
 it — likely the page count drifted. Do not proceed past the pricing
@@ -193,7 +194,7 @@ this gate with me. If any item is unchecked, we don't publish.
 
 ### Pricing
 - [ ] List price = $24.99
-- [ ] Royalty per copy ≈ $9.80 (within $0.50)
+- [ ] Royalty per copy ≈ $9.67 (within $0.50)
 - [ ] Marketplace prices manually rounded for any I expect traffic from
 
 ### Operational

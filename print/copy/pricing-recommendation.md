@@ -4,7 +4,7 @@
 
 Launch the paperback at **$24.99**.
 
-That price fits the book better than $19.99 without pushing it into the harder-to-defend $29.99 band. The current print analysis uses a 360-page, 6x9, black-and-white paperback with cream paper. At $24.99, KDP's Amazon-direct 60% royalty produces about **$9.82 per copy** after the estimated $5.17 print cost. At $19.99, the royalty is about **$6.82 per copy**. That $3 difference matters. At 100 copies, it is roughly $300 of margin from the same amount of marketing work.
+That price fits the book better than $19.99 without pushing it into the harder-to-defend $29.99 band. The current print analysis uses a 360-page, 6x9, black-and-white paperback with cream paper. At $24.99, KDP's Amazon-direct 60% royalty produces **$9.67 per copy** after the $5.32 print cost (verified against KDP UI 2026-05-02). At $19.99, the royalty drops to **$6.67 per copy**. That $3 difference matters. At 100 copies, it is roughly $300 of margin from the same amount of marketing work.
 
 ## Comparables
 
