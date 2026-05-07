@@ -50,7 +50,6 @@ I distinguish between automatic victory and sudden death. Automatic victory ends
 
 ## Scaled Victory
 
-![Scaled victory condition tiers]({{ site.baseurl }}/assets/images/scaled-victory.png)
 
 Most real conflicts did not end in total victory or total defeat. The results fell on a spectrum, and scaling your victory conditions to match that spectrum adds granularity that a binary win/lose structure cannot provide.
 

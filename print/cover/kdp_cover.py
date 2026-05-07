@@ -418,7 +418,7 @@ def render_cover_svg(params: CoverParams, *, placeholders: bool = False, guides:
         "",
         '  <g id="back-cover">',
         f'    <line x1="{back_inner_x:.4f}" y1="0.6200" x2="{back_right:.4f}" y2="0.6200" stroke="{p["rule"]}" stroke-width="0.012"/>',
-        _text_block(["BACK COVER"], back_inner_x, 0.930, "small accent", 0.111, 0.155, extra='letter-spacing="0.030" font-weight="700"'),
+        # BACK COVER label removed 2026-05-07 per proof feedback
         f'    <rect x="{back_inner_x:.4f}" y="{hook_y:.4f}" width="{hook_w:.4f}" height="{hook_h:.4f}" fill="none" stroke="{p["rule"]}" stroke-width="0.010" stroke-dasharray="0.060 0.040"/>',
         hook_body_svg,
         f'    <line x1="{back_inner_x:.4f}" y1="{hook_y + hook_h + 0.0600:.4f}" x2="{back_inner_x + 1.500:.4f}" y2="{hook_y + hook_h + 0.0600:.4f}" stroke="{p["accent"]}" stroke-width="0.010"/>',

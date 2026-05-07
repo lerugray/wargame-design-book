@@ -20,7 +20,6 @@ Ask whether the historical subject demands facing, not whether your game is tact
 
 ## Hexside vs. Hexspine Facing
 
-![Hexside and hexspine facing orientations]({{ site.baseurl }}/assets/images/hex-facing.png)
 
 When you include facing, units will point either toward a hexside or toward a hexspine. Both give six possible orientations. The choice affects how facing interacts with the hex grid.
 
@@ -66,7 +65,6 @@ Command systems can restrict formation changes, but be cautious about leaning to
 
 ## Facing and ZOC
 
-![Flanking attack geometry]({{ site.baseurl }}/assets/images/hex-flanking.png)
 
 In systems with facing, ZOC projects only into a unit's front hexes. A unit does not project a zone of control into its flank or rear hexes. Flanking forces can move through those hexes without stopping.
 
