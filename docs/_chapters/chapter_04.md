@@ -69,4 +69,6 @@ One 2140 game ended up grand-tactical. At Villers Cotterets: Mons 1914 worked at
 
 Imperial Bayonets required a different design approach from the 2140 games. The research was heavier. The mechanical complexity was higher. The player had to feel like a corps commander managing formation commitment, artillery placement, and a command hierarchy. Building those systems meant understanding how the armies that fought these battles functioned as organizations, not just what happened during the fighting. That kind of research takes longer and goes deeper than what a strategic game asks of you.
 
+\enlargethispage{2\baselineskip}
+
 The PCS games taught me about overreach. The alternating pulse structure was sound for the ground war, but layering a detailed air combat system on top of an operational framework produced something more complex than it needed to be. I was trying to do justice to a subject I was less familiar with, and the result was mechanics that added complexity without adding proportional insight. Operational design demands that you know where to stop. Not everything that exists in reality needs to exist in your game, and figuring out what to leave on the cutting room floor is half the job.

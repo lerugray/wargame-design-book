@@ -76,6 +76,8 @@ Lee Forester led the development. The MMP team went through the game with a rigo
 
 Carl Fung contributed to playtesting, research, and proofreading. The MMP process involved multiple people checking each other's work, which catches errors that any single person would miss. A designer checks their own OOB and finds it correct because they built it. A second person checks the same OOB against the counter sheet and finds a unit that does not match. A third person reads the setup instructions and finds a hex reference that points to the wrong location. Each additional set of eyes catches a different category of error.
 
+\enlargethispage{2\baselineskip}
+
 The published game benefited from this process in ways that are difficult to quantify but easy to feel when you play it. The rules are tighter than they would have been without development. The scenarios are more balanced. The special rules interact cleanly with the SCS framework. The credits list reflects the reality: series design by Dean Essig, game design by me, development by Lee Forester, with a team of playtesters and proofreaders who each contributed to making the finished product better than what any one person could have produced alone.
 
 Working with MMP taught me that development is not an optional step for designers who lack confidence. It is a standard part of professional game production, performed by people with specific skills, producing results the designer alone cannot replicate. Major publishers budget time and resources for development because the games that skip it show the gaps.

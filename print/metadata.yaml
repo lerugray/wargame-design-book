@@ -47,6 +47,15 @@ header-includes:
   - \renewcommand{\headrulewidth}{0pt}
   - \usepackage{emptypage}
   - \raggedbottom
+  # wdb (2026-05-09): suppress orphan/widow lines + chapter-end runt
+  # pages. \widowpenalty + \clubpenalty at 10000 force LaTeX to reflow
+  # earlier paragraphs rather than leave a single line stranded; the
+  # 2026-05-06 proof flagged 'is half the job.' alone on page 38 (end of
+  # ch.4). Combined with \raggedbottom, LaTeX absorbs the slack into
+  # earlier-page bottom whitespace rather than stretching content.
+  - \widowpenalty=10000
+  - \clubpenalty=10000
+  - \displaywidowpenalty=10000
   # wdb (2026-05-02): force pandoc-generated tables to fit text-block.
   # Default tabular auto-sizes columns by content + lets long rows
   # overflow past \textwidth, which KDP previewer flags as "outside

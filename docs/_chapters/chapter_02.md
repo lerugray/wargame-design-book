@@ -60,4 +60,6 @@ A whole war can absolutely be a first project if you approach it at the right sc
 
 Pick something where both sides had real choices. The best wargame subjects are situations where the outcome was uncertain and the decisions of commanders mattered. A battle where one side was doomed from the start can be made into a game, as I learned with Sedan, but it takes experience to find the tension in a predetermined situation. For your first game, make it easy on yourself. Pick a fight where either side could plausibly win.
 
+\enlargethispage{2\baselineskip}
+
 And pick something you care about. You are going to spend months with this subject. You are going to read the same accounts multiple times, count the same regiments, argue with yourself about movement rates and combat modifiers. If the subject does not hold your interest through all of that, you will abandon the project. That is not a failure of willpower. It is a subject selection problem, and it is avoidable.
