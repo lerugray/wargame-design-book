@@ -28,7 +28,7 @@
 
 Copyright \copyright\ 2026 Ray Weiss. All rights reserved.
 
-ISBN: \texttt{\textit{[to be assigned]}}
+ISBN: \texttt{9798195268275}
 
 First edition.
 
