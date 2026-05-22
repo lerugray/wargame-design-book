@@ -53,7 +53,7 @@ You do not need to replicate Dupuy's math. You need to understand what it tells 
 
 How you handle this depends on your system's abstraction level. Some options:
 
-**Bake it into the strength point.** The German division gets 8 SP and the Soviet division gets 5. Simple. The combat system does not need to know why one is stronger. This works at operational and strategic scale where you want fast resolution.
+**Bake it into the strength point.** The German division gets 8 strength points (SP) and the Soviet division gets 5. Simple. The combat system does not need to know why one is stronger. This works at operational and strategic scale where you want fast resolution.
 
 **Separate quality from quantity.** Give both divisions similar strength points reflecting headcount, but let quality show up elsewhere. Armor attacking in open terrain gets a column shift regardless of nationality. Soviet units in a Barbarossa game might have lower movement ratings in the opening turns to reflect the organizational chaos of June 1941, or lose their first turn entirely. Quality modifiers should be subtle. A small edge repeated across many combats produces the right aggregate result without making individual battles feel predetermined.
 
