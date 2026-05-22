@@ -141,7 +141,7 @@ A French corps of 20,000 men marching in column of route on a single road could 
 | Cavalry, strategic | 25-30 | Up to 50 in pursuit |
 | Artillery train | 10-12 | The pacing factor |
 
-Davout's III Corps marched roughly seventy miles in forty-six hours to reach Austerlitz on December 1, 1805, the canonical example of an extreme forced march by an entire corps. The artillery train was the slowest element of the column and the factor that paced the rest.
+Davout's III Corps marched roughly seventy miles in forty-eight hours to reach Austerlitz on December 1, 1805, the canonical example of an extreme forced march by an entire corps. The artillery train was the slowest element of the column and the factor that paced the rest.
 
 Dupuy's campaign advance rate data, measured as the average daily advance across the full campaign including combat and rest days, shows how much friction eats into raw march speed:
 

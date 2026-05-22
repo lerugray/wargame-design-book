@@ -119,6 +119,6 @@ The March of Justice OOB also illustrates the value of working from well-documen
 ## Sources and Further Reading
 
 - Dupuy, Trevor N. *Numbers, Predictions and War*. Indianapolis: Bobbs-Merrill, 1979.
-- Nafziger, George F. *Imperial Bayonets*. Novato: Presidio Press, 1996.
+- Nafziger, George F. *Imperial Bayonets*. London: Greenhill Books, 1996.
 - Zetterling, Niklas. *Normandy 1944: German Military Organization, Combat Power and Organizational Effectiveness*. Winnipeg: J.J. Fedorowicz, 2000.
 - U.S. Army. *FM 101-10, Staff Officers' Field Manual*. Washington: Department of the Army, 1959.
