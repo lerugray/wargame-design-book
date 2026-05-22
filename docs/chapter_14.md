@@ -137,7 +137,7 @@ For your own work, the COIN series demonstrates several principles worth interna
 
 ## Deck-Building and Euro Influences
 
-Deck-building originated in the euro game space and has made its way into wargaming. Players start with a basic deck and acquire new cards during play, adding capabilities and shaping their deck's composition through purchasing decisions. Dominion popularized the mechanic, and designers in every genre have since adapted it.
+Deck-building originated in the Eurogame space and has made its way into wargaming. Players start with a basic deck and acquire new cards during play, adding capabilities and shaping their deck's composition through purchasing decisions. Dominion popularized the mechanic, and designers in every genre have since adapted it.
 
 Mark McLaughlin's Hitler's Reich, co-designed with Fred Schachter, uses a card-based system where players buy event cards from a common market and integrate them into their hands. The game abstracts World War II at the strategic level into a series of contested conflicts resolved through card play, with the acquired events providing advantages in future contests. Hitler's Reich was one of the inspirations for my own Great Northern War design. I borrowed the concept of hand size as a player resource from McLaughlin and Schachter, treating it as an abstraction of national morale and manpower rather than a mechanical limit on card draw.
 

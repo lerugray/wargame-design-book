@@ -55,9 +55,9 @@ Chapter 15 covers the core design tools (GIMP, VASSAL, Tabletop Simulator, word 
 
 ## Prototyping and Playtesting
 
-**VASSAL** — Covered in Chapters 14 and 20. The standard for digital wargame prototyping and remote play. Free. Learn to build a VASSAL module.
+**VASSAL** — Covered in Chapters 15, 16, and 21. The standard for digital wargame prototyping and remote play. Free. Learn to build a VASSAL module.
 
-**Tabletop Simulator** — Covered in Chapters 14 and 20. Commercial product, requires purchase. 3D sandbox environment for remote playtesting.
+**Tabletop Simulator** — Covered in Chapters 15, 16, and 21. Commercial product, requires purchase. 3D sandbox environment for remote playtesting.
 
 **Rally the Troops** (rally-the-troops.com) — A browser-based platform for playing board wargames online. Cleaner interface than VASSAL for supported games. Demonstrates what a modern wargame prototyping platform could look like.
 

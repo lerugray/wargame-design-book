@@ -248,7 +248,7 @@ Definitions of wargame-specific terms used throughout this book. Intended for re
 
 **Unit Size Symbol** — Markings above the NATO symbol indicating organizational level: I (company/battery), II (battalion), III (regiment), X (brigade), XX (division), XXX (corps), XXXX (army). (Ch. 6)
 
-**VASSAL** — A free, open-source game engine for building and playing online versions of board games and wargames. The standard platform for remote playtesting and online play. (Ch. 16, Ch. 18)
+**VASSAL** — A free, open-source game engine for building and playing online versions of board games and wargames. The standard platform for remote playtesting and online play. (Ch. 15, Ch. 16, Ch. 21)
 
 **Victory Conditions** — The criteria determining who wins the game. May be territorial (control specific hexes), point-based (accumulate VP), automatic (achieve a threshold condition), or scaled (tiered results from decisive victory to marginal defeat). Designing victory conditions that produce a competitive game while reflecting history is one of the hardest design problems. (Ch. 12)
 
