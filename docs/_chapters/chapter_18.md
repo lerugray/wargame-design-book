@@ -12,7 +12,7 @@ I am telling you this because every one of those failures has happened to me, an
 
 ## The Problem
 
-A wargame in development generates a lot of files. Map drafts in multiple versions as you revise terrain and hex layouts. Counter sheets revised with every unit rating change. An OOB spreadsheet that feeds those counter sheets. A rulebook that goes through dozens of revisions between first draft and publication. Charts and player aids that need to match the current rules. Playtest notes from multiple testers. Correspondence with your developer, your artist, your printer. VASSAL module files if you are building one. All of this accumulates.
+A wargame in development generates a lot of files. Map drafts in multiple versions as you revise terrain and hex layouts. Counter sheets revised with every unit rating change. An order of battle (OOB) spreadsheet that feeds those counter sheets. A rulebook that goes through dozens of revisions between first draft and publication. Charts and player aids that need to match the current rules. Playtest notes from multiple testers. Correspondence with your developer, your artist, your printer. VASSAL module files if you are building one. All of this accumulates.
 
 Each file changes over the life of the project. The map you sent your artist in January is not the map you playtested in March, because you moved a victory hex and added a river crossing. The OOB you finalized in February lost three units in April after playtesting showed they unbalanced the game. The rulebook exists in at least four versions: the one you sent to playtesters, the revision after their feedback, the one you sent to your developer, and the one your developer sent back with changes.
 

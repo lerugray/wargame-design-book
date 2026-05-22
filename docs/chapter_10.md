@@ -19,7 +19,7 @@ IGO-UGO has dominated the hobby since SPI and Avalon Hill established the conven
 
 Most of my games use IGO-UGO to some degree. The World Undone series, Imperial Bayonets, the LCOS games, all of them give one player a full turn before the other player acts. I keep coming back to IGO-UGO because it works. The structure is transparent, the timing is unambiguous, and I spend my design effort on the systems rather than the meta-structure holding them together.
 
-The weakness is passivity. The non-phasing player has nothing to do for extended stretches. In a complex game with a large OOB, one player's turn can take thirty minutes or more. The other player sits there. Competitive players use that time to study the board. Casual players disengage. This is a real problem, and it is one reason designers have explored alternatives.
+The weakness is passivity. The non-phasing player has nothing to do for extended stretches. In a complex game with a large order of battle, one player's turn can take thirty minutes or more. The other player sits there. Competitive players use that time to study the board. Casual players disengage. This is a real problem, and it is one reason designers have explored alternatives.
 
 The other weakness is predictability. The phasing player knows they will complete all their movement before any combat occurs. They know no enemy unit will interrupt their plan. That certainty is unrealistic. Real commanders did not get to move every unit on the battlefield before the enemy responded. But the abstraction works because the turn represents a block of time during which both sides were acting at once, and IGO-UGO is a practical way to resolve that simultaneity in a sequential format.
 

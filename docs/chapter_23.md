@@ -15,7 +15,7 @@ Three of my games were nominated for Charles S. Roberts Awards. I do not mention
 
 I talked earlier in this book about the subconscious drive toward creation, the pull toward making something that did not exist before. I want to be more specific about what that looks like in practice, because it is not the romantic process people imagine.
 
-I am manic about creative work. When an idea takes hold, it becomes all-consuming. I will spend days inside a subject, reading sources, sketching maps, building OOBs, running numbers in spreadsheets, sleeping poorly because my brain will not stop solving design problems. The period of obsession produces real output. Games get built during those bursts. But the intensity is not sustainable, and it is not always healthy.
+I am manic about creative work. When an idea takes hold, it becomes all-consuming. I will spend days inside a subject, reading sources, sketching maps, building orders of battle, running numbers in spreadsheets, sleeping poorly because my brain will not stop solving design problems. The period of obsession produces real output. Games get built during those bursts. But the intensity is not sustainable, and it is not always healthy.
 
 I do myself no favors with how hard I focus. The manic burst is validating. You feel productive, you feel like the work matters, you can see the game taking shape in front of you. Then the burst ends and you are exhausted and behind on everything else in your life. The body keeps a tab. The mind keeps a tab. I am approaching forty and I have become more familiar with those tabs than I would like.
 

@@ -7,7 +7,7 @@ parent: "Part II: Core Systems"
 ---
 
 
-Kevin Zucker once told me that movement is the most important part of a wargame. I have spent a decade designing games and I have not found a reason to disagree. Sieges and highly abstracted games can get away with minimal movement systems, but any simulation where maneuver matters demands careful attention. Everything about your game will be wrong if the movement system produces ahistorical results. The combat system, the OOB, the map: none of it matters if the units can reach places they should not reach in the time the turn represents.
+Kevin Zucker once told me that movement is the most important part of a wargame. I have spent a decade designing games and I have not found a reason to disagree. Sieges and highly abstracted games can get away with minimal movement systems, but any simulation where maneuver matters demands careful attention. Everything about your game will be wrong if the movement system produces ahistorical results. The combat system, the order of battle, the map: none of it matters if the units can reach places they should not reach in the time the turn represents.
 
 ## Movement Points and Terrain
 

@@ -7,7 +7,7 @@ parent: "Part II: Core Systems"
 ---
 
 
-An order of battle is a list of who was there and what they had. Building one is the most research-intensive part of wargame design, and the part where you will spend the most time cross-referencing sources that disagree with each other. The process is straightforward. The challenge is judgment: deciding what level of detail your game needs, what numbers to put on the counters, and when "close enough" is the right answer.
+An order of battle (OOB) is a list of who was there and what they had. Building one is the most research-intensive part of wargame design, and the part where you will spend the most time cross-referencing sources that disagree with each other. The process is straightforward. The challenge is judgment: deciding what level of detail your game needs, what numbers to put on the counters, and when "close enough" is the right answer.
 
 
 ## Finding Your OOB
@@ -89,7 +89,7 @@ Mark Herman's Gettysburg game, published through C3I and inspired by SPI's class
 
 But Herman was not making a mistake. The half-division representation captures something about how the Army of Northern Virginia operated. Lee's army was organized into smaller, more flexibly commanded formations than Meade's. The extra counters give the Confederate player more operational flexibility: more units to maneuver, more options for concentration and dispersal. The Union player has fewer, stronger pieces that hit harder individually but offer less positional flexibility. The visual "inaccuracy" produces gameplay that reflects the actual operational character of both armies better than a strictly proportional counter mix would.
 
-You can rationalize apparent inaccuracies in your OOB if they serve the simulation. A unit that is "too strong" on paper might produce the right combat results when it interacts with your CRT and terrain modifiers. A formation that is split into two counters when it was historically one entity might generate the right command decisions for the player. The test is whether the game reproduces historical patterns of action and result, not whether every number on every counter matches a table in an order of battle reference.
+You can rationalize apparent inaccuracies in your OOB if they serve the simulation. A unit that is "too strong" on paper might produce the right combat results when it interacts with your CRT and terrain modifiers. A formation that is split into two counters when it was historically one entity might generate the right command decisions for the player. The test is whether the game reproduces historical patterns of action and result, not whether every number on every counter matches a table in an OOB reference.
 
 
 ## The Real Test

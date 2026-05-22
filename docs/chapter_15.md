@@ -7,7 +7,7 @@ parent: "Part IV: From Prototype to Publication"
 ---
 
 
-The preceding thirteen chapters covered the anatomy of wargames in detail. Scale, time and space, orders of battle, movement, combat, sequences of play, subsystems, specialized domains, card systems. You now have a vocabulary for the components that make up a wargame and a sense of the design decisions each component demands. This chapter is about sitting down and building one.
+The preceding thirteen chapters covered the anatomy of wargames in detail. Scale, time and space, orders of battle (OOBs), movement, combat, sequences of play, subsystems, specialized domains, card systems. You now have a vocabulary for the components that make up a wargame and a sense of the design decisions each component demands. This chapter is about sitting down and building one.
 
 I cannot give you a formalized process for this. Every designer I know works differently, and every designer I know has tried to formalize their own process at some point and failed. You are going to start with whatever excites you most about your design, and that starting point will be different for every project and every designer. Some designers begin with the map because visualizing the theater is what orients them. Others start with the OOB because they want to see the forces before making any other decisions. Some start with a single mechanic, a combat system or an activation structure, and build everything else around it. All of these are valid entry points. None of them is the correct one.
 

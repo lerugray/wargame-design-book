@@ -35,7 +35,7 @@ Chapter 15 covers the core design tools (GIMP, VASSAL, Tabletop Simulator, word 
 
 ## Order of Battle Research
 
-**Nafziger Collection** — George Nafziger compiled thousands of orders of battle across multiple eras. The collection was donated to the U.S. Army Combined Arms Research Library and is available online. The single largest OOB reference source in English.
+**Nafziger Collection** — George Nafziger compiled thousands of orders of battle (OOBs) across multiple eras. The collection was donated to the U.S. Army Combined Arms Research Library and is available online. The single largest OOB reference source in English.
 
 **Orbat.com** — OOB data for twentieth-century conflicts, organized by campaign and date. Useful as a starting point, but cross-reference against primary sources.
 
