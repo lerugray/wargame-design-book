@@ -17,7 +17,7 @@ Traditional hex-and-counter wargames will retain their audience. The success of 
 
 Block games, dice games, trick-taking wargames, card-driven games that borrow from euro design, resource management systems layered onto historical simulations. A decade ago I would have been skeptical that any of these could produce a satisfying wargame. I have played enough of them now to know I was wrong. The combination of euro-style mechanical elegance with wargame-style historical grounding has produced games that I would not have thought possible, and designers who are comfortable working in both traditions are producing work that neither tradition could have generated alone.
 
-I do not design in these hybrid spaces often. My instincts pull me back to hex and counter, and my design language is rooted in SPI's grammar. But I respect and accept that there are more ideas to be had in combining systems with wargames than I previously assumed. The designers doing this work are expanding the vocabulary of the hobby, and the games they produce reach players who would never have picked up a traditional hex-and-counter title.
+I do not design in these hybrid spaces often. My instincts pull me back to hex-and-counter, and my design language is rooted in SPI's grammar. But I respect and accept that there are more ideas to be had in combining systems with wargames than I previously assumed. The designers doing this work are expanding the vocabulary of the hobby, and the games they produce reach players who would never have picked up a traditional hex-and-counter title.
 
 ## Digital Tools and Prototyping
 
