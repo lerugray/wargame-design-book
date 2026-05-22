@@ -13,7 +13,7 @@ For research methodology and sources specific to wargame design, see also Chapte
 
 **The Complete Wargames Handbook** — James F. Dunnigan. The closest thing the hobby has to a foundational textbook. Revised and expanded as *Wargames Handbook* in later editions. Covers the design process from concept through production, written by the person who industrialized wargame design at SPI. Some of the specific advice is dated. The design philosophy is not.
 
-**SPI Special Study #2: Wargame Design** — SPI staff. If you can find a copy, this is the single most valuable document on wargame design methodology ever produced. A detailed internal study of how SPI designed games, covering research methods, system design, playtesting procedures, and production. Out of print, rare, and expensive when it surfaces. Worth the hunt.
+**SPI Staff Study #2: Wargame Design** — SPI staff. If you can find a copy, this is the single most valuable document on wargame design methodology ever produced. A detailed internal study of how SPI designed games, covering research methods, system design, playtesting procedures, and production. Out of print, rare, and expensive when it surfaces. Worth the hunt.
 
 **Zones of Control: Perspectives on Wargaming** — Pat Harrigan and Matthew Kirschenbaum, eds. MIT Press. A collection of essays from designers, historians, and academics on wargaming as a medium. Broad in scope, covering hobby games, professional wargaming, and digital simulations. Individual essays vary in quality but the collection as a whole is the best single-volume overview of the field.
 
