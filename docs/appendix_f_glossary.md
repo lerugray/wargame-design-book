@@ -16,7 +16,7 @@ Definitions of wargame-specific terms used throughout this book. Intended for re
 
 **Activation** — Selecting a unit or formation to take actions (move, attack, rally) during a turn. Systems vary: some use sequential player turns, others use chit-pull or card-driven activation to randomize who acts when. (Ch. 10)
 
-**Area Control** — A map system using irregular regions instead of hexes, where units occupy and contest named areas connected by movement paths. Used in games like Hannibal: Rome vs. Carthage and the COIN series. (Ch. 5, Ch. 21)
+**Area Control** — A map system using irregular regions instead of hexes, where units occupy and contest named areas connected by movement paths. Used in games like *Hannibal: Rome vs. Carthage* and the COIN series. (Ch. 5, Ch. 21)
 
 **Armor / Armour** — Units representing tanks or armored vehicles. Typically faster than infantry, with higher attack values, and eligible for exploitation movement after successful combat.
 
@@ -34,13 +34,13 @@ Definitions of wargame-specific terms used throughout this book. Intended for re
 
 **C2 (Command and Control)** — The system by which leaders direct subordinate units. In game terms, C2 models whether units can act freely (in command) or face restrictions (out of command). Implemented through command points, command range, activation rolls, or leader counters. (Ch. 11)
 
-**Card-Driven Game (CDG)** — A game format where players use strategy cards, each playable as either a historical event or for operations points, to drive movement and combat. Invented by Mark Herman with We the People (1993). (Ch. 14)
+**Card-Driven Game (CDG)** — A game format where players use strategy cards, each playable as either a historical event or for operations points, to drive movement and combat. Invented by Mark Herman with *We the People* (1993). (Ch. 14)
 
 **Cavalry** — Mounted units with higher movement allowance than infantry. Capabilities vary by era: charging, screening, and reconnaissance in horse-era games; typically absent or replaced by mechanized units in modern settings.
 
 **Cavalry Charge** — A special attack where cavalry units attempt to overrun enemy positions. Implementation varies, but most systems resolve charges on a separate table with high-risk, high-reward outcomes. (Ch. 8)
 
-**Chit-Pull** — A randomization mechanic where counters are drawn from an opaque cup to determine activation order. Simulates the uncertainty of who moves when. Originated by Eric Smith in Panzer Command (1984) and adopted in over 700 published games. (Ch. 10)
+**Chit-Pull** — A randomization mechanic where counters are drawn from an opaque cup to determine activation order. Simulates the uncertainty of who moves when. Originated by Eric Smith in *Panzer Command* (1984) and adopted in over 700 published games. (Ch. 10)
 
 **COIN (COunterINsurgency)** — A game system created by Volko Ruhnke using a shared event card display and four asymmetric factions with different capabilities, victory conditions, and strategies. Has become a genre, with volumes designed by multiple designers. (Ch. 14)
 
@@ -146,7 +146,7 @@ Definitions of wargame-specific terms used throughout this book. Intended for re
 
 **Meeting Engagement (ME)** — Combat initiated during movement when a unit enters a hex adjacent to or occupied by the enemy. Typically resolved with penalties for the attacker compared to a prepared assault.
 
-**Monster Game** — A wargame of exceptional physical size, typically with multiple maps and thousands of counters. Drang Nach Osten! (GDW, 1973) is considered the first commercial monster game.
+**Monster Game** — A wargame of exceptional physical size, typically with multiple maps and thousands of counters. *Drang Nach Osten!* (GDW, 1973) is considered the first commercial monster game.
 
 **Morale Check (MC)** — A die roll to determine if a unit maintains cohesion after taking casualties or facing other stresses. Failure results in disruption, rout, or elimination.
 
@@ -256,6 +256,6 @@ Definitions of wargame-specific terms used throughout this book. Intended for re
 
 **ZOC (Zone of Control)** — The six hexes immediately adjacent to a combat unit. Entering an enemy ZOC typically stops movement, may require combat, and can block supply lines. Some units (demoralized, depleted, reduced) do not project ZOCs. The single most important spatial mechanic in hex-and-counter wargaming. (Ch. 7)
 
-**ZOC Bond** — A mechanic created by Mark Simonitch where two friendly units two hexes apart project a bond along the connecting hex spines that enemy units cannot cross. Allows a defensive line with fewer units. Used in the Normandy '44 / France '40 series. (Ch. 7)
+**ZOC Bond** — A mechanic created by Mark Simonitch where two friendly units two hexes apart project a bond along the connecting hex spines that enemy units cannot cross. Allows a defensive line with fewer units. Used in the *Normandy '44* / *France '40* series. (Ch. 7)
 
 **ZOI (Zone of Influence)** — A broader area of control projected by certain units, extending beyond the standard one-hex ZOC. Typically 2-3 hexes, depending on unit strength. Forces enemy units in March Formation to stop and deploy. (Ch. 7)
