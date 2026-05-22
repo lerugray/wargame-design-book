@@ -37,9 +37,9 @@ Engels compiled the most rigorous data set available for any ancient army. His T
 | Ecbatana to Rhagae | 22.0 | Cavalry, mounted scouts, part of phalanx |
 | Rhagae to Caspian Gates | 34.0 | Same mounted/light force |
 | Pursuit in Assyria | ~46.0 | Cavalry only |
-| Sogdiana (Alexandria Eschate to Maracanda) | 43-57.5 | Half the Companions, archers, lightest phalanx |
+| Sogdiana (Alexandria Eschate to Maracanda) | 43–57.5 | Half the Companions, archers, lightest phalanx |
 | Mallians' Territory | ~30.6 | Bodyguard, archers, Agrianians, mounted archers, half cavalry |
-| Oreitans to Pura (Gedrosian Desert) | 10.5-13.0 | Whole army minus fleet and Craterus |
+| Oreitans to Pura (Gedrosian Desert) | 10.5–13.0 | Whole army minus fleet and Craterus |
 
 The full Macedonian army, one of the best-organized forces in ancient history, averaged about fifteen miles per day over sustained marches. Its maximum recorded rate for the entire force was 19.5 miles per day, achieved crossing the Sinai where the fleet handled supply. Small mounted forces reached thirty to fifty miles per day, but those were cavalry and light infantry operating without baggage.
 
@@ -61,8 +61,8 @@ Caesar's legions in Gaul covered fifteen to twenty miles per day while construct
 
 | Movement Type | Rate (mi/day) | Notes |
 |---|---|---|
-| Normal advance | 30-40 | Each warrior maintained 3-5 remounts |
-| Forced march / raid | 60-80 | Documented during Subotai's campaigns |
+| Normal advance | 30–40 | Each warrior maintained 3–5 remounts |
+| Forced march / raid | 60–80 | Documented during Subotai's campaigns |
 | Strategic sprint | ~60 | 1241 invasion of Hungary: ~180 miles in 3 days through Carpathian passes, in winter |
 
 No pre-mechanized force moved faster. The Mongols achieved these rates because their warriors rode, kept three to five spare horses each, and carried almost no baggage. They ate from their herds and from the land. No other military system combined universal horsemanship with such minimal logistics.
@@ -75,10 +75,10 @@ By the late seventeenth century, armies had grown so large that moving them beca
 
 | Force | Rate (mi/day) | Notes |
 |---|---|---|
-| Spanish Army of Flanders, march to Netherlands, 1567 | 10-12 | Along the "Spanish Road" through Alps and Rhineland |
-| Gustavus Adolphus, campaign marches 1630-32 | 8-12 | Limited by siege operations and supply from magazines |
-| Marlborough's march to the Danube, 1704 | 10-12 | 250 miles in ~25 marching days, one of the great operational marches of the era |
-| Typical Thirty Years' War army | 5-10 | Burdened by enormous baggage trains and camp followers |
+| Spanish Army of Flanders, march to Netherlands, 1567 | 10–12 | Along the "Spanish Road" through Alps and Rhineland |
+| Gustavus Adolphus, campaign marches 1630–32 | 8–12 | Limited by siege operations and supply from magazines |
+| Marlborough's march to the Danube, 1704 | 10–12 | 250 miles in ~25 marching days, one of the great operational marches of the era |
+| Typical Thirty Years' War army | 5–10 | Burdened by enormous baggage trains and camp followers |
 
 Louvois standardized the magazine system for Louis XIV's armies after 1660, tethering armies to fixed depots by road. March planning worked backward from supply availability. Armies moved from magazine to magazine. The practical operating radius was five days' march, about seventy-five miles, from the nearest depot. Campaigns in this period looked like elaborate chess games between fortified supply points because they were.
 
@@ -88,7 +88,7 @@ Louvois standardized the magazine system for Louis XIV's armies after 1660, teth
 
 | Movement Type | Rate (mi/day) |
 |---|---|
-| Standard march | 12-15 |
+| Standard march | 12–15 |
 | Forced march | up to 20 |
 
 Frederick's campaigns were fought in compact theaters (Silesia, Saxony, Bohemia) where strategic speed mattered less than battlefield maneuver. His army's march rates were typical for the period. Duffy describes the eighteenth-century soldier's daily routine as dominated by the march itself: armies rose before dawn, were on the road by four or five in the morning, and halted by early afternoon after covering twelve to fifteen miles. The rest of the day went to foraging, camp construction, and the administrative overhead of keeping tens of thousands of men fed.
@@ -103,19 +103,19 @@ Nafziger compiled marching cadences from the drill regulations of every major Na
 
 | Nation | Pace Type | Paces/min | Feet/min |
 |---|---|---|---|
-| Austrian | *Ordinairschritt* (ordinary) | 90-95 | 188-198 |
+| Austrian | *Ordinairschritt* (ordinary) | 90–95 | 188–198 |
 | Austrian | *Geschwindschritt* (quick) | 105 | 219 |
 | Austrian | *Doublirschritt* (double) | 120 | 250 |
 | French | *Pas ordinaire* | 76 | 165 |
-| French | *Pas de route* (route march) | 85-90 | 184-195 |
+| French | *Pas de route* (route march) | 85–90 | 184–195 |
 | French | *Pas accéléré* | 100 | 217 |
 | French | *Pas de charge* | 120 | 260 |
 | Prussian | *Ordinaire Schritt* | 75 | 156 |
 | Prussian | *Geschwindschritt* | 108 | 225 |
 | British | Ordinary pace | 75 | 188 |
 | British | Quick pace | 108 | 270 |
-| Russian | *Tchyi szag* (slow) | 60-70 | 150-175 |
-| Russian | *Skoryi szag* (quick) | 100-110 | 250-275 |
+| Russian | *Tchyi szag* (slow) | 60–70 | 150–175 |
+| Russian | *Skoryi szag* (quick) | 100–110 | 250–275 |
 
 At route march speed, most armies covered about 180 to 200 feet per minute, or roughly two miles per hour. In theory, a seven-hour march day produces fourteen miles. In practice, column friction, rest halts, bottlenecks at bridges and defiles, and the time needed to deploy from march column into camp eat heavily into that number. The gap between individual marching speed and army movement rate is where most game designers go wrong.
 
@@ -125,7 +125,7 @@ Nafziger recorded the frontage of a single battalion in line for each major army
 
 | Nation | Year | Battalion Length in Line (ft) |
 |---|---|---|
-| Austrian | 1807 | 684-762 |
+| Austrian | 1807 | 684–762 |
 | British | 1792 | 640 |
 | French | 1791 | 560 |
 | French | 1808 | 480 |
@@ -140,10 +140,10 @@ A French corps of 20,000 men marching in column of route on a single road could 
 | Movement Type | Rate (mi/day) | Notes |
 |---|---|---|
 | Sustained corps march | 15 | Standard tempo |
-| Forced march | 20-25 | Sustainable several days |
+| Forced march | 20–25 | Sustainable several days |
 | Extreme forced march | 30+ | See Davout below |
-| Cavalry, strategic | 25-30 | Up to 50 in pursuit |
-| Artillery train | 10-12 | The pacing factor |
+| Cavalry, strategic | 25–30 | Up to 50 in pursuit |
+| Artillery train | 10–12 | The pacing factor |
 
 Davout's III Corps marched roughly seventy miles in forty-eight hours to reach Austerlitz on December 1, 1805, the canonical example of an extreme forced march by an entire corps. The artillery train was the slowest element of the column and the factor that paced the rest.
 
@@ -167,17 +167,17 @@ Van Creveld (*Supplying War*, 1977) established that the practical radius of sup
 
 | Force Type | Rate (mi/day) | Notes |
 |---|---|---|
-| Standard infantry | 10-15 | On roads, good conditions |
-| Forced march infantry | 20-25 | Unsustainable beyond 2-3 days without heavy straggling |
-| Cavalry, mounted | 25-35 | Stuart's ride around McClellan: ~25/day average |
-| Supply wagons, good roads | 10-15 | |
-| Supply wagons, bad roads or mud | 5-8 | |
+| Standard infantry | 10–15 | On roads, good conditions |
+| Forced march infantry | 20–25 | Unsustainable beyond 2–3 days without heavy straggling |
+| Cavalry, mounted | 25–35 | Stuart's ride around McClellan: ~25/day average |
+| Supply wagons, good roads | 10–15 | |
+| Supply wagons, bad roads or mud | 5–8 | |
 
 **Stonewall Jackson's Valley Campaign**, May-June 1862: Jackson's infantry covered roughly 650 miles in 48 days, averaging about 13.5 miles per day including rest days. Peak single-day marches reached 35 to 40 miles during the campaign. Before the Seven Days Battles, his corps marched about 100 miles in five days (from Tanner, *Stonewall in the Valley*, 1996).
 
 **Sherman's March to the Sea**, November-December 1864: Atlanta to Savannah, roughly 285 miles in about 35 marching days, averaging eight to ten miles per day. The army moved on a front 25 to 60 miles wide, foraging extensively, which limited daily distance.
 
-### Franco-Prussian War, 1870-71
+### Franco-Prussian War, 1870–71
 
 The Franco-Prussian War marks the transition from foot-mobile to rail-mobile warfare. Howard (*The Franco-Prussian War*, 1961) documents both sides.
 
@@ -191,9 +191,9 @@ The supply failures are worth studying if you design in this period. The French 
 
 | Movement Type | Rate (mi/day) | Notes |
 |---|---|---|
-| Approach march, on road | 15-20 | Same as Napoleonic rates |
-| Tactical advance under fire | 1-5 | The core WWI problem |
-| Defender movement by rail | 50-100+ | The reason breakthroughs failed |
+| Approach march, on road | 15–20 | Same as Napoleonic rates |
+| Tactical advance under fire | 1–5 | The core WWI problem |
+| Defender movement by rail | 50–100+ | The reason breakthroughs failed |
 
 **Kluck's First Army**, August 1914 (from Tuchman, *The Guns of August*): 150 miles in 11 days, approximately 13.6 miles per day on average. On the outer rim of the Schlieffen wheel, forced marches reached 25 to 28 miles per day. Troops marched for sixteen consecutive days without rest before the Battle of the Marne. By early September they were physically spent.
 
@@ -209,20 +209,20 @@ The Western Front locked up for four years because of a speed asymmetry. Attacke
 
 | Movement Type | Rate (mi/day) | Notes |
 |---|---|---|
-| Infantry on roads | 15-20 | |
-| Infantry, cross-country | 10-15 | |
-| Armor on roads, light opposition | 30-50 | |
-| Armor vs. organized defense | 5-15 | |
-| Combat advance, light resistance | 12-15 | FM 101-10 |
-| Combat advance, heavy resistance | 3-6 | FM 101-10 |
-| Motorized infantry, road | 100-150 | Admin (non-combat) |
-| Armored units, road | 100-150 | Admin (non-combat) |
-| Armored units, cross-country | 50-75 | Admin (non-combat) |
-| Supply convoy by truck | 150-200 | |
+| Infantry on roads | 15–20 | |
+| Infantry, cross-country | 10–15 | |
+| Armor on roads, light opposition | 30–50 | |
+| Armor vs. organized defense | 5–15 | |
+| Combat advance, light resistance | 12–15 | FM 101-10 |
+| Combat advance, heavy resistance | 3–6 | FM 101-10 |
+| Motorized infantry, road | 100–150 | Admin (non-combat) |
+| Armored units, road | 100–150 | Admin (non-combat) |
+| Armored units, cross-country | 50–75 | Admin (non-combat) |
+| Supply convoy by truck | 150–200 | |
 
 **Blitzkrieg advance rates:**
 - **France 1940:** Guderian's XIX Panzer Corps, Sedan to the Channel, roughly 150 miles in six days. About 25 miles per day.
-- **Barbarossa 1941:** Army Group Center covered roughly 600 miles (Brest-Litovsk to Smolensk) in four weeks, about 21 miles per day. Peak daily advances of 40-50 miles for armored spearheads. By autumn, rates dropped to 5-10 miles per day as logistics broke down.
+- **Barbarossa 1941:** Army Group Center covered roughly 600 miles (Brest-Litovsk to Smolensk) in four weeks, about 21 miles per day. Peak daily advances of 40–50 miles for armored spearheads. By autumn, rates dropped to 5–10 miles per day as logistics broke down.
 - **Patton's Third Army**, August 1944: roughly 600 miles across France in four weeks, about 21 miles per day average, with peak advances of 50 miles per day.
 
 Dupuy's campaign advance rates for WWII:
@@ -231,7 +231,7 @@ Dupuy's campaign advance rates for WWII:
 |---|---|---|---|
 | Flanders, 1940 | 368 | 12 | 31 |
 | Barbarossa, 1941 | 700 | 24 | 29 |
-| Malaya, 1941-42 | 515 | 28 | 18 |
+| Malaya, 1941–42 | 515 | 28 | 18 |
 | Caucasus, 1942 | 775 | 34 | 23 |
 | Normandy Breakout, 1944 | 880 | 32 | 28 |
 | Manchuria, 1945 | 300 | 6 | 50 |
@@ -300,7 +300,7 @@ An army's theoretical march rate and its actual sustained advance differ, and su
 
 **Pre-railroad armies, ancient through Napoleonic** (from Engels and Van Creveld):
 - A pack animal carrying 250 pounds of supplies consumes about 20 pounds of its own cargo per day in fodder and grain. After roughly twelve days, it has eaten everything it was carrying.
-- Practical supply radius from a fixed depot: 75-100 miles (5-7 days of march).
+- Practical supply radius from a fixed depot: 75–100 miles (5–7 days of march).
 - Alexander's army consumed roughly 195,000 pounds of grain per day for personnel alone, plus 61,000 pounds for cavalry horses, plus feed for baggage animals. In desert conditions requiring carried water, the total daily requirement exceeded 1,260,000 pounds.
 - The army could carry at most a two-and-a-half-day supply of provisions in waterless desert.
 
@@ -313,31 +313,31 @@ An army's theoretical march rate and its actual sustained advance differ, and su
 - A WWI-era division required roughly 117.5 tons per day.
 - At the Anzio beachhead, combat effectiveness degraded measurably when supply delivery dropped below 65% of requirements.
 
-Your movement rates should reflect what supply allows. An armored division on paper can cover 100 miles per day on roads. In practice, fuel limits it to 30-50 miles per day in an advance, and far less if the logistics chain stretches. Movement allowances measure how far a unit can advance and still fight when it arrives.
+Your movement rates should reflect what supply allows. An armored division on paper can cover 100 miles per day on roads. In practice, fuel limits it to 30–50 miles per day in an advance, and far less if the logistics chain stretches. Movement allowances measure how far a unit can advance and still fight when it arrives.
 
 
 ## Comparative Summary
 
 | Era / Force Type | Sustained March (mi/day) | Forced March (mi/day) | Limiting Factor |
 |---|---|---|---|
-| Alexander's full army | 15-16 | 19.5 | Water, forage, column length |
-| Alexander's light/mounted forces | 22-34 | 43-57 | Remount availability |
-| Roman legion | 14-18 | 22+ | Camp construction time |
-| Mongol cavalry | 30-40 | 60-80 | Remount availability |
-| Crusader armies | 8-12 | 15 | Heat, water, combat |
-| Thirty Years' War armies | 5-10 | 12-15 | Baggage trains, camp followers |
-| Marlborough's army, 1704 | 10-12 | 15 | Magazine-based supply |
-| Frederick's Prussians | 12-15 | 20 | Supply magazine range |
-| Napoleon's infantry | 15 | 25-30 | Food, shoes, straggling |
-| Napoleon's cavalry | 25-30 | 50 | Forage for horses |
-| Civil War infantry | 10-15 | 20-25 | Roads, weather, straggling |
-| Civil War cavalry | 25-35 | 40+ | Forage |
-| Franco-Prussian infantry | 12-15 | 18-20 | Rail-based supply |
-| WWI infantry | 15-20 | 25 | Rail-mobile reserves negate gains |
-| WWII infantry | 15-20 | 25 | Unchanged since Alexander |
-| WWII armor, road | 30-50 | 100+ | Fuel supply |
-| WWII armor, combat advance | 5-15 | 25-40 | Opposition + fuel |
-| Post-1945 mechanized | 25-55 | 100+ | Fuel, air interdiction |
+| Alexander's full army | 15–16 | 19.5 | Water, forage, column length |
+| Alexander's light/mounted forces | 22–34 | 43–57 | Remount availability |
+| Roman legion | 14–18 | 22+ | Camp construction time |
+| Mongol cavalry | 30–40 | 60–80 | Remount availability |
+| Crusader armies | 8–12 | 15 | Heat, water, combat |
+| Thirty Years' War armies | 5–10 | 12–15 | Baggage trains, camp followers |
+| Marlborough's army, 1704 | 10–12 | 15 | Magazine-based supply |
+| Frederick's Prussians | 12–15 | 20 | Supply magazine range |
+| Napoleon's infantry | 15 | 25–30 | Food, shoes, straggling |
+| Napoleon's cavalry | 25–30 | 50 | Forage for horses |
+| Civil War infantry | 10–15 | 20–25 | Roads, weather, straggling |
+| Civil War cavalry | 25–35 | 40+ | Forage |
+| Franco-Prussian infantry | 12–15 | 18–20 | Rail-based supply |
+| WWI infantry | 15–20 | 25 | Rail-mobile reserves negate gains |
+| WWII infantry | 15–20 | 25 | Unchanged since Alexander |
+| WWII armor, road | 30–50 | 100+ | Fuel supply |
+| WWII armor, combat advance | 5–15 | 25–40 | Opposition + fuel |
+| Post-1945 mechanized | 25–55 | 100+ | Fuel, air interdiction |
 
 
 ## Using This Data in Design
@@ -358,7 +358,7 @@ Keep march rates and combat advance rates separate. A unit moving through empty 
 - Duffy, Christopher. *The Military Experience in the Age of Reason*. London: Routledge & Kegan Paul, 1987.
 - Dupuy, Trevor N. *Numbers, Predictions and War: Using History to Evaluate Combat Factors and Predict the Outcome of Battles*. Indianapolis: Bobbs-Merrill, 1979.
 - Engels, Donald W. *Alexander the Great and the Logistics of the Macedonian Army*. Berkeley: University of California Press, 1978.
-- Howard, Michael. *The Franco-Prussian War: The German Invasion of France, 1870-1871*. London: Rupert Hart-Davis, 1961.
+- Howard, Michael. *The Franco-Prussian War: The German Invasion of France, 1870–1871*. London: Rupert Hart-Davis, 1961.
 - May, Timothy. *The Mongol Art of War*. Barnsley: Pen and Sword, 2007.
 - Nafziger, George F. *Imperial Bayonets: Tactics of the Napoleonic Battery, Battalion and Brigade as Found in Contemporary Regulations*. London: Greenhill Books, 1996.
 - Roth, Jonathan. *The Logistics of the Roman Army at War (264 B.C. - A.D. 235)*. Leiden: Brill, 1999.
