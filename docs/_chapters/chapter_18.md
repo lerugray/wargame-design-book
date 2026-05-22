@@ -8,7 +8,7 @@ layout: chapter
 
 I am an organizational mess. I have been an organizational mess for the entire time I have been designing wargames, and I am aware that this is a problem, and I have not fixed it. What I have done is find a tool that compensates for it well enough that my projects ship on time more often than they do not. That tool is Basecamp, and I will talk about it and its alternatives in this chapter. But the tool is secondary to the principle, which is this: you need a system for tracking your files, your versions, and your communications, and you need the discipline to use it. The specific system matters less than having one at all.
 
-I am telling you this because all three of those things have happened to me, and the case study later in this chapter describes the worst instance in detail.
+I am telling you this because every one of those failures has happened to me, and the case study later in this chapter describes the worst instance in detail.
 
 ## The Problem
 

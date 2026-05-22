@@ -71,7 +71,7 @@ A small print run costs more per unit. Printers charge setup fees that spread ac
 
 A ziplock game with a paper map and a single counter sheet can retail for thirty to forty dollars with reasonable margins. A boxed game with mounted maps, multiple counter sheets, and professional packaging might retail for eighty to a hundred and twenty dollars. Margins on both can land in a similar range, because the higher-priced game also costs more to produce.
 
-Pricing too low is a common mistake for self-publishers. The instinct to keep prices accessible is understandable but the math does not work if your price does not cover production, shipping, platform fees, and leave enough margin to fund your next project. Price your game based on what it costs to produce and what the market will bear. Look at comparable games from established publishers and price in the same range. Wargamers expect to pay wargame prices. Underpricing your game does not attract more buyers. It signals that the product is lower quality.
+Pricing too low is a common mistake for self-publishers. The instinct to keep prices accessible is understandable but the math does not work if your price fails to cover production, shipping, and platform fees while leaving enough margin to fund your next project. Price your game based on what it costs to produce and what the market will bear. Look at comparable games from established publishers and price in the same range. Wargamers expect to pay wargame prices. Underpricing your game does not attract more buyers. It signals that the product is lower quality.
 
 ## What I Would Do Differently
 
