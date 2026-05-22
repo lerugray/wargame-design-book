@@ -13,7 +13,7 @@ I mention this because if you find yourself reluctant to playtest, you are not a
 
 ## Why Playtesting Cannot Be Skipped
 
-In Chapter 2, I discussed discontinuing 1987: On to Kaliningrad and 1968: Tet because the foundational research was flawed. Those games had problems that playtesting alone could not fix. But most games do not fail for foundational reasons. Most games fail because individual systems do not interact the way the designer expected, because unit ratings produce the wrong outcomes at the table, because a mechanic that sounded elegant in concept turns into bookkeeping in practice. Playtesting catches these problems. Nothing else does.
+In Chapter 2, I discussed discontinuing *1987: On to Kaliningrad* and *1968: Tet* because the foundational research was flawed. Those games had problems that playtesting alone could not fix. But most games do not fail for foundational reasons. Most games fail because individual systems do not interact the way the designer expected, because unit ratings produce the wrong outcomes at the table, because a mechanic that sounded elegant in concept turns into bookkeeping in practice. Playtesting catches these problems. Nothing else does.
 
 Your prototype is a hypothesis. You believe the combat system will produce historical casualty rates. You believe the movement values will create realistic operational tempos. You believe the supply rules will force the same kinds of logistical decisions that constrained the historical commanders. Playtesting is the experiment that tests those beliefs. Some will hold up. Many will not. That is normal and expected. The designer who treats a failed playtest as a setback is missing the point. A failed playtest is the design process working correctly.
 
@@ -77,13 +77,13 @@ When you introduce original mechanics, you lose that safety net. A new activatio
 
 This is not an argument against innovation. Original mechanics are what push the hobby forward. But they demand more testing than established ones, and you should plan your development timeline accordingly. If your game includes one or two original systems surrounded by conventional ones, the conventional mechanics will not surprise you. The original ones will.
 
-## Case Study: With The Hammer
+## Case Study: *With The Hammer*
 
-With The Hammer is the game I am most proud of as a designer, and it is also the game where collaboration during testing changed the design the most.
+*With The Hammer* is the game I am most proud of as a designer, and it is also the game where collaboration during testing changed the design the most.
 
-The game covers the German Peasant War of 1525, a subject I became fascinated with after reading Andrew Drummond's The Dreadful History and Judgement of God on Thomas Müntzer. The conflict is the largest organized popular uprising in European history before the French Revolution, a mass movement of peasants who had decided they had tolerated enough exploitation from their noble landlords. Thomas Müntzer, a radical preacher, became the figurehead of this rebellion, signing his letters "Thomas Müntzer with the Hammer."
+The game covers the German Peasant War of 1525, a subject I became fascinated with after reading Andrew Drummond's *The Dreadful History and Judgement of God on Thomas Müntzer*. The conflict is the largest organized popular uprising in European history before the French Revolution, a mass movement of peasants who had decided they had tolerated enough exploitation from their noble landlords. Thomas Müntzer, a radical preacher, became the figurehead of this rebellion, signing his letters "Thomas Müntzer with the Hammer."
 
-The design went through multiple failed prototypes before I found the right framework. I had started by trying to build a Eurogame, inspired by Paladins of the West Kingdom and other designs I admired. But my wargamer instincts kept pushing the prototypes toward literal simulation, and the Eurogame shells felt like re-skins of existing games. Two or three prototypes went nowhere. The breakthrough came when I played Plantagenet in GMT's Levy and Campaign series. That game provided a model of medieval logistics that made sense to me, and I could see how to deconstruct and adapt its DNA into something more approachable for nonwargamers.
+The design went through multiple failed prototypes before I found the right framework. I had started by trying to build a Eurogame, inspired by *Paladins of the West Kingdom* and other designs I admired. But my wargamer instincts kept pushing the prototypes toward literal simulation, and the Eurogame shells felt like re-skins of existing games. Two or three prototypes went nowhere. The breakthrough came when I played Plantagenet in GMT's *Levy and Campaign* series. That game provided a model of medieval logistics that made sense to me, and I could see how to deconstruct and adapt its DNA into something more approachable for nonwargamers.
 
 The core asymmetry of the design, Peasant leaders preaching and inspiring bands to join the rebellion while Noble armies muster forces and attempt to suppress the uprising through a combination of military force and negotiation, was clear from the start. But translating that asymmetry into a balanced game required extensive iteration during testing.
 
@@ -95,4 +95,4 @@ This rule did not come from my solo design work. It came from a collaborative di
 
 The lesson is not that you need a developer and a historian on call. The lesson is that playtesting, especially with people who bring different perspectives, surfaces ideas and solutions that a solo designer cannot reach. You see your game from one angle. Playtesters see it from others. A suggestion that sounds minor in conversation, "what if propaganda markers restricted Peasant movement," can solve a design problem you had been struggling with for weeks.
 
-With The Hammer made the front page of BoardGameGeek with a design diary, and it is the design I point to when someone asks what I am most proud of. It is also the design where I was most willing to accept outside input and let the testing process reshape my original vision. Those two facts are not a coincidence.
+*With The Hammer* made the front page of BoardGameGeek with a design diary, and it is the design I point to when someone asks what I am most proud of. It is also the design where I was most willing to accept outside input and let the testing process reshape my original vision. Those two facts are not a coincidence.

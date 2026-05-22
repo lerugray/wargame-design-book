@@ -6,7 +6,7 @@ layout: chapter
 ---
 
 
-I prefer simple hex-and-counter games. I have for as long as I have been designing them. I came to wargaming in my mid-twenties through John Tiller's PC games, not through a childhood spent punching counters out of SPI flats, and by the time I discovered the physical hobby I had already internalized the grammar of hex-based operational gaming through hundreds of hours on a screen. Breaking out a copy of Soldiers or Battle for Germany will always be more enjoyable to me than spending hours learning a new system, no matter how good the new system is. This is stubbornness on my part, and I am comfortable admitting it. The ritual of the hex grid, the CRT, the counter tray, the movement phase, these are the mechanics I adopted and the ones I return to when I sit down to play or design.
+I prefer simple hex-and-counter games. I have for as long as I have been designing them. I came to wargaming in my mid-twenties through John Tiller's PC games, not through a childhood spent punching counters out of SPI flats, and by the time I discovered the physical hobby I had already internalized the grammar of hex-based operational gaming through hundreds of hours on a screen. Breaking out a copy of *Soldiers* or *Battle for Germany* will always be more enjoyable to me than spending hours learning a new system, no matter how good the new system is. This is stubbornness on my part, and I am comfortable admitting it. The ritual of the hex grid, the CRT, the counter tray, the movement phase, these are the mechanics I adopted and the ones I return to when I sit down to play or design.
 
 But the hobby has moved past me in certain respects, and I have come to respect that movement even if I do not always participate in it. Wargame design is pushing harder toward new frontiers than at any point in its history. Designers like Fred Serval and Mark Herman seem to produce new ideas on a monthly basis. Amabel Holland and Volko Ruhnke have built entire design philosophies that challenge the conventions I learned on. New designers arrive with fresh systems at a rate that was not possible before the internet collapsed the distance between an idea and a prototype. The tools are better. The audience is more open. The space for experimentation has never been wider.
 
@@ -40,9 +40,9 @@ The critical thinking that wargames develop is context-driven. You are not solvi
 
 The best way to learn about the future is to study the past, and simulations like wargames serve that purpose for organizations ranging from defense ministries to business schools. The growing interest from defense institutions in commercial wargame design reflects a recognition that hobbyist designers, working with historical data and iterating through playtesting, sometimes produce simulations that are more rigorous and more honest than purpose-built institutional exercises. A game designed to sell to an audience of informed hobbyists cannot afford to produce ahistorical results. A game designed to validate an institutional conclusion can.
 
-## Case Study: A Mighty Fortress Is Our God
+## Case Study: *A Mighty Fortress Is Our God*
 
-Most of my published games are hex-and-counter operational simulations. Sedan 1940, 1916, Rostov '41, the catalog runs on hexes, CRTs, and movement points. A Mighty Fortress Is Our God is not that kind of game.
+Most of my published games are hex-and-counter operational simulations. *Sedan 1940*, *1916*, *Rostov '41*, the catalog runs on hexes, CRTs, and movement points. *A Mighty Fortress Is Our God* is not that kind of game.
 
 AMFIOG is a solitaire game about the Anabaptist commune of Munster, 1534 to 1535. You play as the commune's leadership, managing resources, making decisions about how to interact with the besieging forces outside the walls, and trying to survive long enough to achieve your goals. There is no hex map. There are no counters in the traditional sense. The game runs on a dice pool, a resource management system, a queue of outsider cards representing the forces and factions surrounding the city, and a fate deck that drives narrative events.
 

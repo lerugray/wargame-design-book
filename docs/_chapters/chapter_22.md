@@ -61,10 +61,10 @@ That matters more than the tools themselves. I am designing again. The creative 
 To give you a sense of scale: in less than a month, while working fifty hours a week at a day job, I produced or made significant progress on the following projects using AI tools:
 
 - **A Mighty Fortress Is Our God** — the solitaire siege game discussed in the previous chapter, including its Monte Carlo simulator and browser-playable prototype
-- **Kreuzfeuer** — a Reformation-era CRPG built in Godot, set in the same period as AMFIOG, a spiritual successor to Microprose's Darklands with procedural world generation, SRPG combat, and a faction system driven by the German Peasants' War and the Siege of Munster
+- **Kreuzfeuer** — a Reformation-era CRPG built in Godot, set in the same period as AMFIOG, a spiritual successor to Microprose's *Darklands* with procedural world generation, SRPG combat, and a faction system driven by the German Peasants' War and the Siege of Munster
 - **Prigozhin's March of Justice Digital** — a Rust-based digital adaptation of my board game on the 2023 Wagner Group mutiny
 - **Death of an Empire** — a Franco-Prussian War digital wargame with command asymmetry and fog of war
-- **Sandkasten** — an open-source tactical wargame simulation inspired by Command: Modern Operations, with NATO symbology, radar detection, fog of war, anti-ship missile combat, and an AI-driven InfoWar feed that generates simulated media coverage of in-game events
+- **Sandkasten** — an open-source tactical wargame simulation inspired by *Command: Modern Operations*, with NATO symbology, radar detection, fog of war, anti-ship missile combat, and an AI-driven InfoWar feed that generates simulated media coverage of in-game events
 - **Auftragstaktik** — an OSINT tactical terminal that tracks live frontlines, aircraft transponders, ship positions, air defense envelopes, and conflict events across eleven theaters, with auto-translated Telegram feeds from military blogs and a historical mode covering 140,000 archived conflict events from 1989 to 2023
 - **DevForge** — a game development tool built around what I call idea-driven design, the principle that anyone with a strong idea and a clear design document can develop a digital or analog game with AI assistance
 - **Bookfinder General** — the research tool discussed earlier in this chapter, and used to compile research for several appendices in this book

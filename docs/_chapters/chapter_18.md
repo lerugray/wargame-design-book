@@ -68,9 +68,9 @@ Each handoff in the pipeline is a point where a version error can enter the proc
 
 A checklist before each handoff catches these. Does the counter sheet match the OOB? Does the player aid match the rulebook? Does the map reflect the latest playtest revisions? Fifteen minutes of verification saves weeks of rework.
 
-## Case Study: 1864: On to Jutland!
+## Case Study: *1864: On to Jutland!*
 
-1864: On to Jutland!, my game on the Second Schleswig War, is the clearest example in my catalog of what happens when the production pipeline breaks down.
+*1864: On to Jutland!*, my game on the Second Schleswig War, is the clearest example in my catalog of what happens when the production pipeline breaks down.
 
 The game itself came together well. It started as one of the more complicated designs I had made, using an in-depth system of operational movement followed by tactical combat inspired by Frank Chadwick's GDW Crimea game. That system would have added hours to playtime, which was the opposite of what the 2140 series is trying to do, so I scrapped it and rebuilt the game around a simpler framework. The perpetual combat mechanic, where players can keep attacking as long as they have units adjacent to the enemy but disrupt themselves after the second assault, was one of the ideas I salvaged from that earlier version. The final game plays quickly and the system works.
 

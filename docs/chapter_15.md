@@ -49,7 +49,7 @@ Once I have a rough map and a rough OOB, I start thinking about systems. I tend 
 
 This approach has a disadvantage that I should be honest about. If I design the OOB and then later change a mechanical rule that affects how unit ratings work, the entire OOB needs reworking. This has happened to me more than I would like.
 
-We Were Not Cowards, my Imperial Bayonets series game on the Battle of Sedan in 1870, went through four or five complete reworkings of the strength and initiative ratings over the course of development. That game took years to finish, in large part because the combat system, which I believed was well designed and did not want to change, was not producing the outcomes I wanted with the original unit ratings. The system was sound. The numbers feeding into it were not. Each time I adjusted the numbers, I had to recalculate every unit in the game, cross-reference against the historical data, playtest the new values, and determine whether the results matched what I was looking for. Multiply that by four or five iterations and you understand why the project took as long as it did.
+*We Were Not Cowards*, my *Imperial Bayonets* series game on the Battle of Sedan in 1870, went through four or five complete reworkings of the strength and initiative ratings over the course of development. That game took years to finish, in large part because the combat system, which I believed was well designed and did not want to change, was not producing the outcomes I wanted with the original unit ratings. The system was sound. The numbers feeding into it were not. Each time I adjusted the numbers, I had to recalculate every unit in the game, cross-reference against the historical data, playtest the new values, and determine whether the results matched what I was looking for. Multiply that by four or five iterations and you understand why the project took as long as it did.
 
 A designer who writes rules first and builds the OOB to fit those rules avoids this problem. The trade-off is that their OOB may feel forced, shaped by mechanical requirements rather than historical research. Neither approach is wrong. Both have costs. I am comfortable with my approach because reworking OOBs is something I know how to do, but I would not claim it is the more efficient method.
 
@@ -89,7 +89,7 @@ The physical prototype, a map you can lay on a table, counters you can push, cha
 
 Do not let the prototype phase intimidate you into staying in the conceptual phase forever. A game that exists only as notes and spreadsheets is not a game. It is an idea. The idea might be brilliant, but you will not know until you play it. Push yourself to build the prototype even if it looks rough. You will learn more from one play session with ugly cardboard than from another month of conceptual refinement.
 
-## Case Study: Prigozhin's March of Justice
+## Case Study: *Prigozhin's March of Justice*
 
 Prigozhin's March, discussed in detail in Chapter 6, illustrates what happens when the subject itself is small enough to compress the entire design process. The event lasted thirty-six hours. The forces were a handful of units on a linear route. The central question was obvious from day one. I had a working prototype within days, not weeks.
 
