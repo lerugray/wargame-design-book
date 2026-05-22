@@ -131,7 +131,7 @@ Create a counter manifest: the complete list of every counter in the game and wh
 - Do all infantry brigades rate the same, or do the Guards and the Fallschirmjäger get higher values? The French garrison with their outdated equipment? The Italian Superga division?
 - How do you represent Blade Force and the 10th Panzer Division? Armor should feel different from infantry. How?
 
-The order of battle (OOB) above gives you roughly five counters per side at game start, with two reinforcements per side arriving during play. That is 14 total, a good number for this exercise. You may add markers for turn track, weather, or other game state as needed.
+The order of battle (OOB) above gives you roughly five counters per side at game start, with two reinforcements per side arriving during play. That is fourteen total, a good number for this exercise. You may add markers for turn track, weather, or other game state as needed.
 
 You do not need to print professional counters. Write the values on small squares of cardboard or paper. What matters is that every counter has clear, consistent information.
 
