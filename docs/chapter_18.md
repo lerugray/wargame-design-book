@@ -33,7 +33,7 @@ Your organizational system needs to handle four things.
 
 ## Tools
 
-I use Basecamp. It costs fifteen dollars a month, which I justify because it makes all four of the above requirements easy without me having to think about any of them. I organize each game as its own project in Basecamp. Files go in the file storage. Conversations happen in message boards. Task lists track what needs doing and who is doing it. My developer, my artist, and my playtesters all have access to the project and can find what they need without me acting as a file-distribution service.
+I use Basecamp. It costs $15 a month, which I justify because it makes all four of the above requirements easy without me having to think about any of them. I organize each game as its own project in Basecamp. Files go in the file storage. Conversations happen in message boards. Task lists track what needs doing and who is doing it. My developer, my artist, and my playtesters all have access to the project and can find what they need without me acting as a file-distribution service.
 
 Basecamp is not the only option and may not be the best option for your situation. The free alternatives cover the same ground with different trade-offs.
 

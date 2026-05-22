@@ -12,7 +12,7 @@ The previous chapter covered how units move across the map. This one covers how 
 
 Facing is a mechanic inherited from miniature wargaming, where physical models on a tabletop have a literal front and back. In hex-and-counter games, facing means the counter points toward a specific hexside or hexspine, and that orientation determines its front, flanks, and rear. Attacks against the flank or rear receive bonuses. Units project ZOC only into their front hexes. The unit can only move into the hexes it faces.
 
-This matters most for pre-20th century tactical combat, where formations fought in lines and the direction a unit faced determined its combat effectiveness. A Napoleonic infantry battalion in line could deliver devastating fire to its front but could do nothing if cavalry hit its flank. A Greek phalanx was a wall of shields and spears from the front and a crowd of unarmored men from behind.
+This matters most for pre-twentieth century tactical combat, where formations fought in lines and the direction a unit faced determined its combat effectiveness. A Napoleonic infantry battalion in line could deliver devastating fire to its front but could do nothing if cavalry hit its flank. A Greek phalanx was a wall of shields and spears from the front and a crowd of unarmored men from behind.
 
 Facing loses its grip as warfare modernizes. By 1866, Prussian infantry were going prone and fighting from dispersed positions thanks to the needle gun. A prone skirmish line does not have a meaningful facing the way a Napoleonic line does. By the Second World War, infantry squads could reorient in seconds. ASL, one of the most detailed tactical wargames ever made, omits unit facing. The designers knew that at their scale, a squad's orientation changed too fast to be worth tracking turn by turn.
 
@@ -96,7 +96,7 @@ If you are designing a game and wondering whether to include facing, formations,
 
 **Tactical, horse-and-musket era:** Facing and formations both, but watch the complexity. Napoleonic infantry had column, line, and square, each with distinct capabilities. The design temptation is to model all three plus transitions between them. That can work, but test whether the transitions produce decisions or just bookkeeping. If players spend more time managing formation changes than maneuvering, cut a formation state.
 
-**Tactical, 20th century onward:** Formations rarely. Facing rarely. Modern infantry reorients in seconds. ASL omits facing for this reason. If your 20th century tactical game includes facing, you need a strong argument for why the constraint existed in your specific situation.
+**Tactical, twentieth century onward:** Formations rarely. Facing rarely. Modern infantry reorients in seconds. ASL omits facing for this reason. If your twentieth century tactical game includes facing, you need a strong argument for why the constraint existed in your specific situation.
 
 **Grand-tactical:** Formations yes, facing usually no. The distinction between march posture and combat posture is the core design lever at this scale. A brigade in travel mode versus deployed mode creates the right decisions. Facing a brigade counter at a hexspine does not, because the regiments within it are oriented in different directions depending on the tactical situation. Koniggratz, Mars La Tour, and *Sedan 1940* all use formation states without facing at this scale.
 

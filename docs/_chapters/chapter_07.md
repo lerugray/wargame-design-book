@@ -54,7 +54,7 @@ Several of my games model this through formation states. In *Sedan 1940*, units 
 
 ### Rail Movement
 
-Rail movement is a strategic consideration that becomes relevant at the operational and grand-tactical level, especially from the mid-19th century onward. The key design question is how to handle rail movement's vulnerabilities. Units on trains are not fighting formations. They are cargo.
+Rail movement is a strategic consideration that becomes relevant at the operational and grand-tactical level, especially from the mid-nineteenth century onward. The key design question is how to handle rail movement's vulnerabilities. Units on trains are not fighting formations. They are cargo.
 
 In 1914: East Prussia, only the German player has rail movement, reflecting the Prussian rail network's superiority over Russian infrastructure. Rail capacity increases over the first three turns as the system mobilizes. In the DAMOS Barbarossa trilogy, German supply depends on converting captured Soviet rail lines to European gauge, 1d3 hexes per turn, a slow process that constrains the entire offensive. In 2022: Ukraine, Russian logistics depend on railhead markers that must trace through friendly-controlled rail hexes back to Russia. Ukrainian airstrikes and partisan activity can push those railheads backward, stretching Russian supply lines beyond their breaking point.
 
@@ -64,7 +64,7 @@ Naval movement tends to be non-linear, complex, and difficult to abstract well. 
 
 ### Forced March and Strategic Movement
 
-Forced marching can be represented in several ways depending on the scale. Tactical squads might exhaust themselves for extra movement. Grand-tactical battalions of the 19th century might break down into road columns. The simplest approach is allowing a unit to double its movement allowance outside of enemy ZOC, a common convention for strategic movement in operational games.
+Forced marching can be represented in several ways depending on the scale. Tactical squads might exhaust themselves for extra movement. Grand-tactical battalions of the nineteenth century might break down into road columns. The simplest approach is allowing a unit to double its movement allowance outside of enemy ZOC, a common convention for strategic movement in operational games.
 
 Forced marching should carry a cost. Free strategic movement is simpler to implement, but forced marches wore units down, and your game should reflect that. In *Imperial Bayonets*, Road March carries the vulnerability of Demoralization if caught by the enemy. In *1916*, units that spend more than half their MP without a line of communication check the Attrition Table. In the LCOS series, Forced March gives a second MP budget equal to the original, but units must roll a straggler check. Entering an enemy ZOC during a forced march makes that roll worse.
 
