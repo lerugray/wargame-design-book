@@ -12,13 +12,13 @@ This is also the part of design I find most creative. Building a CRT is an exerc
 
 ## The Odds-Based CRT
 
-The odds-based combat results table has been the standard approach since the early days of SPI and Avalon Hill. The mechanic is straightforward. Total the attacking strength points, total the defending strength points, and create a ratio. If 12 SP attack 4 SP, the ratio is 3:1. If 9 SP attack 6 SP, the ratio is 1.5:1, which most classic systems round down to 1:1 in favor of the defender. Some publishers round up at the half, including MMP's Standard Combat Series. Rostov '41, which I designed for SCS, uses this convention. Both approaches work. Rounding down is more traditional and gives the defender a slight edge in borderline situations. Rounding up is more forgiving to the attacker. It is a matter of preference. Find the column on the CRT that matches the ratio, roll a die, and cross-reference the result.
+The odds-based combat results table has been the standard approach since the early days of SPI and Avalon Hill. The mechanic is straightforward. Total the attacking strength points, total the defending strength points, and create a ratio. If 12 SP attack 4 SP, the ratio is 3:1. If 9 SP attack 6 SP, the ratio is 1.5:1, which most classic systems round down to 1:1 in favor of the defender. Some publishers round up at the half, including MMP's Standard Combat Series. *Rostov '41*, which I designed for SCS, uses this convention. Both approaches work. Rounding down is more traditional and gives the defender a slight edge in borderline situations. Rounding up is more forgiving to the attacker. It is a matter of preference. Find the column on the CRT that matches the ratio, roll a die, and cross-reference the result.
 
 The system scales well. A 3:1 attack means the same thing whether you are pushing three divisions against one or thirty battalions against ten. The table does not distinguish between absolute numbers, only the relationship between forces. This makes odds-based tables suitable for scales from tactical firefights to strategic theater-level campaigns.
 
 The columns on a typical CRT run from low odds on the left to high odds on the right. A 1:2 attack is desperate and will fail most of the time. A 3:1 attack is strong and will succeed most of the time. The results shift from bad for the attacker on the left to bad for the defender on the right. At low odds, the attacker risks elimination or retreat. At high odds, the defender faces the same. The middle columns produce uncertain outcomes where both sides might take losses.
 
-If you want to understand how CRTs work, study the classics. SPI's The Marne, Soldiers, and Battle for Germany all have CRTs worth examining. Those tables will teach you more about combat resolution than reading about it in the abstract.
+If you want to understand how CRTs work, study the classics. SPI's *The Marne*, *Soldiers*, and *Battle for Germany* all have CRTs worth examining. Those tables will teach you more about combat resolution than reading about it in the abstract.
 
 ## Differential CRTs
 
@@ -26,7 +26,7 @@ The alternative to odds-based resolution is the differential table. Instead of c
 
 Differential tables eliminate the rounding that odds-based tables require, and they handle low-strength combat situations with more precision. Two units with 1 SP each fighting on an odds-based table produce results identical to two 20 SP stacks fighting at the same 1:1 ratio. On a differential table, the absolute size of the forces can matter, which some designers prefer.
 
-The weakness is that differential tables can produce strange results at the extremes. The gap between +2 and +4 feels the same on the table, but the tactical situations producing those numbers can be different in ways the resolution does not capture. Hermann Luttmann uses differential tables in several of his designs and makes them work well. One trick I have borrowed from his approach is applying column shifts to the differential table based on traditional force ratios. If the attacker has a 3:1 advantage, shift the column right by two. You get the precision of a differential calculation with the intuitive scaling of odds-based ratios. Prigozhin's March of Justice uses this hybrid approach, and the table produces results that feel right across a wide range of combat situations.
+The weakness is that differential tables can produce strange results at the extremes. The gap between +2 and +4 feels the same on the table, but the tactical situations producing those numbers can be different in ways the resolution does not capture. Hermann Luttmann uses differential tables in several of his designs and makes them work well. One trick I have borrowed from his approach is applying column shifts to the differential table based on traditional force ratios. If the attacker has a 3:1 advantage, shift the column right by two. You get the precision of a differential calculation with the intuitive scaling of odds-based ratios. *Prigozhin's March of Justice* uses this hybrid approach, and the table produces results that feel right across a wide range of combat situations.
 
 I use differential tables in some of my more strategic games and sometimes in the context of tactical assaults within a larger operational system. For most designs, I prefer odds-based resolution for its simplicity and the half century of proven track record behind it.
 
@@ -72,7 +72,7 @@ How you handle artillery depends on scale. At tactical and grand-tactical scales
 
 At operational and strategic scales, a division's combat strength includes its organic artillery. Separate artillery mechanics at these scales add complexity without adding decisions that matter at the level of abstraction you are working at. Exceptions exist. If a particular conflict featured artillery as a decisive independent arm, as heavy artillery was at Verdun, a separate system may be warranted.
 
-Some games split the difference. Imperial Bayonets includes bombardment as a separate phase before combat, allowing artillery to disrupt defenders or create obligations that shape the main combat phase. PCS incorporates air support as a modifier within the overall combat system rather than a standalone resolution. The question you should ask is whether artillery use represents a separate decision in the conflict you are simulating, or whether it was one component of an integrated assault.
+Some games split the difference. *Imperial Bayonets* includes bombardment as a separate phase before combat, allowing artillery to disrupt defenders or create obligations that shape the main combat phase. PCS incorporates air support as a modifier within the overall combat system rather than a standalone resolution. The question you should ask is whether artillery use represents a separate decision in the conflict you are simulating, or whether it was one component of an integrated assault.
 
 ## Making Combat Match the Conflict
 
@@ -92,7 +92,7 @@ Not all combat resolution uses dice. Chit pull and card-based systems produce di
 
 In a chit pull combat system, the randomness comes from drawing a value from a cup rather than rolling a die. PCS uses this approach. Each unit draws a combat chit at the moment of engagement, and the drawn value represents the unit's performance in that fight. A good unit can draw a low chit and a mediocre unit can draw a high one. The randomness lives inside the unit's capability rather than in an external die roll applied to the resolution.
 
-Card-based combat, as used in games like Up Front and Combat Commander, resolves combat through card draws or card play. The deck functions as both randomizer and resource, because the cards you spend on combat are cards you cannot spend on other actions. This built-in tension between spending and saving does not exist in dice-based systems.
+Card-based combat, as used in games like *Up Front* and *Combat Commander*, resolves combat through card draws or card play. The deck functions as both randomizer and resource, because the cards you spend on combat are cards you cannot spend on other actions. This built-in tension between spending and saving does not exist in dice-based systems.
 
 These are different tools for different design goals. Diceless combat tends to produce games where the resolution mechanic is more integrated with the rest of the game's systems, and where uncertainty distributes across the game in ways that dice cannot replicate.
 
@@ -129,7 +129,7 @@ Expect the CRT to change more than any other component during development. Playt
 
 Once you are comfortable with established systems and understand what makes them work, begin to experiment. Introduce mechanics from games you admire. Combine approaches. Try a differential table with ratio column shifts. Try a dice pool system. The proven systems exist because they work, but the best games in this hobby have come from designers who understood the conventions well enough to deviate from them with purpose.
 
-## Case Study: The Procedural Combat Series
+## Case Study: The *Procedural Combat Series*
 
 PCS uses a combat system that shares little with my other designs. There is no printed CRT. Combat is differential-based, resolved through a procedural sequence rather than a single table lookup.
 

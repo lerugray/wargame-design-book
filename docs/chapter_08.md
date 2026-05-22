@@ -29,7 +29,7 @@ Hexside facing means the unit points at one of the six edges of its hex. Hexspin
 
 Hex orientation determines which option looks right. With pointy-top hexes, where a vertex points straight up and down, hexspine facing lets two opposing lines point at each other across the map. That looks like a battlefield. Hexside facing in the same grid has them staring past each other at hex edges, which looks wrong even when the mechanics work. Flat-top hexes flip the geometry: hexside facing produces the straight-across alignment and hexspine creates the offset.
 
-I prefer hexspine facing with pointy-top hexes. Marathon uses this combination and opposing phalanx lines face each other without any angular awkwardness. The facing type and the hex orientation are a package deal. Pick the combination that makes your map look like the battle it represents. If it looks wrong on the map, players will feel it before they can articulate why.
+I prefer hexspine facing with pointy-top hexes. *Marathon* uses this combination and opposing phalanx lines face each other without any angular awkwardness. The facing type and the hex orientation are a package deal. Pick the combination that makes your map look like the battle it represents. If it looks wrong on the map, players will feel it before they can articulate why.
 
 ## Formations
 
@@ -41,15 +41,15 @@ At the grand-tactical level, formation can be abstracted into Deployed and Trave
 
 In Koniggratz and Mars La Tour, units have March Formation with 4 MP and Battle Formation with 1 MP. Enemy Zones of Influence force March Formation units to flip to Battle Formation and stop. The transition is not optional. You do not choose to deploy. The proximity of the enemy forces deployment on you.
 
-Sedan 1940 uses the same concept of Travel Mode and Deployed Mode but handles the transition differently. The player decides when to switch. Travel Mode offers higher movement but imposes penalties when engaged. The risk is voluntary: you choose to stay in Travel Mode for the speed, knowing that contact with the enemy will punish you for it.
+*Sedan 1940* uses the same concept of Travel Mode and Deployed Mode but handles the transition differently. The player decides when to switch. Travel Mode offers higher movement but imposes penalties when engaged. The risk is voluntary: you choose to stay in Travel Mode for the speed, knowing that contact with the enemy will punish you for it.
 
 ## Formation and Facing Together
 
-Some systems tie formation state to facing orientation. In my game on Marathon, deployed units face a hexspine while units in march formation face a hexside. The formation a unit is in determines how it orients on the map, which determines its front, flank, and rear hexes.
+Some systems tie formation state to facing orientation. In my game on *Marathon*, deployed units face a hexspine while units in march formation face a hexside. The formation a unit is in determines how it orients on the map, which determines its front, flank, and rear hexes.
 
-I tried a more complex version of this in an early tactical variant of Imperial Bayonets. Units in column formation faced a hexside, which channeled their movement into the hexes ahead of them. Units in line formation faced a hexspine, sacrificing mobility for firepower across a wider front. On paper it looked elegant. In practice it was a nightmare. The constant tracking of which units faced which direction in which formation, combined with the cost of switching between states, produced a game that was more puzzle than simulation. Hermann Luttmann was kind enough to humor me by helping playtest it at a convention, but the game was not working. The formation-facing interaction created overhead without adding proportional decisions.
+I tried a more complex version of this in an early tactical variant of *Imperial Bayonets*. Units in column formation faced a hexside, which channeled their movement into the hexes ahead of them. Units in line formation faced a hexspine, sacrificing mobility for firepower across a wider front. On paper it looked elegant. In practice it was a nightmare. The constant tracking of which units faced which direction in which formation, combined with the cost of switching between states, produced a game that was more puzzle than simulation. Hermann Luttmann was kind enough to humor me by helping playtest it at a convention, but the game was not working. The formation-facing interaction created overhead without adding proportional decisions.
 
-Combining facing and formation can work, but only when the interaction is clean enough that players internalize it rather than consult the rules every turn. Marathon's system works because the formation states are simple and the facing rules are short. The early Imperial Bayonets variant failed because the tactical scale magnified every interaction into a separate case to manage.
+Combining facing and formation can work, but only when the interaction is clean enough that players internalize it rather than consult the rules every turn. *Marathon*'s system works because the formation states are simple and the facing rules are short. The early *Imperial Bayonets* variant failed because the tactical scale magnified every interaction into a separate case to manage.
 
 An early version of that same game included a scenario for Bazeilles, a battle from the Franco-Prussian War fought almost entirely from buildings. The scenario still had facing rules. French units garrisoned in houses had front and rear hexes. It made no sense. If your battle does not involve linear formations maneuvering in the open, facing is not adding anything, no matter how tactical the scale.
 
@@ -57,11 +57,11 @@ An early version of that same game included a scenario for Bazeilles, a battle f
 
 Formation changes should cost something. The design decision is how much and what kind of cost.
 
-The most common approach is spending movement points. In Marathon, a unit must spend its entire movement allowance to change formation. This is a steep cost that makes the decision consequential. You cannot march up to the enemy, deploy, and attack in the same activation. You march, then next turn you deploy, then you fight. The tempo of the approach is built into the formation change cost.
+The most common approach is spending movement points. In *Marathon*, a unit must spend its entire movement allowance to change formation. This is a steep cost that makes the decision consequential. You cannot march up to the enemy, deploy, and attack in the same activation. You march, then next turn you deploy, then you fight. The tempo of the approach is built into the formation change cost.
 
 Other systems use partial MP costs. A unit might spend half its movement to change formation, allowing some residual movement afterward. This is more forgiving and works for games where the designer wants formation changes to be a consideration rather than a commitment.
 
-Some games impose combat penalties instead of or in addition to MP costs. In Marathon, attacking a unit in march formation grants a +3 DRM to the attacker. The formation change costs your full movement allowance, but getting caught before you complete it is worse. Other systems allow opportunity fire when a unit changes formation within range of the enemy, punishing a force that reorganizes under observation.
+Some games impose combat penalties instead of or in addition to MP costs. In *Marathon*, attacking a unit in march formation grants a +3 DRM to the attacker. The formation change costs your full movement allowance, but getting caught before you complete it is worse. Other systems allow opportunity fire when a unit changes formation within range of the enemy, punishing a force that reorganizes under observation.
 
 Command systems can restrict formation changes, but be cautious about leaning too hard on this. The battalion commander or the unit's NCOs managed formation transitions. Higher command decided where the army went and when it attacked. Generals did not micromanage whether a battalion was in column or line. Unless your system models command dysfunction at the tactical level, formation changes should be a function of the unit's own capability and the situation on the ground, not something that requires orders from headquarters.
 
@@ -71,15 +71,15 @@ Command systems can restrict formation changes, but be cautious about leaning to
 
 In systems with facing, ZOC projects only into a unit's front hexes. A unit does not project a zone of control into its flank or rear hexes. Flanking forces can move through those hexes without stopping.
 
-One useful exception is skirmishers. Light troops historically operated in loose formations, moving and firing in any direction without maintaining a fixed front. In Marathon, skirmisher units treat all six adjacent hexes as front hexes. They project ZOC in every direction, can move and fire freely, and have no flank or rear to exploit. This matches how light troops operated compared to heavier line formations.
+One useful exception is skirmishers. Light troops historically operated in loose formations, moving and firing in any direction without maintaining a fixed front. In *Marathon*, skirmisher units treat all six adjacent hexes as front hexes. They project ZOC in every direction, can move and fire freely, and have no flank or rear to exploit. This matches how light troops operated compared to heavier line formations.
 
-Flank and rear attacks receive bonuses in most systems that use facing. Marathon gives +1 DRM for attacks into an enemy's flank and +2 DRM for attacks into the rear. These modifiers are small enough that flanking is an advantage rather than an automatic kill, but large enough that players work hard to protect their flanks and exploit the enemy's.
+Flank and rear attacks receive bonuses in most systems that use facing. *Marathon* gives +1 DRM for attacks into an enemy's flank and +2 DRM for attacks into the rear. These modifiers are small enough that flanking is an advantage rather than an automatic kill, but large enough that players work hard to protect their flanks and exploit the enemy's.
 
 Facing also affects retreat. A unit that must retreat will fall back through its rear hexes. If enemy units occupy or project ZOC into those hexes, the retreating unit may be eliminated. Encirclement emerges from the facing and ZOC rules working together, without requiring a separate encirclement mechanic.
 
 ## The Rightward Drift
 
-Marathon includes an asymmetric turning cost for phalanx units. Turning to the right costs 1 MP. Turning to the left costs 2 MP. This models a phenomenon described by classical scholars: because each man in a hoplite phalanx drifted to the right, trying to stay behind his neighbor's shield, the entire formation had a natural tendency to slide rightward during movement.
+*Marathon* includes an asymmetric turning cost for phalanx units. Turning to the right costs 1 MP. Turning to the left costs 2 MP. This models a phenomenon described by classical scholars: because each man in a hoplite phalanx drifted to the right, trying to stay behind his neighbor's shield, the entire formation had a natural tendency to slide rightward during movement.
 
 I could have modeled this by forcing phalanx units to shift one hex to the right every other turn of movement. That would have been historically precise and mechanically miserable. The asymmetric turning cost captures the same idea. The phalanx turns more naturally to the right because the formation's structure favors it. Players feel the constraint without tracking lateral drift hex by hex.
 
@@ -95,13 +95,13 @@ If you find yourself designing a facing or formation system that requires consta
 
 If you are designing a game and wondering whether to include facing, formations, or both, the decision follows from your scale and subject. Here is how I think about it.
 
-**Tactical, ancient or medieval:** Facing and formations both. These conflicts were defined by the orientation and posture of the fighting unit. A hoplite phalanx, a Roman maniple, a medieval pike block. Facing determines who can fight and where. Formation determines whether the unit can move or hold. Marathon uses both, and the interaction between them is the game.
+**Tactical, ancient or medieval:** Facing and formations both. These conflicts were defined by the orientation and posture of the fighting unit. A hoplite phalanx, a Roman maniple, a medieval pike block. Facing determines who can fight and where. Formation determines whether the unit can move or hold. *Marathon* uses both, and the interaction between them is the game.
 
 **Tactical, horse-and-musket era:** Facing and formations both, but watch the complexity. Napoleonic infantry had column, line, and square, each with distinct capabilities. The design temptation is to model all three plus transitions between them. That can work, but test whether the transitions produce decisions or just bookkeeping. If players spend more time managing formation changes than maneuvering, cut a formation state.
 
 **Tactical, 20th century onward:** Formations rarely. Facing rarely. Modern infantry reorients in seconds. ASL omits facing for this reason. If your 20th century tactical game includes facing, you need a strong argument for why the constraint existed in your specific situation.
 
-**Grand-tactical:** Formations yes, facing usually no. The distinction between march posture and combat posture is the core design lever at this scale. A brigade in travel mode versus deployed mode creates the right decisions. Facing a brigade counter at a hexspine does not, because the regiments within it are oriented in different directions depending on the tactical situation. Koniggratz, Mars La Tour, and Sedan 1940 all use formation states without facing at this scale.
+**Grand-tactical:** Formations yes, facing usually no. The distinction between march posture and combat posture is the core design lever at this scale. A brigade in travel mode versus deployed mode creates the right decisions. Facing a brigade counter at a hexspine does not, because the regiments within it are oriented in different directions depending on the tactical situation. Koniggratz, Mars La Tour, and *Sedan 1940* all use formation states without facing at this scale.
 
 **Operational and strategic:** Neither. Divisions and corps reorient continuously. Formation state and facing at these scales add management burden without producing decisions. If you need to model the difference between a force on the march and a force in defensive positions at operational scale, handle it through movement modes (strategic movement vs. normal movement) rather than formation counters.
 
@@ -113,9 +113,9 @@ At the operational and strategic level, facing is almost never appropriate. Divi
 
 Even at the tactical level, facing is not automatic. If the conflict you are simulating involved forces that could reorient fast, such as modern infantry or guerrilla fighters, facing models a constraint that did not exist. Include it when the historical subject demands it.
 
-## Case Study: Marathon and the Cost of Getting It Wrong
+## Case Study: *Marathon* and the Cost of Getting It Wrong
 
-Marathon went through three versions of its facing and formation system before I found the one that worked.
+*Marathon* went through three versions of its facing and formation system before I found the one that worked.
 
 The first version used hexside facing for all units. Phalanx lines faced each other at awkward angles on the map. Flanking attacks required counting hexsides and consulting a chart to determine whether the attacking hex qualified as flank or rear. Players stopped to argue about geometry. The facing rules were technically correct and produced miserable play.
 
