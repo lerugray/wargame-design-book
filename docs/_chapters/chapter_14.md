@@ -100,7 +100,7 @@ Ruhnke's key insight came from his experience with both Wilderness War, his own 
 
 ### Seeded Deck Construction
 
-The COIN deck is built through a process that guarantees structural pacing without dictating exact card order. In Andean Abyss, the deck contains 72 event cards and 4 Propaganda Cards. You deal 15 event cards face-down on top of each of the first 3 Propaganda Cards, creating three stacks of 16 cards. The fourth Propaganda Card gets the remaining event cards. You shuffle each stack separately, then stack them on top of each other to form a single draw deck.
+The COIN deck is built through a process that guarantees structural pacing without dictating exact card order. In Andean Abyss, the deck contains 72 event cards and 4 Propaganda Cards. The setup procedure builds three stacks of 16 cards, each with one of the first three Propaganda Cards buried among event cards, with the fourth Propaganda Card seeded into the remaining event cards. Each stack is shuffled separately, then the stacks are placed on top of each other to form a single draw deck.
 
 The result: Propaganda Cards appear at roughly regular intervals. You know one is coming within each period of 15 or so cards, but you do not know if it is the next card or several cards away. As more event cards are played within a period, the probability that the next card is a Propaganda Card increases. That escalating tension is itself a mechanic. Players grow more cautious or more desperate as a period wears on, depending on whether they are ahead or behind.
 
@@ -128,7 +128,7 @@ Each faction has its own menu of operations and special activities, and these me
 
 ### What COIN Teaches a Designer
 
-The COIN series has expanded well beyond Ruhnke's original vision of modern insurgency games. Fifteen volumes and counting cover subjects from the Gallic Wars to the American Revolution to Indian independence to a fictional Mars colonization conflict. Fifteen volumes across wildly different subjects demonstrate that if you express asymmetry through faction-specific capabilities rather than through the core engine, the same structural framework can model conflicts across centuries and continents.
+The COIN series has expanded well beyond Ruhnke's original vision of modern insurgency games. More than a dozen volumes and counting cover subjects from the Gallic Wars to the American Revolution to Indian independence to a fictional Mars colonization conflict. Volumes across wildly different subjects demonstrate that if you express asymmetry through faction-specific capabilities rather than through the core engine, the same structural framework can model conflicts across centuries and continents.
 
 The Irregular Conflicts Series, a GMT spin-off, has taken COIN-inspired mechanics even further from traditional wargaming, into medieval England with A Gest of Robin Hood and urban development conflict with Cross Bronx Expressway. Ruhnke's observation that the system "succeeded beyond my ambitions, particularly because my original vision for the series was way off" is a useful reminder that a well-designed framework can outgrow the designer's initial concept.
 

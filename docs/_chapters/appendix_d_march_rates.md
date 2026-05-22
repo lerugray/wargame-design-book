@@ -51,6 +51,8 @@ Engels highlights something designers at all scales should internalize: large ar
 | Full march (*iter magnum*) | ~18 | 20 Roman miles |
 | Forced march (*iter celerissimum*) | 22+ | 24+ Roman miles; unsustainable beyond a few days |
 
+Vegetius gives the common military step as twenty Roman miles and the full step as twenty-four; those are training-pace standards, while the rates above are the realistic sustained daily figures a legion actually achieved on campaign (Roth, *The Logistics of the Roman Army at War*).
+
 Caesar's legions in Gaul covered fifteen to twenty miles per day while constructing a fortified camp each evening. Caesar traveling light with a cavalry escort and relay horses could cover eighty to a hundred miles in a day, but that is courier speed, not army speed.
 
 **Mongol Cavalry** (from May, *The Mongol Art of War*, 2007)
@@ -361,7 +363,7 @@ Keep march rates and combat advance rates separate. A unit moving through empty 
 - Engels, Donald W. *Alexander the Great and the Logistics of the Macedonian Army*. Berkeley: University of California Press, 1978.
 - Howard, Michael. *The Franco-Prussian War: The German Invasion of France, 1870-1871*. London: Rupert Hart-Davis, 1961.
 - May, Timothy. *The Mongol Art of War*. Barnsley: Pen and Sword, 2007.
-- Nafziger, George F. *Imperial Bayonets: Tactics of the Napoleonic Battery, Battalion and Brigade as Found in Contemporary Regulations*. Novato: Presidio Press, 1996.
+- Nafziger, George F. *Imperial Bayonets: Tactics of the Napoleonic Battery, Battalion and Brigade as Found in Contemporary Regulations*. London: Greenhill Books, 1996.
 - Roth, Jonathan. *The Logistics of the Roman Army at War (264 B.C. - A.D. 235)*. Leiden: Brill, 1999.
 - Tanner, Robert G. *Stonewall in the Valley: Thomas J. "Stonewall" Jackson's Shenandoah Valley Campaign, Spring 1862*. Rev. ed. Mechanicsburg: Stackpole Books, 1996.
 - Tuchman, Barbara W. *The Guns of August*. New York: Macmillan, 1962.
