@@ -134,7 +134,7 @@ Create a counter manifest: the complete list of every counter in the game and wh
 - Do all infantry brigades rate the same, or do the Guards and the Fallschirmjäger get higher values? The French garrison with their outdated equipment? The Italian Superga division?
 - How do you represent Blade Force and the 10th Panzer Division? Armor should feel different from infantry. How?
 
-The OOB above gives you roughly five counters per side at game start, with two reinforcements per side arriving during play. That is 14 total, a good number for this exercise. You may add markers for turn track, weather, or other game state as needed.
+The order of battle (OOB) above gives you roughly five counters per side at game start, with two reinforcements per side arriving during play. That is 14 total, a good number for this exercise. You may add markers for turn track, weather, or other game state as needed.
 
 You do not need to print professional counters. Write the values on small squares of cardboard or paper. What matters is that every counter has clear, consistent information.
 
@@ -196,7 +196,7 @@ This campaign has several distinctive features worth modeling:
 - **Allied supply strain** that worsened the further east they pushed
 - **The reinforcement race**, both sides feeding units in through different bottlenecks
 - **Weather** that shut down operations without warning
-- **The ad hoc nature of both armies**, neither side had a proper order of battle and both were improvising
+- **The ad hoc nature of both armies**, neither side had a proper OOB and both were improvising
 
 Pick one, or find your own, and design a mechanic that makes the player feel it. A modifier on a table does not count. A rule that says "subtract 1 in rain" does not count. You want something that changes how the game plays, something that forces the player to plan around it the way Anderson and Nehring planned around it.
 

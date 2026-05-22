@@ -65,7 +65,7 @@ The key to scaled victory is calibrating the tiers against the historical record
 
 Some conflicts were so one-sided that the historical loser had no realistic path to victory. Sedan 1870 is one of these. The French army was strategically outmaneuvered before the battle began. MacMahon marched into a trap. The Prussians surrounded Sedan and bombarded the French into submission. Napoleon III surrendered with over 100,000 troops. As a military engagement, the outcome was close to predetermined.
 
-I designed a game on this battle, We Were Not Cowards: Sedan 1870, published in the Imperial Bayonets series. The design problem was immediate. If the victory conditions required the French player to win the battle, nobody would play the French. If the victory conditions were so generous that the French won half the time, the game would lie about what happened. Both options fail.
+I designed a game on this battle, *We Were Not Cowards*: Sedan 1870, published in the *Imperial Bayonets* series. The design problem was immediate. If the victory conditions required the French player to win the battle, nobody would play the French. If the victory conditions were so generous that the French won half the time, the game would lie about what happened. Both options fail.
 
 The solution is to reframe what victory means for the disadvantaged side. The French at Sedan could not win the battle. But they could have fought better. They could have inflicted more casualties on the Prussians. They could have held longer. They could have organized a breakout attempt that, even if it failed, would have preserved more of the army than capitulation did. The French player in my game is not trying to defeat the Prussian army. They are trying to perform better than MacMahon did, which is a lower bar but still a meaningful one.
 
@@ -89,9 +89,9 @@ If your victory conditions require the attacker to capture a city by turn 6, the
 
 Playtesting (covered in Chapter 16) is where you calibrate this. Run the game multiple times and track where the final VP totals land relative to your scaled tiers. If the results cluster at one extreme, either the systems or the victory conditions need adjustment. The goal is a spread of results centered roughly on the historical outcome, with decisive results in either direction possible but uncommon.
 
-## Case Study: Rostov '41 and the SCS Victory Structure
+## Case Study: *Rostov '41* and the SCS Victory Structure
 
-Rostov '41, my design for MMP's Standard Combat Series, covers the first German drive on Rostov-on-Don in November 1941 and the Soviet counteroffensive that retook the city, the first time the Wehrmacht was forced to give up a major objective on the Eastern Front.
+*Rostov '41*, my design for MMP's Standard Combat Series, covers the first German drive on Rostov-on-Don in November 1941 and the Soviet counteroffensive that retook the city, the first time the Wehrmacht was forced to give up a major objective on the Eastern Front.
 
 The SCS uses a straightforward VP system. Players earn VP for controlling specific hexes at the end of the game. The challenge was that the historical outcome was a German failure. The Germans took Rostov on November 21 and were driven out by November 29. If I set the victory conditions to reward the German player for holding Rostov, the game would punish historical play. If I set them to reward the Soviet player for retaking Rostov, the German player would have no reason to take it in the first place.
 

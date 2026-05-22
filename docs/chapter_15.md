@@ -7,7 +7,7 @@ parent: "Part IV: From Prototype to Publication"
 ---
 
 
-The preceding thirteen chapters covered the anatomy of wargames in detail. Scale, time and space, orders of battle, movement, combat, sequences of play, subsystems, specialized domains, card systems. You now have a vocabulary for the components that make up a wargame and a sense of the design decisions each component demands. This chapter is about sitting down and building one.
+The preceding thirteen chapters covered the anatomy of wargames in detail. Scale, time and space, orders of battle (OOBs), movement, combat, sequences of play, subsystems, specialized domains, card systems. You now have a vocabulary for the components that make up a wargame and a sense of the design decisions each component demands. This chapter is about sitting down and building one.
 
 I cannot give you a formalized process for this. Every designer I know works differently, and every designer I know has tried to formalize their own process at some point and failed. You are going to start with whatever excites you most about your design, and that starting point will be different for every project and every designer. Some designers begin with the map because visualizing the theater is what orients them. Others start with the OOB because they want to see the forces before making any other decisions. Some start with a single mechanic, a combat system or an activation structure, and build everything else around it. All of these are valid entry points. None of them is the correct one.
 
@@ -43,13 +43,13 @@ I did not do this for most of my career, and I paid for it in extended developme
 
 My process is not the recommended process. It is the process I have settled into after a decade of designing games, and it has strengths and weaknesses that I am aware of but have not fully corrected.
 
-I tend to start with the map and the OOB. I want to see the theater and the forces before I make mechanical decisions. Looking at a map of the campaign area and seeing where the armies were positioned, where the terrain features create natural defensive lines, where the roads and rail lines run. That orients me. The OOB does the same thing from the other direction. Seeing the specific formations involved, their relative strengths, how they were organized. That tells me what scale feels right and what level of detail the game needs.
+I tend to start with the map and the OOB. I want to see the theater and the forces before I make mechanical decisions. Looking at a map of the campaign area and seeing where the armies were positioned, where the terrain features create natural defensive lines, where the roads and rail lines run: that orients me. The OOB does the same thing from the other direction. Seeing the specific formations involved, their relative strengths, how they were organized: that tells me what scale feels right and what level of detail the game needs.
 
 Once I have a rough map and a rough OOB, I start thinking about systems. I tend to have strong ideas about what the core mechanic should be, some notion of how activation should work or what the combat system needs to capture. Those ideas come from the research, from the specific qualities of the conflict that make it worth simulating. I develop those systems, test them against the map and OOB, and then write the framework around them. Rules that do not make sense get cut. Systems that add overhead without adding decisions get cut. I prune after building, rather than designing a minimal framework from the start.
 
 This approach has a disadvantage that I should be honest about. If I design the OOB and then later change a mechanical rule that affects how unit ratings work, the entire OOB needs reworking. This has happened to me more than I would like.
 
-We Were Not Cowards, my Imperial Bayonets series game on the Battle of Sedan in 1870, went through four or five complete reworkings of the strength and initiative ratings over the course of development. That game took years to finish, in large part because the combat system, which I believed was well designed and did not want to change, was not producing the outcomes I wanted with the original unit ratings. The system was sound. The numbers feeding into it were not. Each time I adjusted the numbers, I had to recalculate every unit in the game, cross-reference against the historical data, playtest the new values, and determine whether the results matched what I was looking for. Multiply that by four or five iterations and you understand why the project took as long as it did.
+*We Were Not Cowards*, my *Imperial Bayonets* series game on the Battle of Sedan in 1870, went through four or five complete reworkings of the strength and initiative ratings over the course of development. That game took years to finish, in large part because the combat system, which I believed was well designed and did not want to change, was not producing the outcomes I wanted with the original unit ratings. The system was sound. The numbers feeding into it were not. Each time I adjusted the numbers, I had to recalculate every unit in the game, cross-reference against the historical data, playtest the new values, and determine whether the results matched what I was looking for. Multiply that by four or five iterations and you understand why the project took as long as it did.
 
 A designer who writes rules first and builds the OOB to fit those rules avoids this problem. The trade-off is that their OOB may feel forced, shaped by mechanical requirements rather than historical research. Neither approach is wrong. Both have costs. I am comfortable with my approach because reworking OOBs is something I know how to do, but I would not claim it is the more efficient method.
 
@@ -89,7 +89,7 @@ The physical prototype, a map you can lay on a table, counters you can push, cha
 
 Do not let the prototype phase intimidate you into staying in the conceptual phase forever. A game that exists only as notes and spreadsheets is not a game. It is an idea. The idea might be brilliant, but you will not know until you play it. Push yourself to build the prototype even if it looks rough. You will learn more from one play session with ugly cardboard than from another month of conceptual refinement.
 
-## Case Study: Prigozhin's March of Justice
+## Case Study: *Prigozhin's March of Justice*
 
 Prigozhin's March, discussed in detail in Chapter 6, illustrates what happens when the subject itself is small enough to compress the entire design process. The event lasted thirty-six hours. The forces were a handful of units on a linear route. The central question was obvious from day one. I had a working prototype within days, not weeks.
 

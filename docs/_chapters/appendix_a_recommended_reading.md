@@ -13,17 +13,17 @@ For research methodology and sources specific to wargame design, see also Chapte
 
 **The Complete Wargames Handbook** — James F. Dunnigan. The closest thing the hobby has to a foundational textbook. Revised and expanded as *Wargames Handbook* in later editions. Covers the design process from concept through production, written by the person who industrialized wargame design at SPI. Some of the specific advice is dated. The design philosophy is not.
 
-**SPI Special Study #2: Wargame Design** — SPI staff. If you can find a copy, this is the single most valuable document on wargame design methodology ever produced. A detailed internal study of how SPI designed games, covering research methods, system design, playtesting procedures, and production. Out of print, rare, and expensive when it surfaces. Worth the hunt.
+**SPI Staff Study #2: Wargame Design** — SPI staff. If you can find a copy, this is the single most valuable document on wargame design methodology ever produced. A detailed internal study of how SPI designed games, covering research methods, system design, playtesting procedures, and production. Out of print, rare, and expensive when it surfaces. Worth the hunt.
 
 **Zones of Control: Perspectives on Wargaming** — Pat Harrigan and Matthew Kirschenbaum, eds. MIT Press. A collection of essays from designers, historians, and academics on wargaming as a medium. Broad in scope, covering hobby games, professional wargaming, and digital simulations. Individual essays vary in quality but the collection as a whole is the best single-volume overview of the field.
 
 **Cardboard Ghosts: Using Physical Games to Model and Critique Systems** — Amabel Holland. CRC Press. Holland's argument for games as an expressive medium, grounded in her own design work at Hollandspiele. Read this if you are interested in what games can say beyond simulating combat.
 
-**Mark Herman on Wargame Design** — Mark Herman. Herman invented the card-driven game with We the People and has been producing influential designs for decades. This book covers his design philosophy and methodology.
+**Mark Herman on Wargame Design** — Mark Herman. Herman invented the card-driven game with *We the People* and has been producing influential designs for decades. This book covers his design philosophy and methodology.
 
 **OSG Design Dispatches and Newsletters** — Operational Studies Group (Kevin Zucker). Design dispatches and newsletters covering operational game design philosophy, the Napoleonic series, and Zucker's approach to simulation. If you are designing at the operational scale, read these. Available through OSG's website and archives.
 
-**Ted Raicer's Design Writing** — Raicer has written on wargame design across multiple publications. His perspective as the designer of Paths of Glory and the Dark series provides insight into both card-driven and traditional hex-and-counter design at the operational level.
+**Ted Raicer's Design Writing** — Raicer has written on wargame design across multiple publications. His perspective as the designer of *Paths of Glory* and the Dark series provides insight into both card-driven and traditional hex-and-counter design at the operational level.
 
 **Al Nofi's Historical and Design Writing** — Nofi's contributions to establishing research standards in wargame design are discussed in Appendix E. His published works on military history reflect the same rigor he brought to game research at SPI.
 
@@ -41,7 +41,7 @@ The books below are not design books. They are the kind of sources you will use 
 
 **The Franco-Prussian War: The German Invasion of France 1870-1871** — Michael Howard. Routledge. The standard English-language account of the war. Howard's treatment of Prussian staff planning, French command dysfunction, and the operational dynamics of the campaign is essential reading for anyone designing a game on this period. His analysis of why the French lost goes far beyond "the Prussians had better guns."
 
-**The Campaigns of Napoleon** — David G. Chandler. Macmillan. The comprehensive operational history of Napoleon's campaigns. Over a thousand pages covering every major campaign from Toulon to Waterloo. Chandler's maps and his analysis of Napoleon's operational methods are reference material for Napoleonic game designers. Kevin Zucker's Library of Napoleonic Battles draws on Chandler extensively.
+**The Campaigns of Napoleon** — David G. Chandler. Macmillan. The comprehensive operational history of Napoleon's campaigns. Over a thousand pages covering every major campaign from Toulon to Waterloo. Chandler's maps and his analysis of Napoleon's operational methods are reference material for Napoleonic game designers. Kevin Zucker's *Library of Napoleonic Battles* draws on Chandler extensively.
 
 **David Glantz's Eastern Front Library** — Glantz is the most important English-language historian of the Soviet-German war. *When Titans Clashed* (with Jonathan House) is the single-volume overview. *Colossus Reborn* covers Soviet force reconstitution. *Stumbling Colossus* examines the Red Army in 1941. *To the Gates of Stalingrad*, *Armageddon in Stalingrad*, and *Endgame at Stalingrad* form the definitive trilogy on that battle. If you are designing an Eastern Front game, Glantz is where you start and where you return when something does not add up.
 

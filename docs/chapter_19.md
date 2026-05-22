@@ -7,7 +7,7 @@ parent: "Part IV: From Prototype to Publication"
 ---
 
 
-For all but a few of my more recent games, Matt Ward developed every title I published through Conflict Simulations LLC. His name appears in the credits of Sedan 1940, 1916, 1864: On to Jutland, and most of the rest of the catalog. Matt brought exhaustive expertise from his work as a developer on the Panzer Grenadier series for Avalanche Press, and he improved my games tenfold from what they would have been without him. I am stating this plainly because this chapter is about why you need a developer, and the strongest argument I can make is my own experience.
+For all but a few of my more recent games, Matt Ward developed every title I published through Conflict Simulations LLC. His name appears in the credits of *Sedan 1940*, *1916*, *1864: On to Jutland*, and most of the rest of the catalog. Matt brought exhaustive expertise from his work as a developer on the *Panzer Grenadier* series for Avalanche Press, and he improved my games tenfold from what they would have been without him. I am stating this plainly because this chapter is about why you need a developer, and the strongest argument I can make is my own experience.
 
 Development is the process that happens between "the designer thinks the game is done" and "the game is ready for players." Look at the credits of any game published by GMT, MMP, Compass, or most other publishers, and you will see a developer listed separately from the designer. That credit exists because the work is real and the skills are distinct.
 
@@ -15,7 +15,7 @@ Development is the process that happens between "the designer thinks the game is
 
 A developer's job is to make sure the game accomplishes the goals it sets out to do while remaining fun and playable as a commercial product. This requires a distinct skillset from design. The designer creates the game. The developer pressure-tests it from the outside, with fresh eyes and no emotional attachment to any particular mechanic.
 
-A developer reads your rules and finds the ambiguities you cannot see because you wrote them. They play your game and find the strategies that break it, the units that are too strong or too weak, the situations where the rules do not cover what happens. They look at your CRT and ask whether the results produce outcomes that match the historical conflict. They look at your OOB and ask whether the unit ratings create the force balance the game needs. They look at your sequence of play and ask whether the phase order creates the right rhythm.
+A developer reads your rules and finds the ambiguities you cannot see because you wrote them. They play your game and find the strategies that break it, the units that are too strong or too weak, the situations where the rules do not cover what happens. They look at your CRT and ask whether the results produce outcomes that match the historical conflict. They look at your order of battle (OOB) and ask whether the unit ratings create the force balance the game needs. They look at your sequence of play and ask whether the phase order creates the right rhythm.
 
 A developer also handles practical concerns that designers tend to neglect. Does the counter manifest match the OOB? Are the setup instructions unambiguous? Does the player aid contain everything the player needs? Are the victory conditions clear and achievable? These are the details that separate a game that plays well on the designer's table from a game that plays well on a stranger's table.
 
@@ -43,7 +43,7 @@ A good developer will challenge your decisions. They will tell you that a mechan
 
 A bad developer will try to redesign your game. Development is refinement. If a developer wants to overhaul your core systems, they are designing a different game rather than developing yours. A developer tightens your rules, balances your systems, polishes your game. They do not change what the game is about. If the development process is pulling the game in a direction you did not intend, push back. The game is yours.
 
-The practical workflow varies by publisher. When I worked with MMP on Rostov '41, the process was my first glimpse at a professional development workflow. MMP used Basecamp, the same project management tool I now use for my own company. I would send my ideas and notes as the designer. The development team, led by Lee Forester with contributions from Carl Fung and others, would reply with what worked and what would not, then coordinate playtesting based on those assessments. Design ideas flowed in one direction, development feedback flowed back, and the playtesting schedule was built around the current state of the game rather than testing whatever happened to be ready.
+The practical workflow varies by publisher. When I worked with MMP on *Rostov '41*, the process was my first glimpse at a professional development workflow. MMP used Basecamp, the same project management tool I now use for my own company. I would send my ideas and notes as the designer. The development team, led by Lee Forester with contributions from Carl Fung and others, would reply with what worked and what would not, then coordinate playtesting based on those assessments. Design ideas flowed in one direction, development feedback flowed back, and the playtesting schedule was built around the current state of the game rather than testing whatever happened to be ready.
 
 Watching that process taught me how a professional company does it correctly. The designer proposes. The development team evaluates. Playtesting generates data. The developer interprets the data and recommends changes. The designer approves or negotiates. The cycle repeats until the game is ready for production. Each role has a defined function and the workflow prevents any single person from operating in isolation.
 
@@ -67,9 +67,9 @@ Is the rulebook internally consistent? Does it use the same terminology througho
 
 This checklist is not exhaustive, but it covers the categories where errors most commonly survive into published games. A developer working through this list catches problems that save time, money, and the publisher's reputation. A designer working through it alone catches some of them. Either way, the list needs to be worked through. Skipping it is how games ship with playtest maps.
 
-## Case Study: Rostov '41 and MMP
+## Case Study: *Rostov '41* and MMP
 
-Rostov '41, my Standard Combat Series game on the German drive toward Rostov-on-Don in late 1941, was published by Multi-Man Publishing. It was my first game with a major publisher, and the development experience shaped how I think about the entire process.
+*Rostov '41*, my Standard Combat Series game on the German drive toward Rostov-on-Don in late 1941, was published by Multi-Man Publishing. It was my first game with a major publisher, and the development experience shaped how I think about the entire process.
 
 The SCS is Dean Essig's system. Designing within it meant working inside an established rules framework where the core mechanics (movement, combat, supply, exploitation) were already defined. My job as the designer was to build the game-specific rules on top of that framework: the scenarios, the OOB, the special rules that capture what makes the Rostov campaign distinct from other SCS titles. The weather system, which transitions from clear to mud to freeze across the game's timeline, was one of those specific elements. The mud rules restrict exploitation, overruns, air strikes, and artillery, simulating how the rasputitsa bogged down operations. The deep freeze opens major rivers to crossing but cripples German armor, reflecting the mechanical failures that plagued Panzer formations in the Russian winter.
 

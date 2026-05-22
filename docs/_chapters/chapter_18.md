@@ -8,11 +8,11 @@ layout: chapter
 
 I am an organizational mess. I have been an organizational mess for the entire time I have been designing wargames, and I am aware that this is a problem, and I have not fixed it. What I have done is find a tool that compensates for it well enough that my projects ship on time more often than they do not. That tool is Basecamp, and I will talk about it and its alternatives in this chapter. But the tool is secondary to the principle, which is this: you need a system for tracking your files, your versions, and your communications, and you need the discipline to use it. The specific system matters less than having one at all.
 
-I am telling you this because all three of those things have happened to me, and the case study later in this chapter describes the worst instance in detail.
+I am telling you this because every one of those failures has happened to me, and the case study later in this chapter describes the worst instance in detail.
 
 ## The Problem
 
-A wargame in development generates a lot of files. Map drafts in multiple versions as you revise terrain and hex layouts. Counter sheets revised with every unit rating change. An OOB spreadsheet that feeds those counter sheets. A rulebook that goes through dozens of revisions between first draft and publication. Charts and player aids that need to match the current rules. Playtest notes from multiple testers. Correspondence with your developer, your artist, your printer. VASSAL module files if you are building one. All of this accumulates.
+A wargame in development generates a lot of files. Map drafts in multiple versions as you revise terrain and hex layouts. Counter sheets revised with every unit rating change. An order of battle (OOB) spreadsheet that feeds those counter sheets. A rulebook that goes through dozens of revisions between first draft and publication. Charts and player aids that need to match the current rules. Playtest notes from multiple testers. Correspondence with your developer, your artist, your printer. VASSAL module files if you are building one. All of this accumulates.
 
 Each file changes over the life of the project. The map you sent your artist in January is not the map you playtested in March, because you moved a victory hex and added a river crossing. The OOB you finalized in February lost three units in April after playtesting showed they unbalanced the game. The rulebook exists in at least four versions: the one you sent to playtesters, the revision after their feedback, the one you sent to your developer, and the one your developer sent back with changes.
 
@@ -68,9 +68,9 @@ Each handoff in the pipeline is a point where a version error can enter the proc
 
 A checklist before each handoff catches these. Does the counter sheet match the OOB? Does the player aid match the rulebook? Does the map reflect the latest playtest revisions? Fifteen minutes of verification saves weeks of rework.
 
-## Case Study: 1864: On to Jutland!
+## Case Study: *1864: On to Jutland!*
 
-1864: On to Jutland!, my game on the Second Schleswig War, is the clearest example in my catalog of what happens when the production pipeline breaks down.
+*1864: On to Jutland!*, my game on the Second Schleswig War, is the clearest example in my catalog of what happens when the production pipeline breaks down.
 
 The game itself came together well. It started as one of the more complicated designs I had made, using an in-depth system of operational movement followed by tactical combat inspired by Frank Chadwick's GDW Crimea game. That system would have added hours to playtime, which was the opposite of what the 2140 series is trying to do, so I scrapped it and rebuilt the game around a simpler framework. The perpetual combat mechanic, where players can keep attacking as long as they have units adjacent to the enemy but disrupt themselves after the second assault, was one of the ideas I salvaged from that earlier version. The final game plays quickly and the system works.
 
