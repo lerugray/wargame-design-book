@@ -34,7 +34,7 @@ Koniggratz and Mars La Tour use a different approach. Units project a Zone of In
 
 OODA stands for observe, orient, decide, act. In military terms, it describes how quickly a force can process new information and respond. The concept is abstract, but its effects on the battlefield are concrete, and your movement system is where those effects show up.
 
-The Franco-Prussian War is one of the clearest historical examples. The French army was highly regarded by most of Europe in 1870. The Prussians destroyed and conquered it in less than three months. The armies looked roughly even on paper. The difference was that the Prussian army could do several things in the time it took the French to do one.
+The Franco-Prussian War is one of the clearest historical examples. The French army still carried a formidable reputation, built on the Crimea and Italy. The Prussians destroyed it in less than three months. The armies looked roughly even on paper. The difference was that the Prussian army could do several things in the time it took the French to do one.
 
 The Prussian general staff had developed Mission Command, empowering officers at a tactical level to make decisions based on their own initiative and experience. When a French commander was killed, the unit waited for hours until someone sent new orders. French troops would not march to the sound of the guns without explicit authorization. The army's command structure depended on Napoleon III directing the whole force, and Napoleon III was no tactical genius. At Mars-la-Tour, a few Prussian corps effectively froze the entire French army because the French could not organize a response fast enough.
 
