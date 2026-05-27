@@ -18,8 +18,17 @@ wargame_design_book_cover.zip
 # GeneralStaff bot worktree (created by engineer_command.sh, cleaned on exit)
 .bot-worktree/
 
-# Pandoc / KDP build output — generated artifacts, not source
-print/out/
+# Pandoc / KDP build output — generated artifacts, not source.
+# Exception: the final interior PDF is tracked so it can be pulled on
+# other machines for the KDP UI upload step (interior is the only
+# regularly rebuilt artifact; cover PDFs/PNGs/SVGs already in this dir
+# stay tracked too).
+print/out/*
+!print/out/wargame-design-book.pdf
+!print/out/wargame-design-book-cover.pdf
+!print/out/wargame-design-book-cover.png
+!print/out/wargame-design-book-cover.svg
+!print/out/wargame-design-book-cover-upload.svg
 print/build/
 *.pdf.bak
 
