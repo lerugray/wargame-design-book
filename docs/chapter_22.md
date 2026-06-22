@@ -9,17 +9,15 @@ parent: "Part V: The Bigger Picture"
 
 This is a chapter I need to write carefully, because the subject generates more heat than light in the wargaming community and in creative communities more broadly. I have strong opinions about AI tools. I use them daily. I have built tools that use them. I also understand why some designers want nothing to do with them, and I respect that position even where I disagree with it. If you are reading this chapter and you have already decided that AI has no place in your design process, skip to the next chapter. Nothing I say here will change your mind, and I am not trying to. This chapter is for designers who are curious about what these tools can do and want an honest account from someone who has used them, made mistakes with them, and figured out how to make them useful.
 
-## What AI Does Poorly
+## What It Can and Can't Do
 
-AI is bad at taste. It cannot tell you whether your game idea is good. It cannot tell you whether a mechanic is elegant or clumsy. It cannot look at your combat results table and feel whether the outcomes produce the right tension. It does not know what "right" means in the context of your specific design, because "right" is a judgment that requires historical knowledge, design experience, and an understanding of what you are trying to say with this game. AI does not have an argument. You do.
+AI is bad at taste. It cannot tell you whether your game idea is good, whether a mechanic is elegant or clumsy, or whether the outcomes on your combat results table produce the right tension. It does not know what "right" means in the context of your specific design, because "right" is a judgment that requires historical knowledge, design experience, and an understanding of what you are trying to say with this game. AI does not have an argument. You do.
 
-If you ask AI to generate a game concept from scratch, you will get something generic. If you ask it to design your mechanics, you will get something that functions but lacks personality. If you ask it to write your rules without heavy guidance, you will get prose that reads like it was written by a committee that has never played a wargame. The output looks competent at a glance and falls apart under scrutiny. This is slop, and the wargaming community can spot it faster than most audiences because wargamers are a well-read, detail-oriented group who have spent decades developing strong opinions about what good design looks like.
+If you ask AI to generate a game concept from scratch, you will get something generic. Ask it to design your mechanics and it functions but lacks personality. Rules written without heavy guidance read like prose from a committee that has never played a wargame. The output looks competent at a glance and falls apart under scrutiny. This is slop, and the wargaming community can spot it faster than most audiences because wargamers are a well-read, detail-oriented group who have spent decades developing strong opinions about what good design looks like.
 
 AI is also bad at knowing when it is wrong. It will present incorrect information with the same confidence as correct information. It will fabricate order of battle (OOB) data, invent historical events, and cite sources that do not exist. If you are not knowledgeable enough about your subject to catch these errors, AI will make your game worse, not better. The designer's historical knowledge is the quality filter. Without it, you are building on sand.
 
-## What AI Does Well
-
-AI is good at tasks where the designer provides the knowledge and the AI provides the labor. Research acceleration is the clearest example. If you are designing a game about a specific battle and you need to cross-reference OOB data across multiple sources, AI can help you organize and compare that data faster than you can do it by hand. If you have a stack of academic sources and need to find every reference to a specific unit, engagement, or logistical detail, AI can search and summarize faster than you can read.
+That is the half of the ledger people lead with. The other half is real too. AI is good at tasks where the designer provides the knowledge and the AI provides the labor. Research acceleration is the clearest example. If you are designing a game about a specific battle and you need to cross-reference OOB data across multiple sources, AI can help you organize and compare that data faster than you can do it by hand. If you have a stack of academic sources and need to find every reference to a specific unit, engagement, or logistical detail, AI can search and summarize faster than you can read.
 
 The key word is "faster." AI does not do research you could not do yourself. It does research you do not have time to do yourself, which for a designer working a full-time job and designing games in whatever hours remain, is the difference between a project that moves forward and one that stalls.
 
@@ -47,11 +45,11 @@ Some designers reject AI tools on moral or philosophical grounds. They object to
 
 My own position: I do not believe there is such a thing as ethical consumption under capitalism, and I believe this more now than I did before I started working a minimum-wage job full time. The supply chains behind your computer, your software, your printer, your phone, the paper your rulebook is printed on, the shipping that delivers your game, none of it is clean. Refusing to use AI tools is a personal choice, and I have no quarrel with anyone who makes that choice. Framing it as a moral high ground while participating in every other exploitative system that modern commerce runs on is a distinction I do not find meaningful.
 
-For those willing to use AI, the question is whether you use it well or poorly. Used well, with your knowledge as the foundation and your judgment as the filter, it is a force multiplier that lets a solo designer with limited time produce work that would otherwise require a team or remain unfinished. Used poorly, without knowledge or judgment, it produces work indistinguishable from not having done the work at all. The tool does not determine the quality. The designer does.
+For those willing to use AI, the question is whether you use it well or poorly. Used well, with your knowledge as the foundation and your judgment as the filter, it is a force multiplier that lets a solo designer with limited time produce work that would otherwise require a team or remain unfinished. Without that knowledge and judgment, it produces work indistinguishable from not having done the work at all. The quality comes from the designer, not the tool.
 
 ## What AI Gave Me Back
 
-The practical argument for AI tools in wargame design is about what becomes possible when time is no longer the bottleneck.
+Here is what these tools actually did for me.
 
 I burned out around 2020. The publishing company was struggling, my personal life was in disarray, and game design, the thing I had built my identity around, was the last thing I had energy for. For several years I did not design anything meaningful. The ideas were still there. The desire was still there. The time and energy were not.
 

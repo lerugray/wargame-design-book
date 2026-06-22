@@ -68,7 +68,7 @@ This checklist is not exhaustive, but it covers the categories where errors most
 
 ## Case Study: *Rostov '41* and MMP
 
-*Rostov '41*, my Standard Combat Series game on the German drive toward Rostov-on-Don in late 1941, was published by Multi-Man Publishing. It was my first game with a major publisher, and the development experience shaped how I think about the entire process.
+*Rostov '41* (the SCS game whose victory structure I covered in Chapter 12) was published by Multi-Man Publishing. It was my first game with a major publisher, and the development experience shaped how I think about the entire process.
 
 The SCS is Dean Essig's system. Designing within it meant working inside an established rules framework where the core mechanics (movement, combat, supply, exploitation) were already defined. My job as the designer was to build the game-specific rules on top of that framework: the scenarios, the OOB, the special rules that capture what makes the Rostov campaign distinct from other SCS titles. The weather system, which transitions from clear to mud to freeze across the game's timeline, was one of those specific elements. The mud rules restrict exploitation, overruns, air strikes, and artillery, simulating how the rasputitsa bogged down operations. The deep freeze opens major rivers to crossing but cripples German armor, reflecting the mechanical failures that plagued Panzer formations in the Russian winter.
 

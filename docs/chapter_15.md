@@ -91,7 +91,7 @@ Do not let the prototype phase intimidate you into staying in the conceptual pha
 
 ## Case Study: *Prigozhin's March of Justice*
 
-Prigozhin's March, discussed in detail in Chapter 6, illustrates what happens when the subject itself is small enough to compress the entire design process. The event lasted thirty-six hours. The forces were a handful of units on a linear route. The central question was obvious from day one. I had a working prototype within days, not weeks.
+Prigozhin's March, the mutiny case study from Chapter 6, is also the clearest example I have of how a small subject compresses the entire design process. I had a working prototype within days, not weeks.
 
 What made this project different from my usual workflow was the speed of iteration. The game was small enough that I could play a full session in a short sitting, identify a problem, adjust a value, and play again immediately. That rapid cycle is difficult to sustain on a larger game, but it worked here because the scope allowed it. Two or three turns told me whether a change improved things or made them worse. I also playtested early and heavily, something I am usually reluctant to do with larger designs where I want the systems more developed before I subject them to outside evaluation.
 
