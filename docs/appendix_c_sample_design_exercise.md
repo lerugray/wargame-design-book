@@ -35,7 +35,7 @@ In a real project, you would spend weeks assembling this from primary and second
 
 ### Orders of Battle
 
-**Allied Forces — British First Army (Lt-Gen Anderson)**
+**Allied Forces: British First Army (Lt-Gen Anderson)**
 
 | Formation | Type | Composition | Available |
 |-----------|------|-------------|-----------|
@@ -46,7 +46,7 @@ In a real project, you would spend weeks assembling this from primary and second
 | 1st Guards Brigade (78th Division) | Infantry | Three Guards battalions | Turn 3–4 |
 | US Combat Command B (1st Armored Division) | Armour | Stuart light tanks, armored infantry | Turn 4–5 |
 
-**Axis Forces — XC Corps, later 5th Panzer Army**
+**Axis Forces: XC Corps, later 5th Panzer Army**
 
 | Formation | Type | Composition | Available |
 |-----------|------|-------------|-----------|
@@ -61,8 +61,8 @@ In a real project, you would spend weeks assembling this from primary and second
 
 The operational area covers roughly 200 kilometers from Bone in the west to Tunis and Bizerte in the east. Two main routes:
 
-1. **Northern route:** Tabarka — Sedjenane — Mateur — Bizerte. Rugged, wooded hill country. Roads poor.
-2. **Medjerda valley route:** Souk el Arba — Béja — Medjez el Bab — Tebourba — Djedeida — Tunis. The main corridor, following the Medjerda River. The valley narrows toward Tunis, with high ground (djebels) on both sides forming natural defensive positions.
+1. **Northern route:** Tabarka to Sedjenane to Mateur to Bizerte. Rugged, wooded hill country. Roads poor.
+2. **Medjerda valley route:** Souk el Arba to Béja to Medjez el Bab to Tebourba to Djedeida to Tunis. The main corridor, following the Medjerda River. The valley narrows toward Tunis, with high ground (djebels) on both sides forming natural defensive positions.
 
 **Key locations:**
 - **Medjez el Bab:** Critical river crossing, roughly 60 km west of Tunis. Whoever holds this controls the main approach.

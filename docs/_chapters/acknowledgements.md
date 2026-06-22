@@ -31,4 +31,4 @@ I am forgetting people. I know I am. My memory is terrible and there have been p
 
 ## A Note on This Printed Edition
 
-The diagrams and illustrations referenced throughout this book — hex scale comparisons, counter anatomy, zone of control geometry, combat results tables, sequence of play flowcharts, and other visual examples — are available in the free online edition at **lerugray.github.io/wargame-design-book**. They have been omitted from this print version to keep the physical book affordable and readable. The text stands on its own; the diagrams are there when you want them.
+The diagrams and illustrations referenced throughout this book (hex scale comparisons, counter anatomy, zone of control geometry, combat results tables, sequence of play flowcharts, and other visual examples) are available in the free online edition at **lerugray.github.io/wargame-design-book**. They have been omitted from this print version to keep the physical book affordable and readable. The text stands on its own; the diagrams are there when you want them.

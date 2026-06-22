@@ -3,7 +3,7 @@ layout: home
 title: Home
 nav_order: 0
 nav_exclude: true
-description: "A practical, opinionated guide to designing historical board wargames — from choosing your subject to getting published."
+description: "A practical, opinionated guide to designing historical board wargames, from choosing your subject to getting published."
 ---
 
 ## Read the Book
