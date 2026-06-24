@@ -15,7 +15,7 @@ You will work through the full process: map, counters, rules, CRT, sequence of p
 
 ## The Situation
 
-**Tunisia, November 15 – December 10, 1942**
+**Tunisia, November 15 – December 25, 1942**
 
 Three days after the Operation Torch landings in Algeria and Morocco, the Allies pushed east toward Tunis. Get there before the Germans. They failed by a narrow margin.
 
@@ -82,7 +82,7 @@ The operational area covers roughly 200 kilometers from Bone in the west to Tuni
 
 - Bone to Tunis: ~200 km by road
 - Medjez el Bab to Tunis: ~60 km
-- Historical timeframe: November 15 – December 10 (25 days)
+- Historical timeframe: November 15 – December 25 (40 days)
 - At 6–8 turns, each turn represents roughly 3–4 days
 
 ### The Weather Problem
@@ -131,7 +131,7 @@ Create a counter manifest: the complete list of every counter in the game and wh
 - Do all infantry brigades rate the same, or do the Guards and the Fallschirmjäger get higher values? The French garrison with their outdated equipment? The Italian Superga division?
 - How do you represent Blade Force and the 10th Panzer Division? Armor should feel different from infantry. How?
 
-The order of battle (OOB) above gives you roughly five counters per side at game start, with two reinforcements per side arriving during play. That is fourteen total, a good number for this exercise. You may add markers for turn track, weather, or other game state as needed.
+The order of battle (OOB) above gives you four Allied formations and two Axis formations at game start, with two reinforcements per side arriving during play. That is ten counters total, a good number for this exercise. You may add markers for turn track, weather, or other game state as needed.
 
 You do not need to print professional counters. Write the values on small squares of cardboard or paper. What matters is that every counter has clear, consistent information.
 

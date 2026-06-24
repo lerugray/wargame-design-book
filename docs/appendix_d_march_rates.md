@@ -225,7 +225,7 @@ The Western Front locked up for four years because of a speed asymmetry. Attacke
 - **Barbarossa 1941:** Army Group Center covered roughly 600 miles (Brest-Litovsk to Smolensk) in four weeks, about 21 miles per day. Peak daily advances of 40–50 miles for armored spearheads. By autumn, rates dropped to 5–10 miles per day as logistics broke down.
 - **Patton's Third Army**, August 1944: roughly 600 miles across France in four weeks, about 21 miles per day average, with peak advances of 50 miles per day.
 
-Dupuy's campaign advance rates for WWII:
+Dupuy's campaign advance rates for mechanized warfare:
 
 | Campaign | Distance (km) | Days | Advance Rate (km/day) |
 |---|---|---|---|
@@ -293,7 +293,7 @@ Heavy rain cuts mobility close to half. Mud season on the Eastern Front, monsoon
 An army's theoretical march rate and its actual sustained advance differ, and supply accounts for most of the gap.
 
 **Early modern armies** (from Van Creveld):
-- By the early seventeenth century, a typical army of 30,000 had one wagon for every eight to fifteen men, each drawn by two to four horses. Maurice of Nassau's 1602 campaign: 3,000 wagons for 24,000 men.
+- By the early seventeenth century, a typical army of 30,000 had one wagon for every eight to fifteen men, each drawn by two to four horses.
 - The camp-following population (women, children, servants, sutlers) ranged from 50% to 150% of the fighting strength. All of it marched with the army and consumed supplies.
 - Soldiers purchased food from their pay at organized markets in garrison. On campaign, the system collapsed into plunder unless magazines were established along the route.
 - The magazine system, formalized under Louvois in the 1660s, solved the plunder problem but imposed rigid geographic constraints. Armies could not outrun their depots.
