@@ -90,7 +90,7 @@ Research is the only way to know how a particular conflict should feel. You cann
 
 Not all combat resolution uses dice. Chit pull and card-based systems produce different kinds of uncertainty.
 
-In a chit pull combat system, the randomness comes from drawing a value from a cup rather than rolling a die. PCS uses this approach. Each unit draws a combat chit at the moment of engagement, and the drawn value represents the unit's performance in that fight. A good unit can draw a low chit and a mediocre unit can draw a high one. The randomness lives inside the unit's capability rather than in an external die roll applied to the resolution.
+In a chit pull combat system, the randomness comes from drawing a value from a cup rather than rolling a die. PCS uses a hybrid of this: each unit draws a combat chit at the moment of engagement, and both sides then roll a d8 and add it. A good unit can draw a low chit and a mediocre unit can draw a high one, so much of the uncertainty lives inside the unit's capability, though the d8 still adds a layer of external chance on top. The newest edition, the Bonsai *2022: Ukraine*, drops the d8 entirely and folds that variance into unit-type modifiers, leaning fully into the chit draw.
 
 Card-based combat, as used in games like *Up Front* and *Combat Commander*, resolves combat through card draws or card play. The deck functions as both randomizer and resource, because the cards you spend on combat are cards you cannot spend on other actions. This built-in tension between spending and saving does not exist in dice-based systems.
 
